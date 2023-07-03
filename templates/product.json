@@ -1,0 +1,258 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "judgeme_preview_badge_product_page_6ce4d64c": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "judgeme_preview_badge_product_page_6ce4d64c",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "124f4a49-8c1d-4142-980e-af8337056973": {
+      "type": "logotext",
+      "blocks": {
+        "fa9d4e7e-d561-4b7e-ba8b-cbfe309db7f7": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/Screenshot_14.png",
+            "komdisc": "orders ship within 10 days <br>from the date ordered"
+          }
+        },
+        "1a84cd43-d1f7-4e0c-a3cb-9149047396d6": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/Screenshot_13.png",
+            "komdisc": "96% polyster, <br>  2% nylon , <br>2% spandex"
+          }
+        },
+        "3da03241-b399-4b54-9603-02fe17e91371": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/Screenshot_16.png",
+            "komdisc": "wash card"
+          }
+        },
+        "52759980-3a72-409e-8ff4-058ab9c2b444": {
+          "type": "block",
+          "settings": {
+            "kome": "shopify:\/\/shop_images\/Screenshot_17.png",
+            "komdisc": "over 1,000,000 pairs sold"
+          }
+        }
+      },
+      "block_order": [
+        "fa9d4e7e-d561-4b7e-ba8b-cbfe309db7f7",
+        "1a84cd43-d1f7-4e0c-a3cb-9149047396d6",
+        "3da03241-b399-4b54-9603-02fe17e91371",
+        "52759980-3a72-409e-8ff4-058ab9c2b444"
+      ],
+      "settings": {
+      }
+    },
+    "judgeme_section_review_widget_5472": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_c65ccca1": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_c65ccca1"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "7c025491-0f3e-4c8c-b183-ee2f2243e32d": {
+      "type": "custm_collection",
+      "settings": {
+        "left_collection_image": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
+        "right_collection_image": "shopify:\/\/shop_images\/pexels-pixabay-247298.jpg",
+        "right_coll_name1": "Information",
+        "right_coll_name2": "Details",
+        "collection_url_left": "",
+        "collection_url_right": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "b270c5a4-f681-4961-b52c-86e2e0077039": {
+      "type": "collage",
+      "blocks": {
+        "template--18851605086509__b270c5a4-f681-4961-b52c-86e2e0077039-1682576100140f19e7-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "shop"
+          }
+        },
+        "ff239154-1552-44fe-85aa-243f1fadaac6": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-fashion"
+          }
+        },
+        "621e9f37-c2b1-428e-afc1-94b6a6bb1941": {
+          "type": "collection",
+          "settings": {
+            "collection": "women"
+          }
+        }
+      },
+      "block_order": [
+        "template--18851605086509__b270c5a4-f681-4961-b52c-86e2e0077039-1682576100140f19e7-2",
+        "ff239154-1552-44fe-85aa-243f1fadaac6",
+        "621e9f37-c2b1-428e-afc1-94b6a6bb1941"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "d2638efa-ac1b-432c-8d6b-6f65c198566e": {
+      "type": "collage",
+      "blocks": {
+        "29e5c2f3-55ba-4058-902c-c8232a8986b9": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-fashion"
+          }
+        },
+        "1686e193-2c5a-4c45-9a5b-76ba53002978": {
+          "type": "collection",
+          "settings": {
+            "collection": "top"
+          }
+        },
+        "31b3ccd3-d65a-4b8f-b322-e37d6fa1aea3": {
+          "type": "collection",
+          "settings": {
+            "collection": "women"
+          }
+        }
+      },
+      "block_order": [
+        "29e5c2f3-55ba-4058-902c-c8232a8986b9",
+        "1686e193-2c5a-4c45-9a5b-76ba53002978",
+        "31b3ccd3-d65a-4b8f-b322-e37d6fa1aea3"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "124f4a49-8c1d-4142-980e-af8337056973",
+    "judgeme_section_review_widget_5472",
+    "7c025491-0f3e-4c8c-b183-ee2f2243e32d",
+    "related-products",
+    "b270c5a4-f681-4961-b52c-86e2e0077039",
+    "d2638efa-ac1b-432c-8d6b-6f65c198566e"
+  ]
+}

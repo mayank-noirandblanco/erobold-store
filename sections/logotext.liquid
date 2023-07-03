@@ -1,0 +1,54 @@
+<div class="customlogo">
+  <div class="page-width logocontainer">
+    <div class="logoflex">
+      {% for block in section.blocks %}
+        <div class="logoflex1">
+          <div class="logoflexcontain">
+            <div class="logowidth">
+              {% if block.settings.kome != blank %}
+                <img src="{{ block.settings.kome | img_url:'master' }}" class="logoimg">
+              {% endif %}
+            </div>
+            <p class="logotile">{{ block.settings.komdisc }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "logotext",
+
+"settings": [
+
+],
+"blocks":[
+{
+"type" : "block",
+"name" : "block",
+"settings" : [
+    {
+ "id": "kome",
+ "type": "image_picker",
+  "label": "Logo Image"
+ },
+      {
+ "id": "komdisc",
+ "type": "text",
+  "label": "Logo Heading"
+ }
+]
+}
+
+],
+"presets" : [
+{
+  "name" : "Logo Text",
+  "category" : "Logo Text"
+
+  }
+]
+}
+{% endschema %}

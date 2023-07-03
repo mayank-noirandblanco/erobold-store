@@ -1,0 +1,205 @@
+{{ 'collection-page-new.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width container-fluid px-5 py-5">
+  <div class="row">
+    <div class="col-12 top d-flex justify-content-center align-items-center">
+      <div class="row hdn hdn-bs">
+        <div class="col-lg-6 pe-lg-5 mob-full-bs">
+          <svg xmlns="http://www.w3.org/2000/svg" width="211" height="24" viewBox="0 0 211 24" fill="none">
+            <path d="M210.061 13.0607C210.646 12.4749 210.646 11.5251 210.061 10.9393L200.515 1.3934C199.929 0.807612 198.979 0.807612 198.393 1.3934C197.808 1.97918 197.808 2.92893 198.393 3.51472L206.879 12L198.393 20.4853C197.808 21.0711 197.808 22.0208 198.393 22.6066C198.979 23.1924 199.929 23.1924 200.515 22.6066L210.061 13.0607ZM0 13.5H209V10.5H0V13.5Z" fill="black"/>
+          </svg>
+
+          <img
+            src="https://cdn.shopify.com/s/files/1/0520/1669/files/new_girl.png?v=1641452615"
+            class="img-fluid"
+            alt="..."
+          >
+          <!--
+            <div class="designs-eleven pe-lg-5">
+              <h1>Jewellery That Makes Heads Turn...</h1>
+              <hr class="top-designs-eleven">
+              <p>We also have stunning earrings that will make heads turn as you walk...</p>
+              <a href="/collections/notteluna/products/double-pearl-18k-gold-earrings-1">Show me the Collection</a>
+            </div>
+          -->
+        </div>
+        <div class="col-6 mob-full-bs"></div>
+      </div>
+    </div>
+
+    <!--
+      <div class="col-12 bottom d-flex justify-content-center align-items-center pt-5">
+        <div class="row hdn">
+          <div class="col-lg-6 mob-full-bs ">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0520/1669/files/Mask_Group_3_372774b9-55ad-440b-b7d1-f06e1e022441.png?v=1641292192"
+              class="img-fluid"
+              alt="..."
+            >
+          </div>
+          <div class="col-lg-6 ps-lg-5 mob-full-bs">
+            <div class="designs-eleven ps-xl-5 pe-lg-5">
+              <h1>Flaunt Your Grace And Style...</h1>
+              <hr class="bottom-designs-eleven">
+              <p>
+                With our beautiful earrings and finger rings, you can now flaunt your grace and style wherever you go
+                during all occasions...
+              </p>
+              <a href="/collections/notteluna/products/pearl-drop-18k-gold-earrings">Show me the Collection</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    -->
+  </div>
+</div>
+
+<style>
+              .designs-eleven h1 {
+                font-size: 46px;
+                padding-bottom: 0 !important;
+                font-family: Lora,sans-serif !important;
+                line-height: 50px;
+            }
+              .designs-eleven p {
+                color: #000;
+                font-family: Arial,sans-serif;
+                font-size: 20px;
+                line-height: 22px;
+                padding-bottom: 35px;
+            }
+              .designs-eleven a {
+                font-family: poppins,sans-serif;
+                font-size: 16px;
+                padding: 10px 75px;
+                border: 2px solid #000;
+                margin-top: 30px !important;
+                color: #000 !important;
+            }
+
+                .designs-eleven a:hover{
+                color: white !important;
+                  background:black;
+            }
+
+              .designs-eleven hr {
+                border: 2px solid black;
+                width: 10rem;
+                margin:0;
+            }
+
+              div#shopify-section-collection-page-section-11 img {
+                max-width: 100%;
+                height: auto;
+            }
+              .top {
+                position: relative;
+            }
+              .bottom {
+                position: relative;
+            }
+
+              hr.top-designs-eleven {
+                position: absolute;
+                right: -2%;
+                z-index: 0;
+            }
+              hr.bottom-designs-eleven {
+                position: absolute;
+                left: -10%;
+            }
+
+            .col-lg-6.pe-lg-5.mob-full-bs {
+              position: relative;
+          }
+
+          hr.top-designs-eleven {
+              position: absolute;
+              right: -2%;
+              z-index: 0;
+              color: black;
+              opacity: 1;
+          }
+
+            hr.top-designs-eleven {
+              position: absolute;
+              right: -1%;
+              top: 50%;
+              z-index: 0;
+              color: black;
+              opacity: 1;
+          }
+
+
+          .col-lg-6.pe-lg-5.mob-full-bs {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .col-lg-6.pe-lg-5.mob-full-bs img {
+          width: 65%;
+      }
+
+      .col-lg-6.pe-lg-5.mob-full-bs img {
+        margin: auto;
+        width: 75%;
+        margin-right: 0;
+    }
+
+      .col-lg-6.pe-lg-5.mob-full-bs svg {
+        position: absolute;
+        left: 15%;
+        bottom: 6%;
+    }
+
+    .page-width.container-fluid.px-5.py-5 {
+      padding: 5rem 0;
+  }
+
+
+              @media (max-width:550px){
+
+              div#shopify-section-collection-page-section-11 .designs-eleven a {
+                font-family: poppins,sans-serif;
+                font-size: 14px;
+                padding: 10px 75px;
+                border: 2px solid #000;
+                margin-top: 30px !important;
+                color: #000 !important;
+            }
+
+              }
+</style>
+
+{% schema %}
+{
+  "name": "image_banner_custom",
+  "class": "image_banner_custom",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Slideshow"
+    }
+  ],
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+   ],
+  "presets": [
+    {
+      "name": "image_banner_custom"
+    }
+  ]
+}
+{% endschema %}

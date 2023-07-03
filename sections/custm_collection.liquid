@@ -1,0 +1,168 @@
+<style>
+  .right_slide_coll{
+    position: absolute;
+    top: 40%;
+  }
+  .custom_collection_bs{
+    position: relative;
+  }
+</style>
+<div class="custom_collection_bs">
+  <div class="collection_container">
+    <div class="left_collection_slide collection_custom_slide">
+      <a class="collection_url_left" href="{{ section.settings.collection_url_left }}">
+        <div>
+          <img src="{{ section.settings.left_collection_image | img_url: 'master' }}">
+        </div>
+      </a>
+    </div>
+    <div class="right_collection_slide collection_custom_slide">
+      <a class="collection_url_left" href="{{ section.settings.collection_url_right }}">
+        <h1>{{ section.settings.right_coll_name1 }}</h1>
+        <div class="right_slide_coll">
+          <img src="{{ section.settings.right_collection_image | img_url: 'master' }}">
+          <p>{{ section.settings.right_coll_name2 }}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "image_banner_custom",
+  "class": "custom_collection",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "left_collection_image",
+      "label": "left_collection_image"
+    },
+        {
+      "type": "image_picker",
+      "id": "right_collection_image",
+      "label": "right_collection_image"
+    },
+        {
+      "type": "text",
+      "id": "right_coll_name1",
+      "label": "right_coll_name1"
+    },
+        {
+      "type": "text",
+      "id": "right_coll_name2",
+      "label": "right_coll_name2"
+    },
+            {
+      "type": "url",
+      "id": "collection_url_left",
+      "label": "collection_url_right"
+    },
+            {
+      "type": "url",
+      "id": "collection_url_right",
+      "label": "collection_url_right"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "custom_collection"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+                          .custom_collection_bs {
+                            max-width: 90%;
+                            margin: auto;
+                        }
+                          .custom_collection_bs .collection_container {
+                            display: flex;
+                            justify-content: space-between;
+                        }
+
+                          .left_collection_slide.collection_custom_slide {
+                            width: 40%;
+                        }
+                          .right_collection_slide.collection_custom_slide {
+                            width: 50%;
+                        }
+
+                          .custom_collection_bs .collection_container img {
+                            max-width: 100%;
+                            margin: auto;
+                            height: auto;
+                        }
+
+                        .custom_collection_bs .collection_container img {
+                          max-width: 100%;
+                          margin: auto;
+                          height: auto;
+                          width: 100%;
+                      }
+
+                      .right_collection_slide.collection_custom_slide a {
+
+                        color: black;
+                        text-decoration: none;
+                    }
+
+                        .right_collection_slide.collection_custom_slide h1 {
+                        font-size: 54px;
+                        color: black;
+                        text-decoration: none;
+                    }
+
+                    .right_slide_coll {
+                      display: flex;
+                      flex-direction: row-reverse;
+                      font-size: 32px;
+                  }
+
+                  .right_slide_coll img {
+                    width: 80% !important;
+                }
+                  .right_slide_coll {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    font-size: 32px;
+                    justify-content: space-between;
+                }
+
+                  .right_slide_coll p {
+                    width: 10%;
+                }
+
+                .right_slide_coll p {
+                  writing-mode: vertical-rl;
+                  transform: rotate(-180deg);
+              }
+
+              .right_collection_slide.collection_custom_slide h1 {
+                font-size: 54px;
+                color: black;
+                text-decoration: none;
+                margin-bottom: 3rem;
+            }
+
+            .custom_collection_bs .collection_container {
+              display: flex;
+              justify-content: space-between;
+              padding: 2rem;
+          }
+
+          .left_collection_slide.collection_custom_slide {
+            width: 45%;
+        }
+      .left_collection_slide.collection_custom_slide  a.collection_url_left div {
+        max-width: 100%;
+        width: 70%;
+        display: block !important;
+        margin: auto;
+    }
+
+    .left_collection_slide.collection_custom_slide {
+      width: 50%;
+  }
+</style>

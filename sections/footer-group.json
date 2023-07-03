@@ -1,0 +1,84 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "168257163851134ef0": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "d7183d1d-8530-4c56-9de5-21d380351feb": {
+          "type": "shopify:\/\/apps\/instafeed-story\/blocks\/app-block-feeds\/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d7183d1d-8530-4c56-9de5-21d380351feb"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "7b4bc659-2b67-4b20-bd6f-b357cbd7a3cf": {
+          "type": "text",
+          "settings": {
+            "heading": "SUBSCRIBE & SAVE 10 %",
+            "subtext": "<p>Save 10 % on your first order when you Subscribe to our newsletter. Check your inbox for the code.<\/p>"
+          }
+        },
+        "2d8478fb-7bc2-4e34-bacb-bdf06456f366": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
+        },
+        "377d55c0-c020-4ae3-9042-806243a54caf": {
+          "type": "link_list",
+          "settings": {
+            "heading": "HELP",
+            "menu": "footer1"
+          }
+        },
+        "9b28ec98-4ff5-445d-a040-0a8be1a89826": {
+          "type": "link_list",
+          "settings": {
+            "heading": "PRODUCT",
+            "menu": "product"
+          }
+        }
+      },
+      "block_order": [
+        "7b4bc659-2b67-4b20-bd6f-b357cbd7a3cf",
+        "2d8478fb-7bc2-4e34-bacb-bdf06456f366",
+        "377d55c0-c020-4ae3-9042-806243a54caf",
+        "9b28ec98-4ff5-445d-a040-0a8be1a89826"
+      ],
+      "custom_css": [
+        "h2 {text-align: left;}",
+        ".list-social {justify-content: start;}",
+        ".footer__content-bottom {padding-top: 1rem;}"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "newsletter_enable": false,
+        "newsletter_heading": "Sign Up to Newsletter",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 48,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "168257163851134ef0",
+    "footer"
+  ]
+}

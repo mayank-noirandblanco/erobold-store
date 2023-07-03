@@ -1,0 +1,197 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ce5228ad-4e54-401d-8184-3939a62da635": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18865605738797__ce5228ad-4e54-401d-8184-3939a62da635-1682593347f3549962-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This Privacy Policy states the manner in which Fashion Floor India ( referred to as “We”, “Us”, “Our”) collects, uses, manages and distributes the information collected from the customers (referred to as “User”, “You”) shopping with us. The Privacy policy applies to our website and all the products and services offered by Fashion Floor India.<\/p>"
+          }
+        },
+        "template--18865605738797__ce5228ad-4e54-401d-8184-3939a62da635-1682593347f3549962-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Personal identification information",
+            "heading_size": "h2"
+          }
+        },
+        "template--18865605738797__ce5228ad-4e54-401d-8184-3939a62da635-1682593347f3549962-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "90663d5c-09d7-4ca8-8e8d-d3ea0dfcdf26": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Users may be asked for personal identification information, as appropriate to the services they use on our website, like name, email address, mailing address, phone number and credit\/debit card information. We may collect this information in different ways, including, but not limited to, when a user registers with us, subscribes to our newsletter, makes a purchase or uses other services or resources that we offer on our website.<\/p>"
+          }
+        },
+        "805fbb06-dc7c-46f2-8ac7-05eb6cf3ca96": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We, however, do not limit the use of our website if the user chooses to visit our website anonymously. We collect information from the users only if they are voluntarily ready to disclose the information to us. However, refusing to submit certain important PII may keep the user from engaging in certain activities.<\/p>"
+          }
+        },
+        "6e443827-5ffb-44c5-96b8-3412624a1886": {
+          "type": "heading",
+          "settings": {
+            "heading": "Non-personal identification information",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--18865605738797__ce5228ad-4e54-401d-8184-3939a62da635-1682593347f3549962-1",
+        "template--18865605738797__ce5228ad-4e54-401d-8184-3939a62da635-1682593347f3549962-0",
+        "template--18865605738797__ce5228ad-4e54-401d-8184-3939a62da635-1682593347f3549962-2",
+        "90663d5c-09d7-4ca8-8e8d-d3ea0dfcdf26",
+        "805fbb06-dc7c-46f2-8ac7-05eb6cf3ca96",
+        "6e443827-5ffb-44c5-96b8-3412624a1886"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "2e2e84a9-7370-4715-9d57-bf90b13455f0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18865605738797__2e2e84a9-7370-4715-9d57-bf90b13455f0-1682593347f3549962-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When the users visit our website, we may collect non personal identification information like browser name, operating system, type of device, ISP and other similar information.<\/p>"
+          }
+        },
+        "template--18865605738797__2e2e84a9-7370-4715-9d57-bf90b13455f0-1682593347f3549962-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "How we use collected information",
+            "heading_size": "h2"
+          }
+        },
+        "2c9d8454-8957-4bf1-9549-b7f646c73f2e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fashion Floor India collects and uses Users personal information for the following purposes:<\/p>"
+          }
+        },
+        "addf69c8-5d44-42c0-8f59-d2e187527825": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h2"
+          }
+        },
+        "9caf81e0-383e-485b-9404-a6dffd47b417": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>To provide customer service<\/li><\/ul><p>User’s personal information helps us in offering better service and responding to user service requests in a more effective way.<\/p><ul><li>To personalize user experience<\/li><\/ul><p>We may use the information provided by the users to understand different shopping trends and activities performed by different user groups based on their demographics, preferences and other activities.<\/p><ul><li>To optimize our website<\/li><\/ul><p>We strive to bring improvements and changes in our website and the way we interact with users, which becomes possible because of the information and feedback the user provides.<\/p><ul><li>To process transactions<\/li><\/ul><p>We may use the information provided by the users while placing the orders only to offer our services for that order. Under no circumstances do we share this information with third parties other than for the purposes of providing service. We may also use this information to regularly send information and newsletters to the users already agreed upon on topics that may be of interest to them.<\/p><ul><li>To send periodic emails<\/li><\/ul><p>The email address provided by the Users for processing of their orders, are only used to update them about the information regarding their order. If the user subscribes to our mailing list, they may receive regular emails about updates, new products, services and other announcements. Users can easily opt out of receiving our emails in the future by clicking the unsubscribe link at the bottom of every email.<\/p>"
+          }
+        },
+        "9de4b148-6cdd-41c6-8354-0ac0f7eb3ff0": {
+          "type": "heading",
+          "settings": {
+            "heading": "How we protect your information",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--18865605738797__2e2e84a9-7370-4715-9d57-bf90b13455f0-1682593347f3549962-1",
+        "template--18865605738797__2e2e84a9-7370-4715-9d57-bf90b13455f0-1682593347f3549962-0",
+        "2c9d8454-8957-4bf1-9549-b7f646c73f2e",
+        "addf69c8-5d44-42c0-8f59-d2e187527825",
+        "9caf81e0-383e-485b-9404-a6dffd47b417",
+        "9de4b148-6cdd-41c6-8354-0ac0f7eb3ff0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2cdfed2d-11ff-45ea-931a-8e7d7e3b8542": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18865605738797__2cdfed2d-11ff-45ea-931a-8e7d7e3b8542-1682593347f3549962-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We use the most appropriate and secured ways of data collection, storage, processing and management of user data. We have proper security measures in place to protect user’s personal information like username, password and transaction information against unauthorized access, disclosure and alteration. Exchange of sensitive information between the user and Fashion Floor India website is processed over a secured and encrypted channel of communication.<\/p>"
+          }
+        },
+        "template--18865605738797__2cdfed2d-11ff-45ea-931a-8e7d7e3b8542-1682593347f3549962-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sharing your personal information",
+            "heading_size": "h2"
+          }
+        },
+        "3b59e0c7-3e83-46da-83ca-68be107a4cd8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We do not share, sell, rent or trade personal identification information of our users to any third party. We may share general combined analytic demographic information which may not be linked to any personal information about any user; with our affiliates, advertisers and business partners. We may use third party service providers for our business operations or for administration purposes. Your personal information may be shared with these third parties mentioned above for purposes limited to providing services for Fashion Floor India, given that we have adequate permissions from the users.<\/p>"
+          }
+        },
+        "d08c85dd-e93a-4053-9bc1-417c29d23909": {
+          "type": "heading",
+          "settings": {
+            "heading": "Changes to privacy policy",
+            "heading_size": "h2"
+          }
+        },
+        "b67ff6dc-a2af-4beb-9095-bf0e0646c86c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fashion Floor India, at its sole discretion, has the right to update this privacy policy at any time. We may or may not send out notifications every time we change our privacy policies. It is the sole responsibility of the user to keep themselves informed about the updates, and for this we recommended the users to check our policies from time to time.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18865605738797__2cdfed2d-11ff-45ea-931a-8e7d7e3b8542-1682593347f3549962-1",
+        "template--18865605738797__2cdfed2d-11ff-45ea-931a-8e7d7e3b8542-1682593347f3549962-0",
+        "3b59e0c7-3e83-46da-83ca-68be107a4cd8",
+        "d08c85dd-e93a-4053-9bc1-417c29d23909",
+        "b67ff6dc-a2af-4beb-9095-bf0e0646c86c"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ce5228ad-4e54-401d-8184-3939a62da635",
+    "2e2e84a9-7370-4715-9d57-bf90b13455f0",
+    "2cdfed2d-11ff-45ea-931a-8e7d7e3b8542"
+  ]
+}

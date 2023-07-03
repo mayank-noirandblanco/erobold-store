@@ -1,0 +1,339 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "8c0c2ae3-f1cc-483b-a7e3-44374c8f1631": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18863682552109__8c0c2ae3-f1cc-483b-a7e3-44374c8f1631-168258095507996ba3-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "About Us Cintilar",
+            "heading_size": "h1"
+          }
+        },
+        "template--18863682552109__8c0c2ae3-f1cc-483b-a7e3-44374c8f1631-168258095507996ba3-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--18863682552109__8c0c2ae3-f1cc-483b-a7e3-44374c8f1631-168258095507996ba3-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "#",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18863682552109__8c0c2ae3-f1cc-483b-a7e3-44374c8f1631-168258095507996ba3-0",
+        "template--18863682552109__8c0c2ae3-f1cc-483b-a7e3-44374c8f1631-168258095507996ba3-1",
+        "template--18863682552109__8c0c2ae3-f1cc-483b-a7e3-44374c8f1631-168258095507996ba3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/desktop-banner.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "67faf85e-13c6-4959-b6db-5d271072b609": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18863682552109__67faf85e-13c6-4959-b6db-5d271072b609-1682588783bf11b3cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "A LEAP OF FAITH",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18863682552109__67faf85e-13c6-4959-b6db-5d271072b609-1682588783bf11b3cd-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5fffca5d-2005-4ebd-ac58-277c74f2fa0a": {
+      "type": "image-with-text",
+      "blocks": {
+        "53e00d47-6800-4746-a45c-037a199cc0ed": {
+          "type": "caption",
+          "settings": {
+            "caption": "It was in 2012 that our founder Falguni Nayar left behind a lucrative,18-year-long career in investment banking to satisfy an entrepreneurialitch. What resulted was a burgeoning business that changed the way womenbuy beauty in the country forever. Her approach that continually keptthe customer at its core, swiftly amassed 18 million loyal followers whothen urged us to craft an experience just as exciting in fashion.",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "template--18863682552109__5fffca5d-2005-4ebd-ac58-277c74f2fa0a-16825816007eaec60e-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "It was in 2012 that our founder Falguni Nayar left behind a lucrative,18-year-long career in investment banking to satisfy an entrepreneurialitch. What resulted was a burgeoning business that changed the way womenbuy beauty in the country forever. Her approach that continually keptthe customer at its core, swiftly amassed 18 million loyal followers whothen urged us to craft an experience just as exciting in fashion.",
+            "heading_size": "h2"
+          }
+        },
+        "template--18863682552109__5fffca5d-2005-4ebd-ac58-277c74f2fa0a-16825816007eaec60e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Falguni Nayar, Founder at Cintilar<\/h3>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "53e00d47-6800-4746-a45c-037a199cc0ed",
+        "template--18863682552109__5fffca5d-2005-4ebd-ac58-277c74f2fa0a-16825816007eaec60e-0",
+        "template--18863682552109__5fffca5d-2005-4ebd-ac58-277c74f2fa0a-16825816007eaec60e-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/WhatsApp-Image-2020-12-17-at-1.11.17-PM.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9d7b58cb-0a4d-4247-b6d6-a8da6ff83a8f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18863682552109__9d7b58cb-0a4d-4247-b6d6-a8da6ff83a8f-16825816007eaec60e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE  CINTILAR EXPERIENCE",
+            "heading_size": "h1"
+          }
+        },
+        "template--18863682552109__9d7b58cb-0a4d-4247-b6d6-a8da6ff83a8f-16825816007eaec60e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We launched Nykaa Fashion in 2018, as a curated and managed marketplace with an endeavor to inspire consumers to make fashion and lifestyle choices that best suit them. We have a wide assortment of offerings, across price points, to cater to women, men and children of diverse demographics. Presently, Nykaa Fashion houses 1,500+ brands and over 1.8 million products across five consumer segments: women, men, kids, tech and home. Within these consumer segments, we merchandise across several categories including western wear, Indian wear, lingerie, footwear, bags, jewelry, accessories, athleisure, home décor, bath, bed and kitchen in order to cater to the diverse consumers’ journeys across our platform. We offer a mix of brands across established national brands, international brands, luxury brands, and emerging labels and designers.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--18863682552109__9d7b58cb-0a4d-4247-b6d6-a8da6ff83a8f-16825816007eaec60e-0",
+        "template--18863682552109__9d7b58cb-0a4d-4247-b6d6-a8da6ff83a8f-16825816007eaec60e-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/The-Nykaa-fashion-experience.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18863682552109__6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b-16825816007eaec60e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FIND YOUR MOMENT",
+            "heading_size": "h1"
+          }
+        },
+        "template--18863682552109__6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b-16825816007eaec60e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You know that moment when you land the perfect pair of jeans? What aboutthat moment when you find a dress that hugs you in all the right places?Or that moment when you discover shoes that go with just abouteverything in your closet?<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18863682552109__6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b-16825816007eaec60e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "FIND YOUR MOMENT",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--18863682552109__6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b-16825816007eaec60e-0",
+        "template--18863682552109__6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b-16825816007eaec60e-1",
+        "template--18863682552109__6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b-16825816007eaec60e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/find-your-moment.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ce30fbc2-fd29-49ee-a2ab-c26b655655af": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18863682552109__ce30fbc2-fd29-49ee-a2ab-c26b655655af-1682588783bf11b3cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SHOW US",
+            "heading_size": "h1"
+          }
+        },
+        "template--18863682552109__ce30fbc2-fd29-49ee-a2ab-c26b655655af-1682588783bf11b3cd-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--18863682552109__ce30fbc2-fd29-49ee-a2ab-c26b655655af-1682588783bf11b3cd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18863682552109__ce30fbc2-fd29-49ee-a2ab-c26b655655af-1682588783bf11b3cd-0",
+        "template--18863682552109__ce30fbc2-fd29-49ee-a2ab-c26b655655af-1682588783bf11b3cd-1",
+        "template--18863682552109__ce30fbc2-fd29-49ee-a2ab-c26b655655af-1682588783bf11b3cd-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "3bf3fcc0-f93a-4067-a0d0-9e5b4a2a8eec": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".clscustomlove {font-family: RedVevet; color: #c93f32; font-size: 30px; font-weight: 400; text-transform: lowercase; display: block; text-align: center; margin-top: -5px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<h1 class=\"clscustomlove\">some love<\/h1>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "d263c768-93ca-4eab-a618-48610127f397": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18863682552109__d263c768-93ca-4eab-a618-48610127f397-168258095507996ba3-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--18863682552109__d263c768-93ca-4eab-a618-48610127f397-168258095507996ba3-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--18863682552109__d263c768-93ca-4eab-a618-48610127f397-168258095507996ba3-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18863682552109__d263c768-93ca-4eab-a618-48610127f397-168258095507996ba3-0",
+        "template--18863682552109__d263c768-93ca-4eab-a618-48610127f397-168258095507996ba3-1",
+        "template--18863682552109__d263c768-93ca-4eab-a618-48610127f397-168258095507996ba3-2"
+      ],
+      "custom_css": [
+        ".banner__media {height: 90%;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Show-us-some-love.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8c0c2ae3-f1cc-483b-a7e3-44374c8f1631",
+    "67faf85e-13c6-4959-b6db-5d271072b609",
+    "5fffca5d-2005-4ebd-ac58-277c74f2fa0a",
+    "9d7b58cb-0a4d-4247-b6d6-a8da6ff83a8f",
+    "6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b",
+    "ce30fbc2-fd29-49ee-a2ab-c26b655655af",
+    "3bf3fcc0-f93a-4067-a0d0-9e5b4a2a8eec",
+    "d263c768-93ca-4eab-a618-48610127f397"
+  ]
+}
