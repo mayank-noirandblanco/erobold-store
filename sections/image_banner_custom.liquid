@@ -4,16 +4,13 @@
   <div class="row">
     <div class="col-12 top d-flex justify-content-center align-items-center">
       <div class="row hdn hdn-bs">
-        <div class="col-lg-6 pe-lg-5 mob-full-bs">
+        <a href="{{ section.settings.collection_url_left }}" class="col-lg-6 pe-lg-5 mob-full-bs">
+          <h1>{{ section.settings.right_coll_name1 }}</h1>
           <svg xmlns="http://www.w3.org/2000/svg" width="211" height="24" viewBox="0 0 211 24" fill="none">
             <path d="M210.061 13.0607C210.646 12.4749 210.646 11.5251 210.061 10.9393L200.515 1.3934C199.929 0.807612 198.979 0.807612 198.393 1.3934C197.808 1.97918 197.808 2.92893 198.393 3.51472L206.879 12L198.393 20.4853C197.808 21.0711 197.808 22.0208 198.393 22.6066C198.979 23.1924 199.929 23.1924 200.515 22.6066L210.061 13.0607ZM0 13.5H209V10.5H0V13.5Z" fill="black"/>
           </svg>
 
-          <img
-            src="https://cdn.shopify.com/s/files/1/0520/1669/files/new_girl.png?v=1641452615"
-            class="img-fluid"
-            alt="..."
-          >
+          <img src="{{ section.settings.image | img_url: 'master' }}">
           <!--
             <div class="designs-eleven pe-lg-5">
               <h1>Jewellery That Makes Heads Turn...</h1>
@@ -22,7 +19,7 @@
               <a href="/collections/notteluna/products/double-pearl-18k-gold-earrings-1">Show me the Collection</a>
             </div>
           -->
-        </div>
+        </a>
         <div class="col-6 mob-full-bs"></div>
       </div>
     </div>
@@ -55,6 +52,9 @@
 </div>
 
 <style>
+  .col-lg-6.pe-lg-5.mob-full-bs {
+    text-decoration: none;
+}
               .designs-eleven h1 {
                 font-size: 46px;
                 padding-bottom: 0 !important;
@@ -143,22 +143,37 @@
 
       .col-lg-6.pe-lg-5.mob-full-bs img {
         margin: auto;
-        width: 75%;
+        width: 80%;
         margin-right: 0;
     }
 
       .col-lg-6.pe-lg-5.mob-full-bs svg {
         position: absolute;
-        left: 15%;
+        left: 16%;
         bottom: 6%;
+        max-width: 100px;
     }
 
     .page-width.container-fluid.px-5.py-5 {
       padding: 5rem 0;
   }
+  .col-lg-6.pe-lg-5.mob-full-bs {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.col-lg-6.pe-lg-5.mob-full-bs h1 {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    width: 10%;
+    font-size: 54px;
+    line-height: 60px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
 
-
-              @media (max-width:550px){
+              @media (max-width:767px){
 
               div#shopify-section-collection-page-section-11 .designs-eleven a {
                 font-family: poppins,sans-serif;
@@ -168,7 +183,24 @@
                 margin-top: 30px !important;
                 color: #000 !important;
             }
-
+.col-lg-6.pe-lg-5.mob-full-bs h1 {
+    font-size: 27px;
+    line-height: 30px;
+    text-decoration: none !important;
+    font-weight: 100;
+}
+.col-lg-6.pe-lg-5.mob-full-bs svg {
+    position: absolute;
+    left: 15%;
+    max-width: 50px;
+    bottom: unset;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.col-lg-6.pe-lg-5.mob-full-bs {
+display: flex;
+align-items: center;
+}
               }
 </style>
 
@@ -178,24 +210,21 @@
   "class": "image_banner_custom",
   "settings": [
     {
-      "type": "text",
-      "id": "title",
-      "label": "Slideshow"
-    }
-  ],
-  "blocks": [
-     {
-       "name": "Slide",
-       "type": "slide",
-       "settings": [
-         {
            "type": "image_picker",
            "id": "image",
            "label": "Image"
-         }
-       ]
-     }
-   ],
+         },
+        {
+      "type": "text",
+      "id": "right_coll_name1",
+      "label": "Collection Name"
+    },
+            {
+      "type": "url",
+      "id": "collection_url_left",
+      "label": "Collection URL"
+    }
+  ],
   "presets": [
     {
       "name": "image_banner_custom"

@@ -195,3 +195,13 @@
   outline: none;
   box-shadow: none;
 }
+@media screen and (max-width:767px){
+  .collage {
+    display: flex;
+    flex-direction: column;
+}
+  .collage__item.collage__item--collection.collage__item--left:first-child, .collage .collage__item, .collage__item.collage__item--collection.collage__item--right:last-child {
+    width: 100%;
+    margin-bottom: 10px;
+}
+}

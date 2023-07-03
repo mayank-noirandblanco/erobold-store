@@ -215,18 +215,9 @@
     },
     "79053e54-bd08-4641-9460-20936db569bb": {
       "type": "image_banner_custom",
-      "blocks": {
-        "b67132e4-1dcd-423f-8194-b685f73ec87d": {
-          "type": "slide",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "b67132e4-1dcd-423f-8194-b685f73ec87d"
-      ],
       "settings": {
-        "title": "Collection"
+        "image": "shopify:\/\/shop_images\/new_girl.webp",
+        "right_coll_name1": "Collection"
       }
     }
   },

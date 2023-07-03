@@ -61,7 +61,8 @@
     "6fb1017d-a7bc-428c-b198-ddb7175e1039": {
       "type": "image_banner_custom",
       "settings": {
-        "title": ""
+        "image": "shopify:\/\/shop_images\/new_girl.webp",
+        "right_coll_name1": "Collection"
       }
     },
     "1682569186eae099dd": {

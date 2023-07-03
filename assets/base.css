@@ -3263,7 +3263,15 @@ img.logoimg {
 .custom_collection_bs .collection_container{
   padding:0px !important;
 }    
-  
+  .footer .grid {
+    margin-bottom: 0;
+}
+  .footer-block.grid__item:last-child {
+    margin-bottom: 0;
+}
+  .footer-block.grid__item:last-child ul.footer-block__details-content {
+    margin-bottom: 0;
+}
 }
 
 @media screen and (max-width: 540px) {
