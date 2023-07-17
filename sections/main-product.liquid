@@ -569,6 +569,52 @@
   </script>
 </section>
 
+{% if section.settings.vertical_slider == true %}
+<style>
+  @media screen and (min-width:767px){
+  slider-component.slider-mobile-gutter {
+    display: block;
+    width: 100%;
+    max-width: 80%;
+    order: 2;
+}
+  slider-component.thumbnail-slider.slider-mobile-gutter {
+    max-width: 20%;
+    width: 100%;
+    order: 1;
+    overflow: visible;
+    margin-top: 0 !important;
+    position: relative;
+    display: block !important;
+    max-height: unset;
+}
+  media-gallery.product__column-sticky {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+  slider-component.thumbnail-slider.slider-mobile-gutter ul.thumbnail-list {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    overflow-y: scroll;
+    padding-right: 8px;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+  slider-component.thumbnail-slider.slider-mobile-gutter ul.thumbnail-list li.thumbnail-list__item {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  }
+</style>
+  {% endif %}
+
 {% schema %}
 {
   "name": "t:sections.main-product.name",
@@ -1978,6 +2024,12 @@
       ],
       "default": "stacked",
       "label": "t:sections.main-product.settings.gallery_layout.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "vertical_slider",
+      "default": true,
+      "label": "Vertical Thumbnails Slider"
     },
     {
       "type": "select",
