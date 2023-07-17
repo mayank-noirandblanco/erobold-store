@@ -49,9 +49,9 @@
         "template--18863682552109__8c0c2ae3-f1cc-483b-a7e3-44374c8f1631-168258095507996ba3-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/desktop-banner.jpg",
+        "image": "shopify:\/\/shop_images\/Untitled_Session0415_1.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -67,14 +67,23 @@
       "blocks": {
         "template--18863682552109__67faf85e-13c6-4959-b6db-5d271072b609-1682588783bf11b3cd-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "A LEAP OF FAITH",
+            "heading_size": "h1"
+          }
+        },
+        "c1dd0e39-72b0-4136-9f89-07f5b2c4989c": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Erobold",
             "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "template--18863682552109__67faf85e-13c6-4959-b6db-5d271072b609-1682588783bf11b3cd-0"
+        "template--18863682552109__67faf85e-13c6-4959-b6db-5d271072b609-1682588783bf11b3cd-0",
+        "c1dd0e39-72b0-4136-9f89-07f5b2c4989c"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -91,9 +100,9 @@
         "53e00d47-6800-4746-a45c-037a199cc0ed": {
           "type": "caption",
           "settings": {
-            "caption": "It was in 2012 that our founder Falguni Nayar left behind a lucrative,18-year-long career in investment banking to satisfy an entrepreneurialitch. What resulted was a burgeoning business that changed the way womenbuy beauty in the country forever. Her approach that continually keptthe customer at its core, swiftly amassed 18 million loyal followers whothen urged us to craft an experience just as exciting in fashion.",
+            "caption": "Welcome to Erobold, where desire is the fruit that ignites creativity and beauty. From the tales of heaven to the confines of earth, human desire has always shaped our world. We believe that embracing our desires is a celebration of individuality and self-expression.In a rapidly evolving and interconnected world, it is essential to stand out as an individual. Our generation has witnessed a redefinition of influences and lifestyles, fostering a truly multicultural environment. At Erobold, we recognize the importance of personal identity and the need to express it boldly.",
             "text_style": "subtitle",
-            "text_size": "medium"
+            "text_size": "large"
           }
         },
         "template--18863682552109__5fffca5d-2005-4ebd-ac58-277c74f2fa0a-16825816007eaec60e-0": {
@@ -106,6 +115,7 @@
         },
         "template--18863682552109__5fffca5d-2005-4ebd-ac58-277c74f2fa0a-16825816007eaec60e-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h3>Falguni Nayar, Founder at Cintilar<\/h3>",
             "text_style": "body"
@@ -118,7 +128,7 @@
         "template--18863682552109__5fffca5d-2005-4ebd-ac58-277c74f2fa0a-16825816007eaec60e-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/WhatsApp-Image-2020-12-17-at-1.11.17-PM.jpg",
+        "image": "shopify:\/\/shop_images\/Untitled_Session0427_2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -138,14 +148,14 @@
         "template--18863682552109__9d7b58cb-0a4d-4247-b6d6-a8da6ff83a8f-16825816007eaec60e-0": {
           "type": "heading",
           "settings": {
-            "heading": "THE  CINTILAR EXPERIENCE",
+            "heading": "The Indian market",
             "heading_size": "h1"
           }
         },
         "template--18863682552109__9d7b58cb-0a4d-4247-b6d6-a8da6ff83a8f-16825816007eaec60e-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We launched Nykaa Fashion in 2018, as a curated and managed marketplace with an endeavor to inspire consumers to make fashion and lifestyle choices that best suit them. We have a wide assortment of offerings, across price points, to cater to women, men and children of diverse demographics. Presently, Nykaa Fashion houses 1,500+ brands and over 1.8 million products across five consumer segments: women, men, kids, tech and home. Within these consumer segments, we merchandise across several categories including western wear, Indian wear, lingerie, footwear, bags, jewelry, accessories, athleisure, home décor, bath, bed and kitchen in order to cater to the diverse consumers’ journeys across our platform. We offer a mix of brands across established national brands, international brands, luxury brands, and emerging labels and designers.<\/p>",
+            "text": "<p>The Indian market, with its scarcity of on fleek erotic clothing, beckoned us to introduce a bold approach. We saw an opportunity to cater to the modern Indian who craves experimentation, especially in the realm of intimate wear. We understand the desire for quality products that are both innovative and accessible.<br\/>Erobold is dedicated to pushing boundaries and empowering individuals to embrace their passions. Our intimatewear products are meticulously crafted to meet the highest standards of quality and design. Each piece exudes elite sophistication, making a statement that is both sizzling hot and fashionably avant-garde.<\/p>",
             "text_style": "body"
           }
         }
@@ -155,8 +165,8 @@
         "template--18863682552109__9d7b58cb-0a4d-4247-b6d6-a8da6ff83a8f-16825816007eaec60e-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/The-Nykaa-fashion-experience.webp",
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/Untitled_Session0319_1.jpg",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -175,14 +185,14 @@
         "template--18863682552109__6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b-16825816007eaec60e-0": {
           "type": "heading",
           "settings": {
-            "heading": "FIND YOUR MOMENT",
+            "heading": "With Erobold",
             "heading_size": "h1"
           }
         },
         "template--18863682552109__6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b-16825816007eaec60e-1": {
           "type": "text",
           "settings": {
-            "text": "<p>You know that moment when you land the perfect pair of jeans? What aboutthat moment when you find a dress that hugs you in all the right places?Or that moment when you discover shoes that go with just abouteverything in your closet?<\/p>",
+            "text": "<p>With Erobold, we invite you to embark on a journey of self-expression and exploration. We offer a fresh window into the glamorous world of erotic clothing, providing you with the tools to truly own your passionate side. Let us together embrace the freedom to live as beings of desires and passions, while captivating the world with our undeniable allure.<br\/>Welcome to Erobold, where we dare you to unleash your sexy side and make a statement that cannot be ignored.<\/p>",
             "text_style": "body"
           }
         },
@@ -200,7 +210,7 @@
         "template--18863682552109__6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b-16825816007eaec60e-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/find-your-moment.jpg",
+        "image": "shopify:\/\/shop_images\/Untitled_Session0361_1_91bbeaf5-2574-4e4a-808c-a6ddde04f998.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -272,6 +282,7 @@
     },
     "d263c768-93ca-4eab-a618-48610127f397": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--18863682552109__d263c768-93ca-4eab-a618-48610127f397-168258095507996ba3-0": {
           "type": "heading",
@@ -323,6 +334,58 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "f97a000b-cccd-42b9-bef5-ee234823a3aa": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18863682552109__f97a000b-cccd-42b9-bef5-ee234823a3aa-16885383636c0722f5-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--18863682552109__f97a000b-cccd-42b9-bef5-ee234823a3aa-16885383636c0722f5-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--18863682552109__f97a000b-cccd-42b9-bef5-ee234823a3aa-16885383636c0722f5-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18863682552109__f97a000b-cccd-42b9-bef5-ee234823a3aa-16885383636c0722f5-0",
+        "template--18863682552109__f97a000b-cccd-42b9-bef5-ee234823a3aa-16885383636c0722f5-1",
+        "template--18863682552109__f97a000b-cccd-42b9-bef5-ee234823a3aa-16885383636c0722f5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_Session0429_1.jpg",
+        "image_2": "shopify:\/\/shop_images\/Untitled_Session0648_1_e2546c2b-8122-4fa0-a8ef-2fa6c215bc8f.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
     }
   },
   "order": [
@@ -334,6 +397,7 @@
     "6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b",
     "ce30fbc2-fd29-49ee-a2ab-c26b655655af",
     "3bf3fcc0-f93a-4067-a0d0-9e5b4a2a8eec",
-    "d263c768-93ca-4eab-a618-48610127f397"
+    "d263c768-93ca-4eab-a618-48610127f397",
+    "f97a000b-cccd-42b9-bef5-ee234823a3aa"
   ]
 }

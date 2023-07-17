@@ -1,7 +1,8 @@
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/FinalLogo2_withTM.png",
-    "logo_width": 300,
+    "logo": "shopify:\/\/shop_images\/logo02_100x_096a1c06-45fd-49aa-b127-8ec619c19b76.png",
+    "logo_width": 80,
+    "favicon": "shopify:\/\/shop_images\/Monologo_2___eb_111bd21d-edd4-49e7-b71c-5f2460f58226.png",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#000000",
     "gradient_accent_1": "",
@@ -17,9 +18,9 @@
     "heading_scale": 100,
     "type_body_font": "futura_n4",
     "body_scale": 100,
-    "page_width": 1400,
+    "page_width": 1600,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 8,
+    "spacing_grid_horizontal": 4,
     "spacing_grid_vertical": 8,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
@@ -40,12 +41,12 @@
     "inputs_radius": 8,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
-    "inputs_shadow_vertical_offset": 4,
+    "inputs_shadow_vertical_offset": -8,
     "inputs_shadow_blur": 5,
     "card_style": "standard",
     "card_image_padding": 0,
     "card_text_alignment": "center",
-    "card_color_scheme": "background-1",
+    "card_color_scheme": "background-2",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 10,
@@ -147,13 +148,13 @@
     "blocks": {
       "13057770590969753118": {
         "type": "shopify:\/\/apps\/instafeed-story\/blocks\/app-embed\/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       },
       "judgeme_core_bbdc38b7": {
         "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }

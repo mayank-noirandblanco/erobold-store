@@ -91,7 +91,7 @@
           "type": "block",
           "settings": {
             "kome": "shopify:\/\/shop_images\/Screenshot_14.png",
-            "komdisc": "orders ship within 10 days <br>from the date ordered"
+            "komdisc": "orders ship within 10 days from the date ordered"
           }
         },
         "1a84cd43-d1f7-4e0c-a3cb-9149047396d6": {
@@ -144,8 +144,8 @@
     "7c025491-0f3e-4c8c-b183-ee2f2243e32d": {
       "type": "custm_collection",
       "settings": {
-        "left_collection_image": "shopify:\/\/shop_images\/model-with-leather-jacket-over-shoulders.jpg",
-        "right_collection_image": "shopify:\/\/shop_images\/pexels-pixabay-247298.jpg",
+        "left_collection_image": "shopify:\/\/shop_images\/Untitled_Session0632_1.jpg",
+        "right_collection_image": "shopify:\/\/shop_images\/Untitled_Session0361_1.jpg",
         "right_coll_name1": "Information",
         "right_coll_name2": "Details",
         "collection_url_left": "",
@@ -197,18 +197,19 @@
         "621e9f37-c2b1-428e-afc1-94b6a6bb1941"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "See More",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 0
+        "padding_top": 12,
+        "padding_bottom": 44
       }
     },
     "d2638efa-ac1b-432c-8d6b-6f65c198566e": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "29e5c2f3-55ba-4058-902c-c8232a8986b9": {
           "type": "collection",

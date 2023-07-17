@@ -4,6 +4,7 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "disabled": true,
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
@@ -28,12 +29,14 @@
         ".list-menu__item {font-size: 16px;}"
       ],
       "settings": {
-        "logo_position": "middle-left",
+        "logo_position": "middle-center",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "drawer",
         "sticky_header_type": "reduce-logo-size",
         "show_line_separator": false,
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
+        "transparent_header": true,
+        "content_color": "",
         "enable_country_selector": false,
         "enable_language_selector": false,
         "mobile_logo_position": "center",
