@@ -4,10 +4,10 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "disabled": true,
       "blocks": {
         "7b4bc659-2b67-4b20-bd6f-b357cbd7a3cf": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "SUBSCRIBE & SAVE 10 %",
             "subtext": "<p>Save 10 % on your first order when you Subscribe to our newsletter. Check your inbox for the code.<\/p>"
@@ -15,6 +15,7 @@
         },
         "2d8478fb-7bc2-4e34-bacb-bdf06456f366": {
           "type": "brand_information",
+          "disabled": true,
           "settings": {
             "show_social": false
           }
@@ -22,12 +23,13 @@
         "377d55c0-c020-4ae3-9042-806243a54caf": {
           "type": "link_list",
           "settings": {
-            "heading": "HELP",
+            "heading": "",
             "menu": "footer1"
           }
         },
         "9b28ec98-4ff5-445d-a040-0a8be1a89826": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "PRODUCT",
             "menu": "product"
@@ -46,7 +48,7 @@
         ".footer__content-bottom {padding-top: 1rem;}"
       ],
       "settings": {
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "newsletter_enable": false,
         "newsletter_heading": "Sign Up to Newsletter",
         "enable_follow_on_shop": false,

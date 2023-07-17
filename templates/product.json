@@ -56,6 +56,42 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "f9ea7f36-2de5-46ef-be5e-d35ba9f8640e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size Chart",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "9231b151-c710-4eca-ad54-a5facc07f405": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Fabric and Wash Care",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "fdb8492d-d760-4016-a32c-7d91c9840cf3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Returns & Exchanges",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "6c3e0df9-6907-4dac-929b-9db5334b20e6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Limited Customization",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -67,7 +103,11 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "share"
+        "share",
+        "f9ea7f36-2de5-46ef-be5e-d35ba9f8640e",
+        "9231b151-c710-4eca-ad54-a5facc07f405",
+        "fdb8492d-d760-4016-a32c-7d91c9840cf3",
+        "6c3e0df9-6907-4dac-929b-9db5334b20e6"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -75,8 +115,9 @@
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
+        "vertical_slider": true,
         "media_position": "left",
-        "image_zoom": "none",
+        "image_zoom": "lightbox",
         "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -86,6 +127,7 @@
     },
     "124f4a49-8c1d-4142-980e-af8337056973": {
       "type": "logotext",
+      "disabled": true,
       "blocks": {
         "fa9d4e7e-d561-4b7e-ba8b-cbfe309db7f7": {
           "type": "block",
@@ -143,6 +185,7 @@
     },
     "7c025491-0f3e-4c8c-b183-ee2f2243e32d": {
       "type": "custm_collection",
+      "disabled": true,
       "settings": {
         "left_collection_image": "shopify:\/\/shop_images\/Untitled_Session0632_1.jpg",
         "right_collection_image": "shopify:\/\/shop_images\/Untitled_Session0361_1.jpg",
@@ -171,6 +214,7 @@
     },
     "b270c5a4-f681-4961-b52c-86e2e0077039": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "template--18851605086509__b270c5a4-f681-4961-b52c-86e2e0077039-1682576100140f19e7-2": {
           "type": "collection",
@@ -245,6 +289,13 @@
         "padding_top": 20,
         "padding_bottom": 0
       }
+    },
+    "e3fee709-671c-4d1d-b95b-a220f627615d": {
+      "type": "recently-viewed",
+      "settings": {
+        "heading": "Recently Viewed",
+        "heading_position": "left"
+      }
     }
   },
   "order": [
@@ -254,6 +305,7 @@
     "7c025491-0f3e-4c8c-b183-ee2f2243e32d",
     "related-products",
     "b270c5a4-f681-4961-b52c-86e2e0077039",
-    "d2638efa-ac1b-432c-8d6b-6f65c198566e"
+    "d2638efa-ac1b-432c-8d6b-6f65c198566e",
+    "e3fee709-671c-4d1d-b95b-a220f627615d"
   ]
 }

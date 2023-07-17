@@ -3323,3 +3323,31 @@ h2.instastory-title {
 .banner__box.content-container.content-container--full-width-mobile.color-accent-1.gradient {
     padding: 0px 80px;
 } */
+img.header__heading-logo {
+  filter: invert(100%) grayscale(1);
+}
+svg.icon.icon-cart g, svg.icon.icon-cart-empty g {
+    stroke: #fff;
+}
+.header__icon .icon{
+  stroke-width: 2px;
+}
+svg.icon.icon-cart, svg.icon.icon-cart-empty {
+    width: 28px;
+    height: 28px;
+}
+.header__icon svg.icon.icon-account {
+    stroke: #fff;
+    width: 28px;
+    height: 28px;
+}
+.header__icon svg.icon.icon-search {
+    stroke: #fff;
+    width: 28px;
+    height: 28px;
+}
+.header__icon svg.icon.icon-hamburger {
+    stroke: #fff;
+    width: 28px;
+    height: 28px;
+}
