@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "b75f3b45-9fd1-405c-ac52-bd9d30d4648a": {
+      "type": "erobold-shoots",
+      "blocks": {
+        "36397fc3-3532-4ea9-a626-1c97ba5f8b8d": {
+          "type": "product",
+          "settings": {
+            "position_top": 49,
+            "position_left": 66,
+            "product": "briefs"
+          }
+        },
+        "80a757b3-74ab-4ce7-9c1b-0d1d3c1e4f17": {
+          "type": "product",
+          "settings": {
+            "position_top": 66,
+            "position_left": 33,
+            "product": "slits-on-sides-br"
+          }
+        },
+        "da96b7a4-20f8-4c75-8752-ea4abd2afc5e": {
+          "type": "product",
+          "settings": {
+            "position_top": 71,
+            "position_left": 55,
+            "product": "body-suites"
+          }
+        },
+        "0d73d51a-759c-49de-ad86-900bd4659747": {
+          "type": "product",
+          "settings": {
+            "position_top": 29,
+            "position_left": 43,
+            "product": "show-your-abs"
+          }
+        },
+        "19f4b3e3-cddd-4258-9cf8-5fb6a15827d4": {
+          "type": "product",
+          "settings": {
+            "position_top": 51,
+            "position_left": 16,
+            "product": "wrestler"
+          }
+        }
+      },
+      "block_order": [
+        "36397fc3-3532-4ea9-a626-1c97ba5f8b8d",
+        "80a757b3-74ab-4ce7-9c1b-0d1d3c1e4f17",
+        "da96b7a4-20f8-4c75-8752-ea4abd2afc5e",
+        "0d73d51a-759c-49de-ad86-900bd4659747",
+        "19f4b3e3-cddd-4258-9cf8-5fb6a15827d4"
+      ],
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/Erobold 10.mp4",
+        "enable_video_looping": true,
+        "image": "shopify:\/\/shop_images\/Untitled_Session0224_1_1.jpg",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b75f3b45-9fd1-405c-ac52-bd9d30d4648a"
+  ]
+}
