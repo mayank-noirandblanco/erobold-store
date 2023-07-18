@@ -262,6 +262,28 @@
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
+<style>
+  .slideshow__controls.slider-buttons {
+    position: absolute;
+    bottom: 0;
+    z-index: 9999;
+    background: transparent;
+    width: 100%;
+}
+  .slideshow__controls.slider-buttons .slider-button {
+    color: #fff;
+}
+  .slideshow__controls.slider-buttons span.dot {
+    border-color: #fff;
+}
+  .slider-counter__link--active.slider-counter__link--dots .dot {
+    background-color: #fff !important;
+}
+  .slider-counter__link--dots:not(.slider-counter__link--active):hover .dot {
+    border-color: #fff !important;
+}
+</style>
+
 {% schema %}
 {
   "name": "t:sections.slideshow.name",

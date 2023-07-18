@@ -46,8 +46,9 @@
             | video_tag:
               image_size: "1100x",
               loop: block.settings.enable_video_looping,
-              controls: true,
-              muted: false
+              controls: false,
+              muted: true,
+              autoplay: true
           }}
   </div>
       {%- endfor -%}
@@ -62,12 +63,6 @@
   "tag": "section",
   "class": "section",
   "settings": [
-    {
-      "type": "liquid",
-      "id": "custom_liquid",
-      "label": "t:sections.custom-liquid.settings.custom_liquid.label",
-      "info": "t:sections.custom-liquid.settings.custom_liquid.info"
-    },
     {
       "type": "select",
       "id": "color_scheme",
