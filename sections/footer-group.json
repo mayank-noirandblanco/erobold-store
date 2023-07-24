@@ -48,6 +48,12 @@
             "heading": "PRODUCT",
             "menu": "product"
           }
+        },
+        "6b869df9-c4f0-4824-96b5-d3efd7c29439": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
         }
       },
       "block_order": [
@@ -56,7 +62,8 @@
         "61608379-a61e-4cd0-82ca-dc743c47f506",
         "7b4bc659-2b67-4b20-bd6f-b357cbd7a3cf",
         "2d8478fb-7bc2-4e34-bacb-bdf06456f366",
-        "9b28ec98-4ff5-445d-a040-0a8be1a89826"
+        "9b28ec98-4ff5-445d-a040-0a8be1a89826",
+        "6b869df9-c4f0-4824-96b5-d3efd7c29439"
       ],
       "custom_css": [
         "h2 {text-align: left;}",
@@ -65,7 +72,7 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "newsletter_enable": false,
+        "newsletter_enable": true,
         "newsletter_heading": "Sign Up to Newsletter",
         "enable_follow_on_shop": false,
         "show_social": false,
@@ -74,7 +81,7 @@
         "payment_enable": false,
         "show_policy": false,
         "margin_top": 0,
-        "padding_top": 48,
+        "padding_top": 20,
         "padding_bottom": 20
       }
     }

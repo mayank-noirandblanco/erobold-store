@@ -23,6 +23,7 @@
         },
         "a2e12d27-9522-47db-b29b-763920ef94c2": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0244.jpg",
             "heading": "",
@@ -41,6 +42,7 @@
         },
         "c68bdfb2-8b8b-4691-bc55-0e3729777590": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0358.jpg",
             "heading": "",
@@ -59,6 +61,7 @@
         },
         "43afcecc-ac38-4f63-b9d4-6dc4e9096553": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0427.jpg",
             "heading": "",
@@ -138,7 +141,7 @@
             "image": "shopify:\/\/shop_images\/Untitled-Session0518.jpg",
             "title": "",
             "text": "",
-            "link_label": "Shop Now",
+            "link_label": "Briefs",
             "link": "shopify:\/\/collections\/briefs"
           }
         },
@@ -148,8 +151,8 @@
             "image": "shopify:\/\/shop_images\/Untitled-Session0356_1.jpg",
             "title": "",
             "text": "",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/body-suites"
+            "link_label": "Boysuits",
+            "link": "shopify:\/\/collections\/boysuit"
           }
         },
         "b3eb2423-f0e2-4c17-b909-4c9db15978a1": {
@@ -158,7 +161,7 @@
             "image": "shopify:\/\/shop_images\/Untitled-Session0561.jpg",
             "title": "",
             "text": "",
-            "link_label": "Shop Now",
+            "link_label": "Jockstraps",
             "link": "shopify:\/\/collections\/jockstraps"
           }
         }
@@ -170,11 +173,75 @@
       ],
       "custom_css": [
         ".multicolumn-card__info {border: 0 !important;}",
-        ".link {padding: 10px !important; background: rgb(0 0 0 \/ 70%); \/* max-width: 320px;*\/}"
+        ".link {padding: 10px !important; background: rgb(0 0 0 \/ 70%); \/* max-width: 320px;*\/}",
+        "ul.multicolumn-list {gap: 0px !important;}"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
+        "full_width": false,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b19cf6ed-62a4-499a-b513-de15d646f72a": {
+      "type": "multicolumn",
+      "blocks": {
+        "38f83af6-54f1-416d-9d03-eefe6f28344a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-Session0518.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Thongs",
+            "link": "shopify:\/\/collections\/thongs"
+          }
+        },
+        "9a7cfe95-e9a6-4ea2-a272-31d5e612fd49": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-Session0356_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Trunks",
+            "link": "shopify:\/\/collections\/trunks"
+          }
+        },
+        "88c541fb-fa97-4277-b6ee-20bf69e9b8b9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-Session0561.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Briefs",
+            "link": "shopify:\/\/collections\/briefs"
+          }
+        }
+      },
+      "block_order": [
+        "38f83af6-54f1-416d-9d03-eefe6f28344a",
+        "9a7cfe95-e9a6-4ea2-a272-31d5e612fd49",
+        "88c541fb-fa97-4277-b6ee-20bf69e9b8b9"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info {border: 0 !important;}",
+        ".link {padding: 10px !important; background: rgb(0 0 0 \/ 70%); \/* max-width: 320px;*\/}",
+        "ul.multicolumn-list {gap: 0px !important;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "full_width": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -191,6 +258,7 @@
     },
     "c2c970e6-5cd7-48e3-b383-404cde85d177": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--19964078391597__c2c970e6-5cd7-48e3-b383-404cde85d177-1689232179f44c3d46-0": {
           "type": "column",
@@ -225,6 +293,7 @@
       "settings": {
         "title": "",
         "heading_size": "h0",
+        "full_width": false,
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
@@ -656,6 +725,7 @@
           "settings": {
             "video": "shopify:\/\/files\/videos\/Erobold 7.mp4",
             "enable_video_looping": true,
+            "enable_video_controls": false,
             "url": "shopify:\/\/pages\/golden-hour"
           }
         },
@@ -664,6 +734,7 @@
           "settings": {
             "video": "shopify:\/\/files\/videos\/Copy of Erobold 2.mp4",
             "enable_video_looping": true,
+            "enable_video_controls": false,
             "url": "shopify:\/\/pages\/summer-outing"
           }
         },
@@ -672,6 +743,7 @@
           "settings": {
             "video": "shopify:\/\/files\/videos\/Copy of Erobold 4.mp4",
             "enable_video_looping": true,
+            "enable_video_controls": false,
             "url": "shopify:\/\/pages\/garden-garden"
           }
         }
@@ -734,6 +806,7 @@
     "033412e6-a1ba-492d-b011-6365278dd385",
     "68a559aa-b52f-4029-b986-6588ddc993aa",
     "3f93fc4b-cfa1-4350-991e-5f082ef12da8",
+    "b19cf6ed-62a4-499a-b513-de15d646f72a",
     "c2c970e6-5cd7-48e3-b383-404cde85d177",
     "c35b9619-8d69-47ec-adbe-24b0275b3050",
     "b683045f-a4bd-4c3e-8986-8d3474cc931e",

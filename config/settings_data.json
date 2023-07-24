@@ -6,9 +6,9 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#000000",
     "gradient_accent_1": "",
-    "colors_accent_2": "#875959",
+    "colors_accent_2": "#000000",
     "gradient_accent_2": "",
-    "colors_text": "#875959",
+    "colors_text": "#000000",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
@@ -158,6 +158,28 @@
         "settings": {
         }
       },
+      "3746990713426255657": {
+        "type": "shopify:\/\/apps\/nector-loyalty-rewards\/blocks\/floating_widget\/1c1144ea-67f0-4232-93c6-0d8fbb8c8d3a",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "5090109986002810125": {
+        "type": "shopify:\/\/apps\/form-builder-myappgurus\/blocks\/formBuilder\/a1074dc9-da75-4be4-856f-aa55cf4ede25",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "7870687481494312845": {
+        "type": "shopify:\/\/apps\/wishlist-hero\/blocks\/app-embed\/a9a5079b-59e8-47cb-b659-ecf1c60b9b72",
+        "disabled": false,
+        "settings": {
+          "customThemeName": "~",
+          "additionalWLButtonCssClasses": "",
+          "additionalWLCartBubbleCssClasses": "",
+          "extraHTMLToAppend": ""
+        }
+      },
       "5059203847231188605": {
         "type": "shopify:\/\/apps\/smart-product-filter-search\/blocks\/app-embed\/5cc1944c-3014-4a2a-af40-7d65abc0ef73",
         "disabled": false,
@@ -167,14 +189,8 @@
           "customCss": ""
         }
       },
-      "3746990713426255657": {
-        "type": "shopify:\/\/apps\/nector-loyalty-rewards\/blocks\/floating_widget\/1c1144ea-67f0-4232-93c6-0d8fbb8c8d3a",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "5090109986002810125": {
-        "type": "shopify:\/\/apps\/form-builder-myappgurus\/blocks\/formBuilder\/a1074dc9-da75-4be4-856f-aa55cf4ede25",
+      "5846654113244447633": {
+        "type": "shopify:\/\/apps\/xo-scroll-to-top\/blocks\/xo-scrolltop\/ea52da47-6aa9-474c-8ff9-df181b3784b4",
         "disabled": false,
         "settings": {
         }

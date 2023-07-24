@@ -56,7 +56,7 @@
               | video_tag:
                 image_size: '1100x',
                 loop: block.settings.enable_video_looping,
-                controls: false,
+                controls: block.settings.enable_video_controls,
                 muted: true,
                 autoplay: true
             }}
@@ -141,6 +141,12 @@
           "type": "checkbox",
           "id": "enable_video_looping",
           "label": "t:sections.video.settings.enable_video_looping.label",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_video_controls",
+          "label": "Enable Controls",
           "default": false
         },
         {

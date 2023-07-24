@@ -15,9 +15,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0414.jpg",
-            "heading": "Erobold",
+            "heading": "BOLD BONUS",
             "heading_size": "h1",
-            "subheading": "BOLD BONUS",
+            "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -83,6 +83,9 @@
         "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-0",
         "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-1",
         "c2e1fc3b-8d8f-45fe-826d-53088b1864ce"
+      ],
+      "custom_css": [
+        ".multicolumn.background-primary .multicolumn-card {background: #efefef;}"
       ],
       "settings": {
         "title": "Erobold Bold Bonus",

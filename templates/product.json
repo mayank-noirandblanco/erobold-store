@@ -26,11 +26,6 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -43,11 +38,30 @@
           "settings": {
           }
         },
+        "aeed6cef-13ba-4cef-b4c2-44d0428a01ef": {
+          "type": "popup",
+          "settings": {
+            "text": "Size Chart",
+            "page": "size-chart"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
+          }
+        },
+        "636540ce-c9d2-4e09-8e23-ef5e7df738db": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- if product.description != blank -%}\n<div id=\"bt-head\">{{ product.description | strip_html | truncatewords: 20}}<\/div>\n    <div id=\"dots\">...<\/div>\n     <div id=\"more\">{{ product.description }}<\/div>\n<div id=\"myBtnn\" class=\"\" style=\"font-weight: 600;\">Read more<\/div>\n\n<style>\n  div#more {\n    display: none;\n}\n  div#dots {\n    width: 0;\n    height: 0;\n    opacity: 0;\nmargin:0;\n    visibility: hidden;\n}\n<\/style>\n<script>\n  $(\"#myBtnn\").on(\"click\", function(){\n    if( $(\"#dots\").css(\"display\") == \"none\" ){\n      $(\"#dots\").show();\n      $(\"#myBtnn\").text(\"Read more\");\n      $(\"#more\").hide();\n      $(\"#bt-head\").show();\n    }\n    else{\n      $(\"#dots\").hide();\n      $(\"#myBtnn\").text(\"Read less\");\n      $(\"#more\").show();\n      $(\"#bt-head\").hide();\n    }\n  });\n<\/script>\n{%- endif -%}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
           }
         },
         "share": {
@@ -59,11 +73,12 @@
         },
         "f9ea7f36-2de5-46ef-be5e-d35ba9f8640e": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Size Chart",
             "icon": "none",
             "content": "",
-            "page": ""
+            "page": "size-chart"
           }
         },
         "9231b151-c710-4eca-ad54-a5facc07f405": {
@@ -86,6 +101,7 @@
         },
         "6c3e0df9-6907-4dac-929b-9db5334b20e6": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Limited Customization",
             "icon": "none",
@@ -99,10 +115,12 @@
         "title",
         "price",
         "judgeme_preview_badge_product_page_6ce4d64c",
-        "description",
         "variant_picker",
         "quantity_selector",
+        "aeed6cef-13ba-4cef-b4c2-44d0428a01ef",
         "buy_buttons",
+        "636540ce-c9d2-4e09-8e23-ef5e7df738db",
+        "description",
         "share",
         "f9ea7f36-2de5-46ef-be5e-d35ba9f8640e",
         "9231b151-c710-4eca-ad54-a5facc07f405",
@@ -159,13 +177,20 @@
             "kome": "shopify:\/\/shop_images\/Screenshot_17.png",
             "komdisc": "over 1,000,000 pairs sold"
           }
+        },
+        "60ed745c-be4a-4ec2-aa48-33a2a0cedccf": {
+          "type": "block",
+          "settings": {
+            "komdisc": ""
+          }
         }
       },
       "block_order": [
         "fa9d4e7e-d561-4b7e-ba8b-cbfe309db7f7",
         "1a84cd43-d1f7-4e0c-a3cb-9149047396d6",
         "3da03241-b399-4b54-9603-02fe17e91371",
-        "52759980-3a72-409e-8ff4-058ab9c2b444"
+        "52759980-3a72-409e-8ff4-058ab9c2b444",
+        "60ed745c-be4a-4ec2-aa48-33a2a0cedccf"
       ],
       "settings": {
       }
