@@ -87,7 +87,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "large",
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -135,31 +135,31 @@
         "dbcbeaa6-6dcc-482b-9c1b-2535db0db534": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0381.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled-Session0518.jpg",
             "title": "",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify:\/\/collections\/briefs"
           }
         },
         "template--18851604922669__3f93fc4b-cfa1-4350-991e-5f082ef12da8-1688540687c6f59416-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0054.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled-Session0356_1.jpg",
             "title": "",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify:\/\/collections\/body-suites"
           }
         },
         "b3eb2423-f0e2-4c17-b909-4c9db15978a1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0276.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled-Session0561.jpg",
             "title": "",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify:\/\/collections\/jockstraps"
           }
         }
       },
@@ -167,6 +167,10 @@
         "dbcbeaa6-6dcc-482b-9c1b-2535db0db534",
         "template--18851604922669__3f93fc4b-cfa1-4350-991e-5f082ef12da8-1688540687c6f59416-2",
         "b3eb2423-f0e2-4c17-b909-4c9db15978a1"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info {border: 0 !important;}",
+        ".link {padding: 10px !important; background: rgb(0 0 0 \/ 70%); \/* max-width: 320px;*\/}"
       ],
       "settings": {
         "title": "",
@@ -191,27 +195,32 @@
         "template--19964078391597__c2c970e6-5cd7-48e3-b383-404cde85d177-1689232179f44c3d46-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0414.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled_Session0008_1.jpg",
             "title": "",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify:\/\/collections\/thongs"
           }
         },
         "template--19964078391597__c2c970e6-5cd7-48e3-b383-404cde85d177-1689232179f44c3d46-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0244_1.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled_Session0009_1.jpg",
             "title": "",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify:\/\/collections\/trunks"
           }
         }
       },
       "block_order": [
         "template--19964078391597__c2c970e6-5cd7-48e3-b383-404cde85d177-1689232179f44c3d46-0",
         "template--19964078391597__c2c970e6-5cd7-48e3-b383-404cde85d177-1689232179f44c3d46-1"
+      ],
+      "custom_css": [
+        ".multicolumn-list__item .media--adapt .multicolumn-card__image {width: 100%;}",
+        ".multicolumn-card__info {border: 0 !important;}",
+        ".link {padding: 10px !important; background: rgb(0 0 0 \/ 70%); \/* max-width: 320px;*\/}"
       ],
       "settings": {
         "title": "",
@@ -646,21 +655,24 @@
           "type": "video",
           "settings": {
             "video": "shopify:\/\/files\/videos\/Erobold 7.mp4",
-            "enable_video_looping": true
+            "enable_video_looping": true,
+            "url": "shopify:\/\/pages\/golden-hour"
           }
         },
         "8bbae0e6-3b9a-44fb-a899-0aca9f31fe80": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Erobold 8.mp4",
-            "enable_video_looping": true
+            "video": "shopify:\/\/files\/videos\/Copy of Erobold 2.mp4",
+            "enable_video_looping": true,
+            "url": "shopify:\/\/pages\/summer-outing"
           }
         },
         "17a4b18e-7d38-4955-b058-bda357c75ef3": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Erobold 10.mp4",
-            "enable_video_looping": true
+            "video": "shopify:\/\/files\/videos\/Copy of Erobold 4.mp4",
+            "enable_video_looping": true,
+            "url": "shopify:\/\/pages\/garden-garden"
           }
         }
       },
@@ -673,6 +685,48 @@
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "cb840f62-0cf1-46e1-8170-eb64ecb392c8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19964078391597__cb840f62-0cf1-46e1-8170-eb64ecb392c8-16897597388ec067c7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Erobold",
+            "heading_size": "h1"
+          }
+        },
+        "template--19964078391597__cb840f62-0cf1-46e1-8170-eb64ecb392c8-16897597388ec067c7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to Erobold, where desire is the fruit that ignites creativity and beauty. From the tales of heaven to the confines of earth, human desire has always shaped our world. We believe that embracing our desires is a celebration of individuality and self-expression.<\/p>"
+          }
+        },
+        "c0d46608-b9be-40e8-84f9-2a08f081348a": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "shopify:\/\/pages\/our-story",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19964078391597__cb840f62-0cf1-46e1-8170-eb64ecb392c8-16897597388ec067c7-0",
+        "template--19964078391597__cb840f62-0cf1-46e1-8170-eb64ecb392c8-16897597388ec067c7-1",
+        "c0d46608-b9be-40e8-84f9-2a08f081348a"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -692,6 +746,7 @@
     "7046dc50-8e56-4bac-9401-74e46edbca85",
     "79053e54-bd08-4641-9460-20936db569bb",
     "6762c289-f0f2-4c10-bc42-0862a08e4c33",
-    "a8aaaf49-1216-4b6f-bb99-f2658f8c494e"
+    "a8aaaf49-1216-4b6f-bb99-f2658f8c494e",
+    "cb840f62-0cf1-46e1-8170-eb64ecb392c8"
   ]
 }

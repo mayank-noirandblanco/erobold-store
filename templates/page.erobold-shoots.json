@@ -11,58 +11,58 @@
     "b75f3b45-9fd1-405c-ac52-bd9d30d4648a": {
       "type": "erobold-shoots",
       "blocks": {
-        "36397fc3-3532-4ea9-a626-1c97ba5f8b8d": {
+        "ef0ae0c8-4a96-4a32-9333-b91eb8234386": {
           "type": "product",
           "settings": {
-            "position_top": 49,
-            "position_left": 66,
+            "position_top": 79,
+            "position_left": 9,
+            "product": "copy-of-pary-mesh-bs"
+          }
+        },
+        "fd4dae2d-2fd2-4861-80c2-e7eda352046d": {
+          "type": "product",
+          "settings": {
+            "position_top": 55,
+            "position_left": 48,
+            "product": "trunks"
+          }
+        },
+        "a5d4a795-5804-429f-8097-fb27435df761": {
+          "type": "product",
+          "settings": {
+            "position_top": 55,
+            "position_left": 89,
             "product": "briefs"
           }
         },
-        "80a757b3-74ab-4ce7-9c1b-0d1d3c1e4f17": {
+        "6489c16a-db82-4326-9c3f-548ba85440b1": {
           "type": "product",
           "settings": {
-            "position_top": 66,
-            "position_left": 33,
+            "position_top": 67,
+            "position_left": 50,
             "product": "slits-on-sides-br"
           }
         },
-        "da96b7a4-20f8-4c75-8752-ea4abd2afc5e": {
+        "fd2cd86d-bc04-4426-b8bd-4c2a3ffef7c2": {
           "type": "product",
           "settings": {
-            "position_top": 71,
-            "position_left": 55,
-            "product": "body-suites"
-          }
-        },
-        "0d73d51a-759c-49de-ad86-900bd4659747": {
-          "type": "product",
-          "settings": {
-            "position_top": 29,
-            "position_left": 43,
-            "product": "show-your-abs"
-          }
-        },
-        "19f4b3e3-cddd-4258-9cf8-5fb6a15827d4": {
-          "type": "product",
-          "settings": {
-            "position_top": 51,
-            "position_left": 16,
-            "product": "wrestler"
+            "position_top": 32,
+            "position_left": 29,
+            "product": "classic-br"
           }
         }
       },
       "block_order": [
-        "36397fc3-3532-4ea9-a626-1c97ba5f8b8d",
-        "80a757b3-74ab-4ce7-9c1b-0d1d3c1e4f17",
-        "da96b7a4-20f8-4c75-8752-ea4abd2afc5e",
-        "0d73d51a-759c-49de-ad86-900bd4659747",
-        "19f4b3e3-cddd-4258-9cf8-5fb6a15827d4"
+        "ef0ae0c8-4a96-4a32-9333-b91eb8234386",
+        "fd4dae2d-2fd2-4861-80c2-e7eda352046d",
+        "a5d4a795-5804-429f-8097-fb27435df761",
+        "6489c16a-db82-4326-9c3f-548ba85440b1",
+        "fd2cd86d-bc04-4426-b8bd-4c2a3ffef7c2"
       ],
       "settings": {
-        "video": "shopify:\/\/files\/videos\/Erobold 10.mp4",
+        "video": "shopify:\/\/files\/videos\/Erobold 7.mp4",
         "enable_video_looping": true,
-        "image": "shopify:\/\/shop_images\/Untitled_Session0224_1_1.jpg",
+        "image": "shopify:\/\/shop_images\/414.jpg",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52

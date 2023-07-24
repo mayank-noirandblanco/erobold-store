@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1689944724b47c1a58": {
+      "type": "apps",
+      "blocks": {
+        "dd27098c-4f27-4491-8567-c2e706970049": {
+          "type": "shopify:\/\/apps\/form-builder-myappgurus\/blocks\/form\/a1074dc9-da75-4be4-856f-aa55cf4ede25",
+          "settings": {
+            "show_form": true,
+            "form_token": "Zef6NrAxzGWSSUCjsVjqdEati4oONaLD"
+          }
+        }
+      },
+      "block_order": [
+        "dd27098c-4f27-4491-8567-c2e706970049"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1689944724b47c1a58"
+  ]
+}

@@ -1,0 +1,21 @@
+.erobold-shootss-section .erobold-shoots-item.erobold-shoots-image img {
+    object-fit: cover;
+}
+.banner__buttons {
+  gap: 2rem !important;
+  flex-wrap: unset !important;
+}
+.refer_heading {
+  color: #fff;
+  font-size: 5.2rem;
+  line-height: 1em;
+}
+.bonus_heading_wrapper {
+  justify-content: center;
+}
+@media screen and (min-width: 750px){
+  .bonus_heading_wrapper {
+    border-right: 1px solid #fff;
+    margin: 25px;
+  }  
+}

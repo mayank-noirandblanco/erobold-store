@@ -219,6 +219,7 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'erobold.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -242,11 +243,15 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
   </head>
 
-<body {% if template == 'index' %}id="template-index"{% endif %} class="gradient {% if template == 'index' %}template-index{% endif %}">
+  <body
+    {% if template == 'index' %}
+      id="template-index"
+    {% endif %}
+    class="gradient {% if template == 'index' %}template-index{% endif %}"
+  >
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -269,6 +274,7 @@
     </ul>
 
     <script>
+      
       
       
       
@@ -310,11 +316,13 @@
 
 
 
+
     </script>
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  {% include 'globo.filter.action' %}
-	</body>
+    {% include 'globo.filter.action' %}
+    {% include 'smile-initializer' %}
+  </body>
 </html>

@@ -1,0 +1,304 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "b72d8305-98cf-411f-b28e-65c394053507": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--20086498328877__b72d8305-98cf-411f-b28e-65c394053507-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Which fabric material is mostly preferred in underwear?",
+            "icon": "question_mark",
+            "row_content": "<p>Traditionally cotton has been the preferred material for undergarments such as linen cloth. In contemporary times newer materials have evolved to suit different quality needs and preferences such as durability, breathing fabric, lightweight, firmness etc. All Erobold fabrics are chosen as per the comfort, shape retaining features and durability of the product. We use high quality materials such as Cotton Spandex, Micro Modal & Premium Mesh.<\/p>",
+            "page": ""
+          }
+        },
+        "template--20086498328877__b72d8305-98cf-411f-b28e-65c394053507-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How to prevent Jock Itch?",
+            "icon": "question_mark",
+            "row_content": "<p>Jock can be a result of intense friction, sweat, or infections. But with a few careful guidelines we can avoid this awkward situation. Here are some tips<br\/><br\/>wear breathable fabrics<br\/>Choose the right sized intimate wear<br\/>discard old underwear after they lose shape and quality<br\/>Maintain hygiene by keeping the tender skin areas clean and dry with bathing and moisturizing regularly<br\/>Use antifungal powder or cream<br\/>Avoid sharing personal items<\/p>",
+            "page": ""
+          }
+        },
+        "template--20086498328877__b72d8305-98cf-411f-b28e-65c394053507-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Which size would fit me?",
+            "icon": "question_mark",
+            "row_content": "<p>Measure your waist and hips<br\/><br\/>Compare measurements to the Erobold's <strong>size chart<\/strong><br\/><br\/>Consider your body shape and preferences<br\/><br\/>For example, if your waist size is 32 and you prefer to wear body hugging elastic, then you can choose size \"S\" and if you want a little more relaxed feel then you may choose Size \"M\"<\/p>",
+            "page": ""
+          }
+        },
+        "template--20086498328877__b72d8305-98cf-411f-b28e-65c394053507-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Jockstrap: Material for pouches?",
+            "icon": "question_mark",
+            "row_content": "<p>It's essential to select a jockstrap that fits well, offers sufficient support, and is made from a material that suits your comfort and performance requirements. After careful consideration and trials we have chosen to make jockstraps with the Cotton Spandex pouch, cotton provides breathability, soft texture, shape retention as well as sweat absorption ideal for heavy-duty use<\/p>",
+            "page": ""
+          }
+        },
+        "c321d7ca-873f-4ae9-9a21-6795d5f37d91": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your products bleach friendly?",
+            "icon": "question_mark",
+            "row_content": "<p>Bleaching intimate wear is not recommended due to several reasons. Few pointers can explain why a soft skin friendly detergent wash is better over bleaching.<br\/><br\/>Skin Irritation: Bleach can cause skin irritation and allergic reactions, especially in sensitive areas like the groin.<br\/><br\/>Fabric Damage: Bleach can weaken and damage the fibers of your intimate wear, leading to thinning, brittleness, and tears.<br\/><br\/>Color Fading: Bleach can cause the colors of underwear to fade or become discolored, reducing their vibrancy.<br\/><br\/>Alternative Cleaning Methods: There are safer and effective methods, such as using mild detergent and following care instructions, to clean underwear without bleach.<\/p>",
+            "page": ""
+          }
+        },
+        "0ebcd428-9f41-4497-bd64-ad0f7eaf460c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can we use Fabrick softener or conditioner?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes you can use gentle fabric softener or conditioner<\/p>",
+            "page": ""
+          }
+        },
+        "e1c972a0-c405-4b69-9cdb-6b52ed83a9c1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I send it as a gift wrap? Gift to a friend?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes. Our website offers a option to send your ordered product as a gift during checkout. Simply provide the recipient's shipping address, tick the \"Send as a gift\", We'll take care of the rest!<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20086498328877__b72d8305-98cf-411f-b28e-65c394053507-collapsible_row-1",
+        "template--20086498328877__b72d8305-98cf-411f-b28e-65c394053507-collapsible_row-2",
+        "template--20086498328877__b72d8305-98cf-411f-b28e-65c394053507-collapsible_row-3",
+        "template--20086498328877__b72d8305-98cf-411f-b28e-65c394053507-collapsible_row-4",
+        "c321d7ca-873f-4ae9-9a21-6795d5f37d91",
+        "0ebcd428-9f41-4497-bd64-ad0f7eaf460c",
+        "e1c972a0-c405-4b69-9cdb-6b52ed83a9c1"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Product related:",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "d78d22ec-1514-441f-8da2-3f95bca47c69": {
+      "type": "collapsible-content",
+      "blocks": {
+        "b53678fd-80e3-4468-a8b9-416074a3e2e1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I log in?",
+            "icon": "question_mark",
+            "row_content": "<p>Click on My Account, and enter your email address or registered mobile number and password to log into your account. If you forgot your password, simply click the Forgot Password link and we will email you the password. You can change your password once you have logged in. If you need further assistance, please contact Customer Care directly at cs@erobold.com<\/p>",
+            "page": ""
+          }
+        },
+        "ac384efb-e8b8-4fc5-a349-c60653dcd787": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is BOLD BONUS?",
+            "icon": "question_mark",
+            "row_content": "<p><a href=\"\/pages\/bold-bonus\" title=\"BOLD BONUS\">BOLD BONUS FAQ.<\/a> <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "b53678fd-80e3-4468-a8b9-416074a3e2e1",
+        "ac384efb-e8b8-4fc5-a349-c60653dcd787"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "My Account",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "13c03762-a072-480f-bd2c-f8d2771b905e": {
+      "type": "collapsible-content",
+      "blocks": {
+        "31826ec0-76a3-480c-bdcc-3e8993ead972": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I pay for my order?",
+            "icon": "question_mark",
+            "row_content": "<p>You may choose to pay by UPI, Net Banking or Credit\/Debit Cards, after placing the order you will be directed to the payment gateway page. COD is also available at this moment.<\/p>",
+            "page": ""
+          }
+        },
+        "a4c0c194-a671-48fd-a5a5-7d3c08af3be1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I think I ordered the wrong size. Can I change the size?",
+            "icon": "question_mark",
+            "row_content": "<p>If your order has not been shipped, we can change the size for you. Please visit us at <a href=\"http:\/\/erobold.com\/contactus\">erobold.com\/contactus<\/a> to submit a request to change your item or address.<br\/>*Once the order is fulfilled and shipped, we will no longer be able to make changes to your order. Please request for a return once the package arrives.<\/p>",
+            "page": ""
+          }
+        },
+        "55b9a718-1f22-4f58-bcd2-1f7aaedc1bc8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does it take for you to ship the package out after I placed an order?",
+            "icon": "question_mark",
+            "row_content": "<p>It usually takes 24 to 48 hours for our fulfilment team to process your order and ship it out from our warehouse.<\/p>",
+            "page": ""
+          }
+        },
+        "448f57bf-d1de-494a-a971-aee6be88b536": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I track my order?",
+            "icon": "question_mark",
+            "row_content": "<p>Once your order has shipped, you will receive an email confirmation containing the tracking number. You can also track your order by logging into the My Account section. Once logged in, you will see a list of all orders placed. Click on the order number to display the full order details. At the bottom of the page, the tracking number and status of the order will be detailed for you. For any questions or concerns regarding your order, please feel free to contact us at support<a href=\"mailto:cs@erobold.com\">@erobold.com<\/a>.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "31826ec0-76a3-480c-bdcc-3e8993ead972",
+        "a4c0c194-a671-48fd-a5a5-7d3c08af3be1",
+        "55b9a718-1f22-4f58-bcd2-1f7aaedc1bc8",
+        "448f57bf-d1de-494a-a971-aee6be88b536"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Orders & Shipping",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "f5f2e75d-a78a-41b4-b867-e5906d7a5378": {
+      "type": "collapsible-content",
+      "blocks": {
+        "396b448a-e658-4a4f-81d4-be3e2d4e796a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is shopping at EroBold.com secure?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! Feel free & completely secure ordering from us. All our transactions are 100% secure and your safety is very important to us. View our Terms & Conditions page for more details.<\/p>",
+            "page": ""
+          }
+        },
+        "619ca440-0545-4c84-8a13-d53e771d638c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you share or sell customers' personal information?",
+            "icon": "question_mark",
+            "row_content": "<p>No. Our Privacy Policy guarantees that customers' information will not be disclosed. We use this information only for orders you place.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "396b448a-e658-4a4f-81d4-be3e2d4e796a",
+        "619ca440-0545-4c84-8a13-d53e771d638c"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Privacy & Security",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "2018f303-d06b-4b5a-ad4d-5269f5560a78": {
+      "type": "collapsible-content",
+      "blocks": {
+        "5f25e1e2-b80b-4d96-ae11-8cce0faa9f3f": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I apply to be a model?",
+            "icon": "question_mark",
+            "row_content": "<p>Post your photos wearing Erobold on Instagram, TikTok, Facebook, Twitter, tag @EroBold and use #EroBold & #EroBoldCollab or write us at collab@erobold.com<\/p>",
+            "page": ""
+          }
+        },
+        "f7870242-a9e1-442b-9712-b6bbeee6e65d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I become a Social Media Brand Ambassador?",
+            "icon": "question_mark",
+            "row_content": "<p>If you have already established a large fan base, please contact at collab@erobold.com<\/p>",
+            "page": ""
+          }
+        },
+        "2c065668-3590-48f2-ae52-17c82bf2c0b1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Who do I contact about booking a model, hosting a club event, or requesting a sponsorship?",
+            "icon": "question_mark",
+            "row_content": "<p>Please contact collab@erobold.com<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "5f25e1e2-b80b-4d96-ae11-8cce0faa9f3f",
+        "f7870242-a9e1-442b-9712-b6bbeee6e65d",
+        "2c065668-3590-48f2-ae52-17c82bf2c0b1"
+      ],
+      "settings": {
+        "caption": "Modelling, Brand Ambassadors, & Event Sponsorships",
+        "heading": "Collaborations",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b72d8305-98cf-411f-b28e-65c394053507",
+    "d78d22ec-1514-441f-8da2-3f95bca47c69",
+    "13c03762-a072-480f-bd2c-f8d2771b905e",
+    "f5f2e75d-a78a-41b4-b867-e5906d7a5378",
+    "2018f303-d06b-4b5a-ad4d-5269f5560a78"
+  ]
+}

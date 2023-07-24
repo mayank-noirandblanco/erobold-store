@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "b75f3b45-9fd1-405c-ac52-bd9d30d4648a": {
+      "type": "erobold-shoots",
+      "blocks": {
+        "65c0da35-9c44-4fee-b237-d0fcbd3b77cb": {
+          "type": "product",
+          "settings": {
+            "position_top": 35,
+            "position_left": 50,
+            "product": "copy-of-pary-mesh-bs"
+          }
+        },
+        "aefc9e1e-14a2-40f4-9243-09f1dad905ff": {
+          "type": "product",
+          "settings": {
+            "position_top": 77,
+            "position_left": 13,
+            "product": "slits-on-sides-br"
+          }
+        },
+        "120e8af1-5ea8-4fa5-87e0-9876e6c70c47": {
+          "type": "product",
+          "settings": {
+            "position_top": 10,
+            "position_left": 77,
+            "product": "briefs"
+          }
+        },
+        "88049374-668f-465c-b639-84404d227583": {
+          "type": "product",
+          "settings": {
+            "position_top": 5,
+            "position_left": 13,
+            "product": "jockstraps-sports-supports"
+          }
+        },
+        "e6883e52-c903-4776-809d-bfe88e03d92f": {
+          "type": "product",
+          "settings": {
+            "position_top": 80,
+            "position_left": 77,
+            "product": "cut-on-butt-br"
+          }
+        }
+      },
+      "block_order": [
+        "65c0da35-9c44-4fee-b237-d0fcbd3b77cb",
+        "aefc9e1e-14a2-40f4-9243-09f1dad905ff",
+        "120e8af1-5ea8-4fa5-87e0-9876e6c70c47",
+        "88049374-668f-465c-b639-84404d227583",
+        "e6883e52-c903-4776-809d-bfe88e03d92f"
+      ],
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/Copy of Erobold 2.mp4",
+        "enable_video_looping": true,
+        "image": "shopify:\/\/shop_images\/54.jpg",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b75f3b45-9fd1-405c-ac52-bd9d30d4648a"
+  ]
+}

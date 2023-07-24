@@ -208,6 +208,7 @@
             class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains featured_media.src %} thumbnail-list_item--variant{% endif %}"
             data-target="{{ section.id }}-{{ featured_media.id }}"
             data-media-position="{{ media_index }}"
+          data-meidacolor="{{ featured_media.alt }}"
           >
             {%- capture thumbnail_id -%}
               Thumbnail-{{ section.id }}-0{{ id_append }}
@@ -248,6 +249,7 @@
               class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains media.src %} thumbnail-list_item--variant{% endif %}"
               data-target="{{ section.id }}-{{ media.id }}"
               data-media-position="{{ media_index }}"
+            data-meidacolor="{{ media.alt }}"
             >
               {%- if media.media_type == 'model' -%}
                 <span class="thumbnail__badge" aria-hidden="true">

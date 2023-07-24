@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -13,6 +12,7 @@
     },
     "8c0c2ae3-f1cc-483b-a7e3-44374c8f1631": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--18863682552109__8c0c2ae3-f1cc-483b-a7e3-44374c8f1631-168258095507996ba3-0": {
           "type": "heading",
@@ -64,6 +64,7 @@
     },
     "67faf85e-13c6-4959-b6db-5d271072b609": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--18863682552109__67faf85e-13c6-4959-b6db-5d271072b609-1682588783bf11b3cd-0": {
           "type": "heading",
@@ -96,6 +97,7 @@
     },
     "5fffca5d-2005-4ebd-ac58-277c74f2fa0a": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "53e00d47-6800-4746-a45c-037a199cc0ed": {
           "type": "caption",
@@ -144,6 +146,7 @@
     },
     "9d7b58cb-0a4d-4247-b6d6-a8da6ff83a8f": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--18863682552109__9d7b58cb-0a4d-4247-b6d6-a8da6ff83a8f-16825816007eaec60e-0": {
           "type": "heading",
@@ -181,6 +184,7 @@
     },
     "6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--18863682552109__6ecaf23b-e66a-4a7b-8cca-07a78ae86a2b-16825816007eaec60e-0": {
           "type": "heading",
@@ -226,6 +230,7 @@
     },
     "ce30fbc2-fd29-49ee-a2ab-c26b655655af": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--18863682552109__ce30fbc2-fd29-49ee-a2ab-c26b655655af-1682588783bf11b3cd-0": {
           "type": "heading",
@@ -270,6 +275,7 @@
     },
     "3bf3fcc0-f93a-4067-a0d0-9e5b4a2a8eec": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".clscustomlove {font-family: RedVevet; color: #c93f32; font-size: 30px; font-weight: 400; text-transform: lowercase; display: block; text-align: center; margin-top: -5px;}"
       ],
@@ -337,6 +343,7 @@
     },
     "f97a000b-cccd-42b9-bef5-ee234823a3aa": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--18863682552109__f97a000b-cccd-42b9-bef5-ee234823a3aa-16885383636c0722f5-0": {
           "type": "heading",

@@ -166,18 +166,6 @@
           "customJs": "",
           "customCss": ""
         }
-      },
-      "3746990713426255657": {
-        "type": "shopify:\/\/apps\/nector-loyalty-rewards\/blocks\/floating_widget\/1c1144ea-67f0-4232-93c6-0d8fbb8c8d3a",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "5090109986002810125": {
-        "type": "shopify:\/\/apps\/form-builder-myappgurus\/blocks\/formBuilder\/a1074dc9-da75-4be4-856f-aa55cf4ede25",
-        "disabled": false,
-        "settings": {
-        }
       }
     }
   },

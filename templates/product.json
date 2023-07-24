@@ -109,6 +109,9 @@
         "fdb8492d-d760-4016-a32c-7d91c9840cf3",
         "6c3e0df9-6907-4dac-929b-9db5334b20e6"
       ],
+      "custom_css": [
+        ".product--thumbnail_slider .slider-mobile-gutter .slider-button {display: none;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "media_size": "medium",

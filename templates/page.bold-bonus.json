@@ -1,0 +1,259 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "c25c7070-24eb-429b-9f71-4fbeebd5fb0f": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20065756643629__c25c7070-24eb-429b-9f71-4fbeebd5fb0f-1689757141669d7941-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0414.jpg",
+            "heading": "Erobold",
+            "heading_size": "h1",
+            "subheading": "BOLD BONUS",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 50,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20065756643629__c25c7070-24eb-429b-9f71-4fbeebd5fb0f-1689757141669d7941-0"
+      ],
+      "custom_css": [
+        ".slideshow__text.banner__box {background: transparent;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "5578d218-c37c-4734-a902-3594d0d2eab7": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-0": {
+          "type": "column",
+          "settings": {
+            "title": "How to Earn BOLD BONUS?",
+            "text": "<p>Subscribe to BOLDBOARD and get 100 BOLD BONUS pts<br\/>Write a review and get 100 BOLD BONUS.<br\/><br\/>*Attach pictures with the reivew wearing our product and get 100 additional BONUS points!<br\/>*Erobold can use these pictures on the website or Social media)<br\/>*Celebrate your birthday with us. Get a complimentary 1000 BOLD BONUS points on your birthday!<br\/><\/p>",
+            "link_label": "CREATE ACCOUNT",
+            "link": "\/account\/register"
+          }
+        },
+        "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "EARN POINTS",
+            "text": "<p>& redeem rewards* on every purchase! \/5pts for every USD1 spent<\/p><p>*in-store $ vouchers<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c2e1fc3b-8d8f-45fe-826d-53088b1864ce": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Give us a Shoutout on your Social handles through a post or a story and gets 1000points. <br\/>T&C:<br\/><br\/>*Send a screenshot of your story after 12 hours  of posting and we will credit BONUS in your account<br\/>*We will notify you through email <br\/>once we have reviewed your email (7-15 days) and your BONUS will be credited immediately<br\/><strong>BOLD BONUS redeem condition<br\/><\/strong>10 BOLD BONUS = INR 1<br\/>50 pts for every 100 rupees spent!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-0",
+        "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-1",
+        "c2e1fc3b-8d8f-45fe-826d-53088b1864ce"
+      ],
+      "settings": {
+        "title": "Erobold Bold Bonus",
+        "heading_size": "h1",
+        "full_width": true,
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "769cd57e-493c-4852-a4f6-a2db62d353c8": {
+      "type": "bonus-banner",
+      "blocks": {
+        "template--20065756643629__769cd57e-493c-4852-a4f6-a2db62d353c8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Refer a friend and give them 20% OFF and get INR 300 cash voucher",
+            "heading_size": "h2"
+          }
+        },
+        "template--20065756643629__769cd57e-493c-4852-a4f6-a2db62d353c8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. Scroll down to 'refer a friend' and share your personal link with your friend and chosen family!<br\/><br\/>2. When they redeem their 20% off with your invitation link, you'll get INR 300 cash voucher.<br\/><br\/>Terms: <br\/>*minimum spend INR 1500 to claim cash voucher <br\/>*vouchers are valid for 30 days<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20065756643629__769cd57e-493c-4852-a4f6-a2db62d353c8-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "CREATE ACCOUNT",
+            "button_link_1": "\/account\/register",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20065756643629__769cd57e-493c-4852-a4f6-a2db62d353c8-heading-1",
+        "template--20065756643629__769cd57e-493c-4852-a4f6-a2db62d353c8-text-1",
+        "template--20065756643629__769cd57e-493c-4852-a4f6-a2db62d353c8-buttons-1"
+      ],
+      "custom_css": [
+        ".banner__buttons {gap: 2rem !important; flex-wrap: unset !important;}",
+        ".refer_heading {color: #fff; font-size: 5.2rem; line-height: 1em;}",
+        ".bonus_heading_wrapper {justify-content: center; border-right: 1px solid #fff; margin: 25px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0244.jpg",
+        "heading": "Refer <br> Friends",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "16c448bc-32b7-4a2d-9856-9c6122256263": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--20065756643629__16c448bc-32b7-4a2d-9856-9c6122256263-1689757507bc39169b-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do points per INR spent work?",
+            "icon": "question_mark",
+            "row_content": "<p>For every INR100 spent, you'll receive 50 BOLD BONUS Points!<\/p>",
+            "page": ""
+          }
+        },
+        "template--20065756643629__16c448bc-32b7-4a2d-9856-9c6122256263-1689757507bc39169b-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I spend my Bonus points?",
+            "icon": "question_mark",
+            "row_content": "<p>Make sure you are logged in to your account. You can do this by clicking \"Account\" in the top right corner on the Home Page, or \"Log In\" on the Checkout page. Once you are logged in, you will be able to use your BB Points towards your purchase as long as you:<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "template--20065756643629__16c448bc-32b7-4a2d-9856-9c6122256263-1689757507bc39169b-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will my points expire?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, after 1 year your points will expire. Don't worry! We'll notify you when the expiry date rolls around!<\/p>",
+            "page": ""
+          }
+        },
+        "template--20065756643629__16c448bc-32b7-4a2d-9856-9c6122256263-1689757507bc39169b-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why can't I refer someone with the same address as me?",
+            "icon": "question_mark",
+            "row_content": "<p>We do this in order to prevent individuals from taking undue advantage of both the INR300 and 20% offers from the referral. Both Emails and Delivery addresses for the referral sender and reciever must be different.<\/p>",
+            "page": ""
+          }
+        },
+        "ba038217-abcb-451c-8412-96ede12e9643": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When will I receive my Birthday Points?",
+            "icon": "question_mark",
+            "row_content": "<p>On your Birthday!<\/p>",
+            "page": ""
+          }
+        },
+        "12ef1f1e-4761-42fb-9b04-677159ecad93": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WILL I BE REFUNDED MY POINTS IF I MAKE A RETURN?",
+            "icon": "question_mark",
+            "row_content": "<p>Point(s) will not be reissued if you’re granted a refund. The voucher\/discount amount is on applied on the cart total. Refer to hygiene policy to know more about return policy.<\/p>",
+            "page": ""
+          }
+        },
+        "90b0f1fe-e25a-4bcd-a96d-469e4646c2b6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why did I lose points?",
+            "icon": "question_mark",
+            "row_content": "<p>For returned orders where a refund is issued, any Points associated with that order will be removed from your account.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20065756643629__16c448bc-32b7-4a2d-9856-9c6122256263-1689757507bc39169b-0",
+        "template--20065756643629__16c448bc-32b7-4a2d-9856-9c6122256263-1689757507bc39169b-1",
+        "template--20065756643629__16c448bc-32b7-4a2d-9856-9c6122256263-1689757507bc39169b-2",
+        "template--20065756643629__16c448bc-32b7-4a2d-9856-9c6122256263-1689757507bc39169b-3",
+        "ba038217-abcb-451c-8412-96ede12e9643",
+        "12ef1f1e-4761-42fb-9b04-677159ecad93",
+        "90b0f1fe-e25a-4bcd-a96d-469e4646c2b6"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "BOLD BONUS Q&A",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c25c7070-24eb-429b-9f71-4fbeebd5fb0f",
+    "5578d218-c37c-4734-a902-3594d0d2eab7",
+    "769cd57e-493c-4852-a4f6-a2db62d353c8",
+    "16c448bc-32b7-4a2d-9856-9c6122256263"
+  ]
+}

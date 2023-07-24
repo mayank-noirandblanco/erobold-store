@@ -230,6 +230,14 @@
                         {%- endif -%}
                       </li>
                     {%- endfor -%}
+      <li>
+      <a href="/account/register" class="menu-drawer__menu-item list-menu__item link link--text focus-inset custom_links_mob link">
+                      BOLDBOARD
+                    </a>
+                    <a href="/pages/bold-bonus" class="menu-drawer__menu-item list-menu__item link link--text focus-inset custom_links_mob link">
+                      BOLD BONUS
+                    </a>
+      </li>
                   </ul>
                 </nav>
                 <div class="menu-drawer__utility-links">
@@ -358,7 +366,7 @@
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
               <svg class="modal__toggle-open icon icon-search" aria-hidden="true" viewBox="0 0 64 64">
-                <path d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"></path>
+                <use href="#icon-search">
               </svg>
               <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">
                 <use href="#icon-close">
@@ -601,7 +609,7 @@
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
                <svg class="modal__toggle-open icon icon-search" aria-hidden="true" viewBox="0 0 64 64">
-                <path d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"></path>
+                <use href="#icon-search">
               </svg>
               <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false">
                 <use href="#icon-close">
@@ -718,6 +726,12 @@
           </div>
         {%- endif -%}
       </a>
+                    <a href="/account/register" class="custom_links custom_links_desk link focus-inset">
+                      BOLDBOARD
+                    </a>
+                    <a href="/pages/bold-bonus" class="custom_links link custom_links_desk focus-inset">
+                      BOLD BONUS
+                    </a>
                     <div class="desktop-localization-wrapper">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form class="small-hide medium-hide">
