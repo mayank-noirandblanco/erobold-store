@@ -66,9 +66,10 @@
         "6b869df9-c4f0-4824-96b5-d3efd7c29439"
       ],
       "custom_css": [
-        "h2 {text-align: left;}",
+        "h2 {text-align: center;}",
         ".list-social {justify-content: start;}",
-        ".footer__content-bottom {padding-top: 1rem;}"
+        ".footer__content-bottom {padding-top: 1rem;}",
+        ".footer__content-top {text-align: center;}"
       ],
       "settings": {
         "color_scheme": "background-1",

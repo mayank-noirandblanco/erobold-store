@@ -15,7 +15,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0414.jpg",
-            "heading": "BOLD BONUS",
+            "heading": "Bold Bonus",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
@@ -43,7 +43,7 @@
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
     },
@@ -54,9 +54,36 @@
           "type": "column",
           "settings": {
             "title": "How to Earn BOLD BONUS?",
-            "text": "<p>Subscribe to BOLDBOARD and get 100 BOLD BONUS pts<br\/>Write a review and get 100 BOLD BONUS.<br\/><br\/>*Attach pictures with the reivew wearing our product and get 100 additional BONUS points!<br\/>*Erobold can use these pictures on the website or Social media)<br\/>*Celebrate your birthday with us. Get a complimentary 1000 BOLD BONUS points on your birthday!<br\/><\/p>",
+            "text": "<p>Subscribe to BOLDBOARD and get 100 BOLD BONUS pts.<br\/><\/p>",
             "link_label": "CREATE ACCOUNT",
             "link": "\/account\/register"
+          }
+        },
+        "a0d34663-0a1d-4981-9bb2-06cad2b4d80a": {
+          "type": "column",
+          "settings": {
+            "title": "EARN MORE BOLD BONUS",
+            "text": "<p>Write a review and get 100 BOLD BONUS.<br\/><br\/>*Attach pictures with the reivew wearing our product and get 100 additional BONUS points!<br\/><\/p>",
+            "link_label": "",
+            "link": "\/account\/register"
+          }
+        },
+        "649ace3f-7459-4297-b1f8-8db391967459": {
+          "type": "column",
+          "settings": {
+            "title": "EARN MORE BOLD BONUS",
+            "text": "<p>*Erobold can use these pictures on the website or Social media)<br\/><br\/>*Celebrate your birthday with us. Get a complimentary 1000 BOLD BONUS points on your birthday!<br\/><br\/>Give us a Shoutout on your Social handles through a post or a story and gets 1000points. <\/p>",
+            "link_label": "",
+            "link": "\/account\/register"
+          }
+        },
+        "c2e1fc3b-8d8f-45fe-826d-53088b1864ce": {
+          "type": "column",
+          "settings": {
+            "title": "T&C OF BOLD BONUS",
+            "text": "<p>*Send a screenshot of your story after 12 hours  of posting and we will credit BONUS in your account<br\/>*We will notify you through email <br\/>once we have reviewed your email (7-15 days) and your BONUS will be credited immediately<br\/><strong>BOLD BONUS redeem condition<br\/><\/strong>10 BOLD BONUS = INR 1<br\/>50 pts for every 100 rupees spent!<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-1": {
@@ -68,21 +95,14 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "c2e1fc3b-8d8f-45fe-826d-53088b1864ce": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Give us a Shoutout on your Social handles through a post or a story and gets 1000points. <br\/>T&C:<br\/><br\/>*Send a screenshot of your story after 12 hours  of posting and we will credit BONUS in your account<br\/>*We will notify you through email <br\/>once we have reviewed your email (7-15 days) and your BONUS will be credited immediately<br\/><strong>BOLD BONUS redeem condition<br\/><\/strong>10 BOLD BONUS = INR 1<br\/>50 pts for every 100 rupees spent!<\/p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-0",
-        "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-1",
-        "c2e1fc3b-8d8f-45fe-826d-53088b1864ce"
+        "a0d34663-0a1d-4981-9bb2-06cad2b4d80a",
+        "649ace3f-7459-4297-b1f8-8db391967459",
+        "c2e1fc3b-8d8f-45fe-826d-53088b1864ce",
+        "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-1"
       ],
       "custom_css": [
         ".multicolumn.background-primary .multicolumn-card {background: #efefef;}"

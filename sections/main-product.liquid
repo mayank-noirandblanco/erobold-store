@@ -618,7 +618,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script>
   jQuery(document).ready(function(){
-    jQuery(document).on("click", ".product-form__input input[type=radio]+label", function(){
+    jQuery(document).on("click", ".product-form__input.Color input[type=radio]+label", function(){
       var thisval = jQuery(this).attr("atr");
       jQuery("ul.thumbnail-list li").hide();
       jQuery("ul.thumbnail-list li").each(function(){

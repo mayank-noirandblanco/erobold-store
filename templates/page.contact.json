@@ -1,34 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "custom_css": [
-        "h1 {text-align: center;}"
-      ],
-      "settings": {
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "18c502c1-585b-45ea-aa52-b46688722966": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3718.958048641223!2d72.86103147585645!3d21.23351208046748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f2652963ac9%3A0x7d9787a5b5c4275d!2sSilver%20Business%20Point!5e0!3m2!1sen!2sin!4v1682590879395!5m2!1sen!2sin\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "d3a0a0d8-9efc-4d94-bb8d-84983fdb68a6": {
       "type": "rich-text",
       "blocks": {
@@ -48,7 +19,7 @@
         "e8605523-4d62-46dc-9bbd-ac270afd6dc4": {
           "type": "text",
           "settings": {
-            "text": "<p>41, Second Floor, Navjivan Industrial, Society, Near Unique Hospital, Khatodara, Laxmi Nagar, Udhna, Surat, Gujarat 395002<\/p>"
+            "text": "<p>9th Floor, 903, Chembur, Suprabhat CHS Ltd, CTS No 58, Pt Sahakar Nagar, Near Tilak Nagar Station, Mumbai, Maharashtra, 400071, India.<\/p>"
           }
         },
         "e7b055fd-cdbb-4c6b-bcbc-140690bdeafa": {
@@ -74,13 +45,42 @@
         "padding_bottom": 0
       }
     },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "18c502c1-585b-45ea-aa52-b46688722966": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3770.960015156127!2d72.89050142389391!3d19.065495552304792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9242de51283%3A0xe7f35744d58127c3!2sSuprabhat%20CHS!5e0!3m2!1sen!2sin!4v1690280722389!5m2!1sen!2sin\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "35502eb5-7127-4be4-9e70-7dd3060a9fab": {
       "type": "custom-liquid",
       "custom_css": [
         "div {display: flex; justify-content: space-evenly;}"
       ],
       "settings": {
-        "custom_liquid": "<p>Call :   +917575882020 <\/p>\n<p>Email :   support@gmail.com  <\/p>\n<p>Time :   Monday to Saturday 11:00 AM - 6:00 PM<\/p>",
+        "custom_liquid": "<p>Call :   +917303954225<\/p>&nbsp;\n<p> Email :   support@erobold.com  <\/p>&nbsp;\n<p>Time :   Monday to Saturday 11:00 AM - 6:00 PM<\/p>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 52
@@ -88,10 +88,10 @@
     }
   },
   "order": [
+    "d3a0a0d8-9efc-4d94-bb8d-84983fdb68a6",
     "main",
     "form",
     "18c502c1-585b-45ea-aa52-b46688722966",
-    "d3a0a0d8-9efc-4d94-bb8d-84983fdb68a6",
     "35502eb5-7127-4be4-9e70-7dd3060a9fab"
   ]
 }

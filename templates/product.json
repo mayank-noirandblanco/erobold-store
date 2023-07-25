@@ -1,5 +1,14 @@
 {
   "sections": {
+    "795b7220-7d45-49b0-965f-031f96a6d5da": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'breadcrumbs' %}",
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -86,7 +95,7 @@
           "settings": {
             "heading": "Fabric and Wash Care",
             "icon": "none",
-            "content": "",
+            "content": "<p><strong>Fabric:<\/strong><br\/>{{ product.metafields.custom.fabric.value }}<\/p><p><strong>Wash Care:<br\/><\/strong><a href=\"\/pages\/faqs\" title=\"FAQs\">Read Wash care<\/a><\/p>",
             "page": ""
           }
         },
@@ -95,7 +104,7 @@
           "settings": {
             "heading": "Returns & Exchanges",
             "icon": "none",
-            "content": "",
+            "content": "<p><a href=\"\/policies\/refund-policy\" title=\"\/policies\/refund-policy\">Returns Policy<\/a><\/p>",
             "page": ""
           }
         },
@@ -327,6 +336,7 @@
     }
   },
   "order": [
+    "795b7220-7d45-49b0-965f-031f96a6d5da",
     "main",
     "124f4a49-8c1d-4142-980e-af8337056973",
     "judgeme_section_review_widget_5472",

@@ -24,7 +24,7 @@
           "settings": {
             "heading": "How to prevent Jock Itch?",
             "icon": "question_mark",
-            "row_content": "<p>Jock can be a result of intense friction, sweat, or infections. But with a few careful guidelines we can avoid this awkward situation. Here are some tips<br\/><br\/>wear breathable fabrics<br\/>Choose the right sized intimate wear<br\/>discard old underwear after they lose shape and quality<br\/>Maintain hygiene by keeping the tender skin areas clean and dry with bathing and moisturizing regularly<br\/>Use antifungal powder or cream<br\/>Avoid sharing personal items<\/p>",
+            "row_content": "<ul><li>Jock can be a result of intense friction, sweat, or infections. But with a few careful guidelines we can avoid this awkward situation. Here are some tips wear breathable fabrics.<\/li><li>Choose the right sized intimate wear.<\/li><li>discard old underwear after they lose shape and quality.<br\/>Maintain hygiene by keeping the tender skin areas clean and dry with bathing and moisturizing regularly.<\/li><li>Use antifungal powder or cream.<\/li><li>Avoid sharing personal items.<\/li><\/ul>",
             "page": ""
           }
         },
@@ -33,7 +33,7 @@
           "settings": {
             "heading": "Which size would fit me?",
             "icon": "question_mark",
-            "row_content": "<p>Measure your waist and hips<br\/><br\/>Compare measurements to the Erobold's <strong>size chart<\/strong><br\/><br\/>Consider your body shape and preferences<br\/><br\/>For example, if your waist size is 32 and you prefer to wear body hugging elastic, then you can choose size \"S\" and if you want a little more relaxed feel then you may choose Size \"M\"<\/p>",
+            "row_content": "<ul><li>Measure your waist and hips.<\/li><li>Compare measurements to the Erobold's <strong>size chart.<\/strong><\/li><li>Consider your body shape and preferences.<\/li><li>For example, If your waist size is 32 and you prefer to wear body hugging elastic, then you can choose size \"S\" and if you want a little more relaxed feel then you may choose Size \"M\".<\/li><\/ul>",
             "page": ""
           }
         },
@@ -42,12 +42,31 @@
           "settings": {
             "heading": "Jockstrap: Material for pouches?",
             "icon": "question_mark",
-            "row_content": "<p>It's essential to select a jockstrap that fits well, offers sufficient support, and is made from a material that suits your comfort and performance requirements. After careful consideration and trials we have chosen to make jockstraps with the Cotton Spandex pouch, cotton provides breathability, soft texture, shape retention as well as sweat absorption ideal for heavy-duty use<\/p>",
+            "row_content": "<p>It's essential to select a jockstrap that fits well, offers sufficient support, and is made from a material that suits your comfort and performance requirements. After careful consideration and trials, we have chosen to make jockstraps with a Cotton Spandex pouch. Cotton provides breathability, a soft texture, shape retention, as well as sweat absorption, making it ideal for heavy-duty use.<\/p>",
+            "page": ""
+          }
+        },
+        "93a4ed86-e740-4b90-8a1b-133faac4e94d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I wash my Erobold intimatewear?",
+            "icon": "question_mark",
+            "row_content": "<p>You can choose to either hand-wash or machine wash your intimatewear. Follow the care instructions on the label of your Erobold product to see if there are any specific recommendations for its maintenance.<br\/> If you notice any stains on your underwear, it's best to pre-treat them before washing. You can use a stain remover or gently rub a bit of laundry detergent on the stain.<br\/>Use cold or lukewarm water for washing your underwear. Hot water can cause shrinkage and weaken the elastic.<br\/>If using a washing machine, select a gentle or delicate cycle to minimize wear and tear.<br\/> Fabric softeners can leave a residue that may reduce the absorbency of your underwear. It's best to skip them when washing underwear.<\/p>",
+            "page": ""
+          }
+        },
+        "1e3a3ce6-569a-46f6-9729-2b72d3babbcd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Should I bleach my intimatewear?",
+            "icon": "question_mark",
+            "row_content": "<p>Bleaching intimate wear is not recommended due to several reasons. Few pointers can explain why a soft skin friendly detergent wash is better over bleaching.<br\/><br\/>Skin Irritation: Bleach can cause skin irritation and allergic reactions, especially in sensitive areas like the groin.<br\/><br\/>Fabric Damage: Bleach can weaken and damage the fibers of your intimate wear, leading to thinning, brittleness, and tears.<br\/><br\/>Color Fading: Bleach can cause the colors of underwear to fade or become discolored, reducing their vibrancy.<br\/><br\/>Alternative Cleaning Methods: There are safer and effective methods, such as using mild detergent and following care instructions, to clean underwear without bleach.<\/p>",
             "page": ""
           }
         },
         "c321d7ca-873f-4ae9-9a21-6795d5f37d91": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Are your products bleach friendly?",
             "icon": "question_mark",
@@ -60,7 +79,7 @@
           "settings": {
             "heading": "Can we use Fabrick softener or conditioner?",
             "icon": "question_mark",
-            "row_content": "<p>Yes you can use gentle fabric softener or conditioner<\/p>",
+            "row_content": "<p>As a thumb rule avoid fabric softeners but occasionally Yes you can use gentle fabric softener or conditioner.<\/p>",
             "page": ""
           }
         },
@@ -79,6 +98,8 @@
         "template--20086498328877__b72d8305-98cf-411f-b28e-65c394053507-collapsible_row-2",
         "template--20086498328877__b72d8305-98cf-411f-b28e-65c394053507-collapsible_row-3",
         "template--20086498328877__b72d8305-98cf-411f-b28e-65c394053507-collapsible_row-4",
+        "93a4ed86-e740-4b90-8a1b-133faac4e94d",
+        "1e3a3ce6-569a-46f6-9729-2b72d3babbcd",
         "c321d7ca-873f-4ae9-9a21-6795d5f37d91",
         "0ebcd428-9f41-4497-bd64-ad0f7eaf460c",
         "e1c972a0-c405-4b69-9cdb-6b52ed83a9c1"
@@ -106,12 +127,13 @@
           "settings": {
             "heading": "How do I log in?",
             "icon": "question_mark",
-            "row_content": "<p>Click on My Account, and enter your email address or registered mobile number and password to log into your account. If you forgot your password, simply click the Forgot Password link and we will email you the password. You can change your password once you have logged in. If you need further assistance, please contact Customer Care directly at cs@erobold.com<\/p>",
+            "row_content": "<p>Click on My Account.<br\/>Enter your email address or registered mobile number and password to log into your account.<br\/><strong>If you forgot your password, simply click the Forgot Password link, and we will email you the password.<\/strong><br\/>Once you have logged in, you can change your password.<br\/>If you need further assistance, please contact Customer Support directly at<strong> support@erobold.com.<\/strong><\/p>",
             "page": ""
           }
         },
         "ac384efb-e8b8-4fc5-a349-c60653dcd787": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "What is BOLD BONUS?",
             "icon": "question_mark",
@@ -156,7 +178,7 @@
           "settings": {
             "heading": "I think I ordered the wrong size. Can I change the size?",
             "icon": "question_mark",
-            "row_content": "<p>If your order has not been shipped, we can change the size for you. Please visit us at <a href=\"http:\/\/erobold.com\/contactus\">erobold.com\/contactus<\/a> to submit a request to change your item or address.<br\/>*Once the order is fulfilled and shipped, we will no longer be able to make changes to your order. Please request for a return once the package arrives.<\/p>",
+            "row_content": "<p>If your order has not been shipped, we can change the size for you. Please visit us at <a href=\"\/pages\/contact\" title=\"Contact\">Reach Us<\/a> to submit a request to change your item or address.<br\/>*Once the order is fulfilled and shipped, we will no longer be able to make changes to your order. Please request for a return once the package arrives.<\/p>",
             "page": ""
           }
         },
@@ -174,7 +196,7 @@
           "settings": {
             "heading": "How do I track my order?",
             "icon": "question_mark",
-            "row_content": "<p>Once your order has shipped, you will receive an email confirmation containing the tracking number. You can also track your order by logging into the My Account section. Once logged in, you will see a list of all orders placed. Click on the order number to display the full order details. At the bottom of the page, the tracking number and status of the order will be detailed for you. For any questions or concerns regarding your order, please feel free to contact us at support<a href=\"mailto:cs@erobold.com\">@erobold.com<\/a>.<\/p>",
+            "row_content": "<p>Once your order has shipped, you will receive an email confirmation containing the tracking number. You can also track your order by logging into the My Account section. Once logged in, you will see a list of all orders placed. Click on the order number to display the full order details. At the bottom of the page, the tracking number and status of the order will be detailed for you. For any questions or concerns regarding your order, please feel free to contact us at <strong>support@erobold.com.<\/strong><\/p>",
             "page": ""
           }
         }
@@ -208,7 +230,7 @@
           "settings": {
             "heading": "Is shopping at EroBold.com secure?",
             "icon": "question_mark",
-            "row_content": "<p>Yes! Feel free & completely secure ordering from us. All our transactions are 100% secure and your safety is very important to us. View our Terms & Conditions page for more details.<\/p>",
+            "row_content": "<p>Yes! Feel free and completely secure ordering from us. All our transactions are 100% secure, and your safety is very important to us. View our Terms & Conditions page for more details.<\/p>",
             "page": ""
           }
         },
@@ -249,7 +271,7 @@
           "settings": {
             "heading": "How do I apply to be a model?",
             "icon": "question_mark",
-            "row_content": "<p>Post your photos wearing Erobold on Instagram, TikTok, Facebook, Twitter, tag @EroBold and use #EroBold & #EroBoldCollab or write us at collab@erobold.com<\/p>",
+            "row_content": "<p>Post your photos wearing Erobold on Instagram, TikTok, Facebook, Twitter, tag @EroBold, and use #EroBold & #EroBoldCollab. Alternatively, you can write to us at <strong>collab@erobold.com.<\/strong><\/p>",
             "page": ""
           }
         },
@@ -258,7 +280,7 @@
           "settings": {
             "heading": "How do I become a Social Media Brand Ambassador?",
             "icon": "question_mark",
-            "row_content": "<p>If you have already established a large fan base, please contact at collab@erobold.com<\/p>",
+            "row_content": "<p>If you have already established a large fan base, please contact us at <strong>collab@erobold.com<\/strong>.<\/p>",
             "page": ""
           }
         },
@@ -267,7 +289,7 @@
           "settings": {
             "heading": "Who do I contact about booking a model, hosting a club event, or requesting a sponsorship?",
             "icon": "question_mark",
-            "row_content": "<p>Please contact collab@erobold.com<\/p>",
+            "row_content": "<p>Please contact: <strong>collab@erobold.com<\/strong><\/p>",
             "page": ""
           }
         }

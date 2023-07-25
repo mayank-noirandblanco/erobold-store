@@ -7,10 +7,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0154.jpg",
-            "heading": "",
+            "heading": "Tagline and 10% off message",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "Shop All",
+            "button_label": "",
             "link": "shopify:\/\/collections\/all",
             "button_style_secondary": true,
             "box_align": "bottom-center",
@@ -86,11 +86,11 @@
         "43afcecc-ac38-4f63-b9d4-6dc4e9096553"
       ],
       "custom_css": [
-        ".slideshow__text.banner__box {background: transparent;}"
+
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
+        "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -200,7 +200,7 @@
         "38f83af6-54f1-416d-9d03-eefe6f28344a": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-Session0518.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled_Session0325_1.jpg",
             "title": "",
             "text": "",
             "link_label": "Thongs",
@@ -210,7 +210,7 @@
         "9a7cfe95-e9a6-4ea2-a272-31d5e612fd49": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-Session0356_1.jpg",
+            "image": "shopify:\/\/shop_images\/image3.png",
             "title": "",
             "text": "",
             "link_label": "Trunks",
@@ -220,11 +220,11 @@
         "88c541fb-fa97-4277-b6ee-20bf69e9b8b9": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-Session0561.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled_Session0054_1.jpg",
             "title": "",
             "text": "",
-            "link_label": "Briefs",
-            "link": "shopify:\/\/collections\/briefs"
+            "link_label": "Shop All",
+            "link": "shopify:\/\/collections\/all"
           }
         }
       },
@@ -772,7 +772,7 @@
         "template--19964078391597__cb840f62-0cf1-46e1-8170-eb64ecb392c8-16897597388ec067c7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to Erobold, where desire is the fruit that ignites creativity and beauty. From the tales of heaven to the confines of earth, human desire has always shaped our world. We believe that embracing our desires is a celebration of individuality and self-expression.<\/p>"
+            "text": "<p>Desire ignites creativity and beauty. From the tales of heaven to the confines of earth, human desire has always shaped our world. We believe that embracing our desires is a celebration of individuality and self-expression.<\/p>"
           }
         },
         "c0d46608-b9be-40e8-84f9-2a08f081348a": {
