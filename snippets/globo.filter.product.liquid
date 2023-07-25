@@ -171,5 +171,10 @@
         </div>
       </div>
       </div>
+                        <div class="color-variant" >
+        {% if card_product.available and card_product.variants.size > 1 %}
+          {% render 'swatch', product: card_product %}
+        {% endif %}
+      </div>
   </li>
       {% endraw %}

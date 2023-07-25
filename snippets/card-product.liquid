@@ -106,8 +106,8 @@
                 id="title-{{ section_id }}-{{ card_product.id }}"
               {% endif %}
             >
-              <a
-                href="{{ card_product.url }}"
+              <a adffsdfsadfsadf
+                href="{{ card_product.url | within: collection }}"
                 id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
                 class="full-unstyled-link"
                 aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
@@ -143,8 +143,8 @@
               id="title-{{ section_id }}-{{ card_product.id }}"
             {% endif %}
           >
-            <a
-              href="{{ card_product.url }}"
+            <a adffsdfsadfsadf
+              href="{{ card_product.url | within: collection }}"
               id="CardLink-{{ section_id }}-{{ card_product.id }}"
               class="full-unstyled-link"
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
@@ -334,6 +334,11 @@
             </span>
           {%- endif -%}
         </div>
+      </div>
+  <div class="color-variant" >
+        {% if card_product.available and card_product.variants.size > 1 %}
+          {% render 'swatch', product: card_product %}
+        {% endif %}
       </div>
     </div>
   </div>
