@@ -3465,9 +3465,9 @@ div#myBtnn {
     cursor: pointer;
     width: max-content;
 }
-div#globo-dropdown-sort_options span[data-sort="best-selling"], div#globo-dropdown-sort_options span[data-sort="created-ascending"], div#globo-dropdown-sort_options span[data-sort="created-descending"], div#globo-dropdown-sort_options span[data-sort="sale-descending"] {
+/* div#globo-dropdown-sort_options span[data-sort="best-selling"], div#globo-dropdown-sort_options span[data-sort="created-ascending"], div#globo-dropdown-sort_options span[data-sort="created-descending"], div#globo-dropdown-sort_options span[data-sort="sale-descending"] {
     display: none;
-}
+} */
 h3.card__heading {
     font-size: 16px;
 }
@@ -3548,6 +3548,43 @@ body a.header__icon.header__icon--heart span.wishlist-hero-items-count {
 }
 body a.header__icon.header__icon--heart svg.icon.icon-account {
     stroke: #fff;
+}
+body .cart-count-bubble {
+    background: #000 !important;
+    color: #fff;
+    width: 15px;
+    height: 15px;
+}
+a.header__icon.header__icon--heart.link.focus-inset {
+    margin-left: 1.2rem;
+}
+.header__icon .icon {
+    stroke: #fff;
+}
+a#cart-icon-bubble svg.icon path {
+    stroke-width: 4px !important;
+}
+.wishlist-hero-list-footer text.wishlist-hero-dyna-translate, text.wishlist-hero-dyna-translate {
+    display: none;
+}
+.MuiDialogContent-dividers::-webkit-scrollbar {
+    display: none;
+}
+span.wishlist-hero-items-count.wishlist-hero-items-count-text-plain.cart-count-bubble:empty {
+    display: none !important;
+}
+.customer form h2.form__message {
+    display: none;
+}
+.drawer__inner-empty {
+    justify-content: center !important;
+}
+.cart-drawer__warnings {
+    flex: unset!important;
+    padding-bottom: 20px;
+}
+.cart-inner-footer-cont {
+    width: 100%;
 }
 @media screen and (min-width: 990px){
 .multicolumn .grid--3-col-desktop .grid__item {

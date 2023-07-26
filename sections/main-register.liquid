@@ -45,6 +45,13 @@
                 {{ form.errors.messages[field] }}
               </a>
             {%- endif -%}
+          {% if form.errors.messages[field] contains 'We have sent an email to' %}
+            <style>
+              .customer form > .field, .customer form > button {
+                display: none;
+            }
+            </style>
+            {% endif %}
           </li>
         {%- endfor -%}
       </ul>
