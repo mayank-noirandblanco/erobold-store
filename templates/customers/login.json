@@ -1,5 +1,10 @@
 {
   "sections": {
+    "b3cd52b3-88c1-4bfe-8d52-10b814973a7c": {
+      "type": "breadcrumbs-sec",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-login",
       "settings": {
@@ -9,6 +14,7 @@
     }
   },
   "order": [
+    "b3cd52b3-88c1-4bfe-8d52-10b814973a7c",
     "main"
   ]
 }

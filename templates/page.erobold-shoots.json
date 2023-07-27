@@ -1,5 +1,10 @@
 {
   "sections": {
+    "e2649fa6-47d1-4c6f-9384-e8ed0ebf0929": {
+      "type": "breadcrumbs-sec",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -62,14 +67,16 @@
       "settings": {
         "video": "shopify:\/\/files\/videos\/Erobold 7.mp4",
         "enable_video_looping": true,
+        "enable_video_controls": true,
         "image": "shopify:\/\/shop_images\/414.jpg",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 40
       }
     }
   },
   "order": [
+    "e2649fa6-47d1-4c6f-9384-e8ed0ebf0929",
     "main",
     "b75f3b45-9fd1-405c-ac52-bd9d30d4648a"
   ]

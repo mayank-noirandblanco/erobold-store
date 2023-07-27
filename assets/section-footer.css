@@ -516,3 +516,9 @@
     }
   }
 }
+@media screen and (max-width: 749px) {
+.footer__content-top {
+    padding-left: calc(2rem / var(--font-body-scale));
+    padding-right: calc(2rem / var(--font-body-scale));
+}
+}

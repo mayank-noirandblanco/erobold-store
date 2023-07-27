@@ -86,7 +86,7 @@
         "43afcecc-ac38-4f63-b9d4-6dc4e9096553"
       ],
       "custom_css": [
-
+        "@media screen and (max-width: 749px) {.banner--medium:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: 40rem; }}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -145,16 +145,6 @@
             "link": "shopify:\/\/collections\/briefs"
           }
         },
-        "template--18851604922669__3f93fc4b-cfa1-4350-991e-5f082ef12da8-1688540687c6f59416-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-Session0356_1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Bodysuits",
-            "link": "shopify:\/\/collections\/boysuit"
-          }
-        },
         "b3eb2423-f0e2-4c17-b909-4c9db15978a1": {
           "type": "column",
           "settings": {
@@ -164,17 +154,28 @@
             "link_label": "Jockstraps",
             "link": "shopify:\/\/collections\/jockstraps"
           }
+        },
+        "template--18851604922669__3f93fc4b-cfa1-4350-991e-5f082ef12da8-1688540687c6f59416-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-Session0356_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Bodysuits",
+            "link": "shopify:\/\/collections\/boysuit"
+          }
         }
       },
       "block_order": [
         "dbcbeaa6-6dcc-482b-9c1b-2535db0db534",
-        "template--18851604922669__3f93fc4b-cfa1-4350-991e-5f082ef12da8-1688540687c6f59416-2",
-        "b3eb2423-f0e2-4c17-b909-4c9db15978a1"
+        "b3eb2423-f0e2-4c17-b909-4c9db15978a1",
+        "template--18851604922669__3f93fc4b-cfa1-4350-991e-5f082ef12da8-1688540687c6f59416-2"
       ],
       "custom_css": [
         ".multicolumn-card__info {border: 0 !important;}",
         ".link {padding: 10px !important; background: rgb(0 0 0 \/ 70%); \/* max-width: 320px;*\/}",
-        "ul.multicolumn-list {\/* gap: 0px !important;*\/}"
+        "ul.multicolumn-list {\/* gap: 0px !important;*\/}",
+        "@media screen and (max-width: 749px) {.slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item, .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {width: calc(80% - var(--grid-mobile-horizontal-spacing) - 3rem); }}"
       ],
       "settings": {
         "title": "",
@@ -236,7 +237,8 @@
       "custom_css": [
         ".multicolumn-card__info {border: 0 !important;}",
         ".link {padding: 10px !important; background: rgb(0 0 0 \/ 70%); \/* max-width: 320px;*\/}",
-        "ul.multicolumn-list {\/*gap: 0px !important;*\/}"
+        "ul.multicolumn-list {\/*gap: 0px !important;*\/}",
+        "@media screen and (max-width: 749px) {.slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item, .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {width: calc(80% - var(--grid-mobile-horizontal-spacing) - 3rem); }}"
       ],
       "settings": {
         "title": "",

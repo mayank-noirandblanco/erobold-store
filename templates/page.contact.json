@@ -1,5 +1,10 @@
 {
   "sections": {
+    "fda96330-2908-4cd3-b7ba-59de8cdfbaee": {
+      "type": "breadcrumbs-sec",
+      "settings": {
+      }
+    },
     "d3a0a0d8-9efc-4d94-bb8d-84983fdb68a6": {
       "type": "rich-text",
       "blocks": {
@@ -52,7 +57,7 @@
       ],
       "settings": {
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 0
       }
     },
     "form": {
@@ -61,7 +66,7 @@
         "heading": "",
         "heading_size": "h1",
         "color_scheme": "background-1",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -78,10 +83,11 @@
     "35502eb5-7127-4be4-9e70-7dd3060a9fab": {
       "type": "custom-liquid",
       "custom_css": [
-        "div {display: flex; justify-content: space-evenly;}"
+        "div > div {display: flex; justify-content: space-evenly;}",
+        "@media screen and (max-width: 767px) {div > div {display: flex; justify-content: space-evenly; flex-direction: column; padding-left: 16px; padding-right: 16px; } p {display: block; margin: 0; }}"
       ],
       "settings": {
-        "custom_liquid": "<p>Call :   +917303954225<\/p>&nbsp;\n<p> Email :   support@erobold.com  <\/p>&nbsp;\n<p>Time :   Monday to Saturday 11:00 AM - 6:00 PM<\/p>",
+        "custom_liquid": "<p> Email :   support@erobold.com  &nbsp;<\/p>\n<p>Time :   Monday to Saturday 11:00 AM - 6:00 PM<\/p>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 52
@@ -89,6 +95,7 @@
     }
   },
   "order": [
+    "fda96330-2908-4cd3-b7ba-59de8cdfbaee",
     "d3a0a0d8-9efc-4d94-bb8d-84983fdb68a6",
     "main",
     "form",

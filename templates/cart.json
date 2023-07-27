@@ -1,5 +1,10 @@
 {
   "sections": {
+    "d53c30e0-46fc-4738-ac02-c53b553e0710": {
+      "type": "breadcrumbs-sec",
+      "settings": {
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -30,6 +35,7 @@
     }
   },
   "order": [
+    "d53c30e0-46fc-4738-ac02-c53b553e0710",
     "cart-items",
     "cart-footer"
   ]

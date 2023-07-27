@@ -282,8 +282,22 @@
   .slider-counter__link--dots:not(.slider-counter__link--active):hover .dot {
     border-color: #fff !important;
 }
+@media screen and (max-width:767px){
+  .banner__content.banner__content--bottom-center {
+    align-items: flex-end;
+    justify-content: center;
+}
+}
 </style>
 
+<script>
+  if (window.screen.width < 768) {
+    if ($( "slideshow-component .slideshow.banner" ).hasClass('banner--adapt_image')) {
+      $( "slideshow-component .slideshow.banner" ).removeClass('banner--adapt_image');
+      $( "slideshow-component .slideshow.banner" ).addClass('banner--medium');
+    }
+  }
+</script>
 {% schema %}
 {
   "name": "t:sections.slideshow.name",

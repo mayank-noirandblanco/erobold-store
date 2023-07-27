@@ -27,7 +27,8 @@
       "custom_css": [
         ".cart-count-bubble {bottom: unset; top: 2px; background: mediumvioletred;}",
         ".list-menu__item {font-size: 16px;}",
-        "sticky-header.header-wrapper.color-accent-1.gradient header {\/*position: absolute;*\/}"
+        "sticky-header.header-wrapper.color-accent-1.gradient header {\/*position: absolute;*\/}",
+        "sticky-header.header-wrapper.color-accent-1.gradient header {background: #000;}"
       ],
       "settings": {
         "logo_position": "middle-center",
@@ -36,7 +37,7 @@
         "sticky_header_type": "reduce-logo-size",
         "show_line_separator": false,
         "color_scheme": "accent-1",
-        "transparent_header": true,
+        "transparent_header": false,
         "content_color": "",
         "enable_country_selector": false,
         "enable_language_selector": false,

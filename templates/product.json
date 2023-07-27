@@ -1,12 +1,8 @@
 {
   "sections": {
-    "795b7220-7d45-49b0-965f-031f96a6d5da": {
-      "type": "custom-liquid",
+    "73cb6d03-60dd-4e72-96dc-89f227d0973b": {
+      "type": "breadcrumbs-sec",
       "settings": {
-        "custom_liquid": "{% render 'breadcrumbs' %}",
-        "color_scheme": "background-1",
-        "padding_top": 16,
-        "padding_bottom": 16
       }
     },
     "main": {
@@ -336,7 +332,7 @@
     }
   },
   "order": [
-    "795b7220-7d45-49b0-965f-031f96a6d5da",
+    "73cb6d03-60dd-4e72-96dc-89f227d0973b",
     "main",
     "124f4a49-8c1d-4142-980e-af8337056973",
     "judgeme_section_review_widget_5472",

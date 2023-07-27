@@ -1,5 +1,11 @@
 {
   "sections": {
+    "ef18212c-22ec-4f73-b75e-9cdcb9e963e3": {
+      "type": "breadcrumbs-sec",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -39,7 +45,7 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
-        "slider_visual": "counter",
+        "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
@@ -54,7 +60,7 @@
           "type": "column",
           "settings": {
             "title": "How to Earn BOLD BONUS?",
-            "text": "<p>Subscribe to BOLDBOARD and get 100 BOLD BONUS pts.<br\/><\/p>",
+            "text": "<p>Subscribe to BOLDBOARD and get 100 BOLD BONUS points.<\/p>",
             "link_label": "CREATE ACCOUNT",
             "link": "\/account\/register"
           }
@@ -63,7 +69,7 @@
           "type": "column",
           "settings": {
             "title": "EARN MORE BOLD BONUS",
-            "text": "<p>Write a review and get 100 BOLD BONUS.<br\/><br\/>Attach pictures with the review wearing our product and get 100 additional BONUS points!<br\/>*Erobold can use these pictures on the website or Social media<br\/>*Celebrate your birthday with us. Get a complimentary 1000 BOLD BONUS points on your birthday!<\/p>",
+            "text": "<ul><li>Write a review and get 100 BOLD BONUS.<\/li><li>Attach pictures with the reivew wearing our product and get 100 additional BONUS points!<\/li><li>Celebrate your birthday with us. Get a complimentary 1000 BOLD BONUS points on your birthday!<br\/>*Erobold can use these pictures on the website or Social media)<\/li><\/ul>",
             "link_label": "",
             "link": "\/account\/register"
           }
@@ -163,7 +169,8 @@
       "custom_css": [
         ".banner__buttons {gap: 2rem !important; flex-wrap: unset !important;}",
         ".refer_heading {color: #fff; font-size: 5.2rem; line-height: 1em;}",
-        ".bonus_heading_wrapper {justify-content: center; border-right: 1px solid #fff; margin: 25px;}"
+        ".bonus_heading_wrapper {justify-content: center; border-right: 1px solid #fff; margin: 25px;}",
+        "@media screen and (max-width: 749px) {h2.refer_heading {font-size: 4rem; } h2.refer_heading br {display: none; } .banner--medium:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: max-content; border: none; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0244.jpg",
@@ -273,6 +280,7 @@
     }
   },
   "order": [
+    "ef18212c-22ec-4f73-b75e-9cdcb9e963e3",
     "main",
     "c25c7070-24eb-429b-9f71-4fbeebd5fb0f",
     "5578d218-c37c-4734-a902-3594d0d2eab7",

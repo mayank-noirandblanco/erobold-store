@@ -1,5 +1,10 @@
 {
   "sections": {
+    "d672b26a-89d9-448a-a2df-26753a0e9e41": {
+      "type": "breadcrumbs-sec",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-list-collections",
       "settings": {
@@ -12,6 +17,7 @@
     }
   },
   "order": [
+    "d672b26a-89d9-448a-a2df-26753a0e9e41",
     "main"
   ]
 }

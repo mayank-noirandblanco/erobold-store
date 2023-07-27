@@ -1,5 +1,10 @@
 {
   "sections": {
+    "986d584f-6158-497d-9b41-4b728674b4c2": {
+      "type": "breadcrumbs-sec",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "custom_css": [
@@ -189,6 +194,7 @@
     }
   },
   "order": [
+    "986d584f-6158-497d-9b41-4b728674b4c2",
     "main",
     "ce5228ad-4e54-401d-8184-3939a62da635",
     "2e2e84a9-7370-4715-9d57-bf90b13455f0",

@@ -1190,7 +1190,7 @@ summary::-webkit-details-marker {
   }
 
   .grid--peek.slider .grid__item:first-of-type {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
 
   /* Fix to show some space at the end of our sliders in all browsers */
@@ -3528,7 +3528,7 @@ div#CartDrawer .cart-drawer__collection .card__content {
 #gf-tree button[data-fvalue="Bodysuit"], #gf-tree button[data-fvalue="Briefs"], #gf-tree button[data-fvalue="Thongs"], #gf-tree button[data-fvalue="jockstrap"], #gf-tree button[data-fvalue="trunks"] {
   display: none;
 }
-div#gf-controls-container .gf-actions {
+div#gf-controls-container .gf-actions span.gf-summary {
     display: none;
 }
 body a.header__icon.header__icon--heart span.wishlist-hero-items-count {
@@ -3586,10 +3586,72 @@ span.wishlist-hero-items-count.wishlist-hero-items-count-text-plain.cart-count-b
 .cart-inner-footer-cont {
     width: 100%;
 }
+.cart-inner-footer-cont a.button.button--full-width.button--primary {
+    margin-bottom: 10px;
+}
+.cart-drawer__warnings--has-collection .cart__login-title, p.cart__login-paragraph {
+    text-align: center;
+}
+.contact__button {
+    text-align: center;
+}
+body.Refund.policy h1:before {
+    content: 'Return policy';
+    width: 100%;
+    font-size: calc(var(--font-heading-scale) * 4rem);
+    letter-spacing: calc(var(--font-heading-scale) * .06rem);
+    color: rgb(var(--color-foreground));
+    line-height: calc(1 + .3/max(1,var(--font-heading-scale)));
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+body.Refund.policy h1 {
+    font-size: 0;
+}
+.swatch .swatch-element[data-value="Black"] label {
+    background-image: none !important;
+    background: #000;
+}
+.swatch .swatch-element[data-value="Ibis Rose"] label {
+    background-image: none !important;
+    background: #ca628f;
+}
+.swatch .swatch-element[data-value="Tan"] label {
+    background-image: none !important;
+    background: #f7b06d;
+}
+.drawer__inner-empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly !important;
+}
+.MuiTypography-body1, .MuiTypography-body1 button {
+    font-size: 14px !important;
+}
+a.logout_btn {
+    display: flex;
+}
+.customer_details p {
+    margin-bottom: 0 !important;
+    font-size: 14px !important;
+}
+.cart-empty-log p.cart__login-title.h3 {
+    text-align: center;
+}
+.cart-empty-log p.cart__login-title.h3 {
+    margin-top: 0;
+}
 @media screen and (min-width: 990px){
 .multicolumn .grid--3-col-desktop .grid__item {
    /* width: 33.33% !important;
     max-width: 33.33% !important;*/
+}
+}
+@media screen and (min-width: 768px){
+div#gf-controls-container .gf-actions{
+    display: none;
 }
 }
 @media screen and (max-width: 767px){
@@ -3608,4 +3670,65 @@ span.wishlist-hero-items-count.wishlist-hero-items-count-text-plain.cart-count-b
     display: table !important;
     max-width: 100% !important;
 }
+  .accordion {
+    margin-top: 0 !important;
+  }
+  .multicolumn .title-wrapper-with-link {
+    display: flex;
+    justify-content: center;
 }
+  h1.main-page-title {
+    text-align: center;
+}
+  body#template-index slideshow-component .slideshow.banner {
+    margin-bottom: 44px;
+}
+body#template-index .multicolumn>div {
+    padding-top: 0!important;
+    padding-bottom: 0 !important;
+}
+  .multiple-videos-section {
+    margin-top: 0 !important;
+}
+  .customer_details p {
+    margin-bottom: 0!important;
+    font-size: 12px!important;
+}
+  a.logout_btn {
+    display: flex;
+    font-size: 12px;
+}
+}
+/* Hide price and add to cart button start */
+.card-information {
+    display: none !important;
+}
+.price {
+    display: none !important;
+}
+form[action="/cart/add"] {
+    display: none !important;
+}
+.price__regular {
+    display: none !important;
+}
+.MuiCardContent-root.wishlist-hero-list-card-product-price {
+    display: none !important;
+}
+.MuiCardActions-root.wishlist-hero-list-card-footer button:first-child {
+    display: none !important;
+}
+.wishlist-hero-list-footer button.wishlist-hero-list-card-footer-add-all-to-cart-dialog {
+    display: none !important;
+}
+.cart-drawer .cart-item .product-option {
+    display: none !important;
+}
+
+a.custom_links.link.focus-inset {
+    display: none !important;
+}
+body .custom_links_mob {
+    display: none !important;
+}
+/* Hide price and add to cart button end */

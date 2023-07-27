@@ -84,14 +84,15 @@
     
 <div class="erobold-shootss-section">
    {%- if section.settings.video != blank -%}
-  <div class="erobold-shoots-item erobold-shoots-video">     
+  <div class="erobold-shoots-item erobold-shoots-video adasdaDAD">     
   {{ section.settings.video
             | video_tag:
               image_size: "1100x",
               loop: section.settings.enable_video_looping,
-              controls: false,
-              muted: true,
-              autoplay: true
+              controls: section.settings.enable_video_controls,
+              autoplay: true,
+     controlsList: "noplaybackrate nodownload",
+     muted: false
           }}
   </div>
       {%- endif -%}
@@ -165,6 +166,12 @@
           "type": "checkbox",
           "id": "enable_video_looping",
           "label": "t:sections.video.settings.enable_video_looping.label",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_video_controls",
+          "label": "Enable Controls",
           "default": true
         },
     {

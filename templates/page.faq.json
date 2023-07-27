@@ -1,5 +1,10 @@
 {
   "sections": {
+    "bbc40bab-8437-4236-a49e-8a35668bca38": {
+      "type": "breadcrumbs-sec",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -316,6 +321,7 @@
     }
   },
   "order": [
+    "bbc40bab-8437-4236-a49e-8a35668bca38",
     "main",
     "b72d8305-98cf-411f-b28e-65c394053507",
     "d78d22ec-1514-441f-8da2-3f95bca47c69",
