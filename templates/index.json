@@ -6,7 +6,7 @@
         "template--19964078391597__033412e6-a1ba-492d-b011-6365278dd385-16895870392b487d7c-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0154.jpg",
+            "image": "shopify:\/\/shop_images\/ConvertOut-Resized-Untitled-Session0154_Cropped_1.jpg",
             "heading": "Tagline and 10% off message",
             "heading_size": "h1",
             "subheading": "",
@@ -174,7 +174,7 @@
       "custom_css": [
         ".multicolumn-card__info {border: 0 !important;}",
         ".link {padding: 10px !important; background: rgb(0 0 0 \/ 70%); \/* max-width: 320px;*\/}",
-        "ul.multicolumn-list {gap: 0px !important;}"
+        "ul.multicolumn-list {\/* gap: 0px !important;*\/}"
       ],
       "settings": {
         "title": "",
@@ -190,8 +190,8 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "b19cf6ed-62a4-499a-b513-de15d646f72a": {
@@ -210,7 +210,7 @@
         "9a7cfe95-e9a6-4ea2-a272-31d5e612fd49": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image3.png",
+            "image": "shopify:\/\/shop_images\/Untitled-Session0414_Cropped.jpg",
             "title": "",
             "text": "",
             "link_label": "Trunks",
@@ -236,7 +236,7 @@
       "custom_css": [
         ".multicolumn-card__info {border: 0 !important;}",
         ".link {padding: 10px !important; background: rgb(0 0 0 \/ 70%); \/* max-width: 320px;*\/}",
-        "ul.multicolumn-list {gap: 0px !important;}"
+        "ul.multicolumn-list {\/*gap: 0px !important;*\/}"
       ],
       "settings": {
         "title": "",
@@ -253,7 +253,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 12
       }
     },
     "c2c970e6-5cd7-48e3-b383-404cde85d177": {

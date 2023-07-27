@@ -3299,12 +3299,12 @@ h2.collage-wrapper-title.inline-richtext.h1 {
 .page-width.section-template--19964078391597__c2c970e6-5cd7-48e3-b383-404cde85d177-padding.isolate {
     padding: 0px;
 }
-ul#Slider-template--19964078391597__3f93fc4b-cfa1-4350-991e-5f082ef12da8 {
+/*ul#Slider-template--19964078391597__3f93fc4b-cfa1-4350-991e-5f082ef12da8 {
     gap: 0px !important;
 }
 ul#Slider-template--19964078391597__c2c970e6-5cd7-48e3-b383-404cde85d177 {
     gap: 0px !important;
-}
+}*/
 div#instafeed {
     display: none;
 }
@@ -3588,8 +3588,8 @@ span.wishlist-hero-items-count.wishlist-hero-items-count-text-plain.cart-count-b
 }
 @media screen and (min-width: 990px){
 .multicolumn .grid--3-col-desktop .grid__item {
-    width: 33.33% !important;
-    max-width: 33.33% !important;
+   /* width: 33.33% !important;
+    max-width: 33.33% !important;*/
 }
 }
 @media screen and (max-width: 767px){

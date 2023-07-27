@@ -5,11 +5,11 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "377d55c0-c020-4ae3-9042-806243a54caf": {
+        "61608379-a61e-4cd0-82ca-dc743c47f506": {
           "type": "link_list",
           "settings": {
             "heading": "",
-            "menu": "footer1"
+            "menu": "footer-menu-2"
           }
         },
         "d05e0429-c842-4e77-892b-a16aee663514": {
@@ -19,11 +19,11 @@
             "menu": "footer-menu-3"
           }
         },
-        "61608379-a61e-4cd0-82ca-dc743c47f506": {
+        "377d55c0-c020-4ae3-9042-806243a54caf": {
           "type": "link_list",
           "settings": {
             "heading": "",
-            "menu": "footer-menu-2"
+            "menu": "footer1"
           }
         },
         "7b4bc659-2b67-4b20-bd6f-b357cbd7a3cf": {
@@ -57,9 +57,9 @@
         }
       },
       "block_order": [
-        "377d55c0-c020-4ae3-9042-806243a54caf",
-        "d05e0429-c842-4e77-892b-a16aee663514",
         "61608379-a61e-4cd0-82ca-dc743c47f506",
+        "d05e0429-c842-4e77-892b-a16aee663514",
+        "377d55c0-c020-4ae3-9042-806243a54caf",
         "7b4bc659-2b67-4b20-bd6f-b357cbd7a3cf",
         "2d8478fb-7bc2-4e34-bacb-bdf06456f366",
         "9b28ec98-4ff5-445d-a040-0a8be1a89826",
@@ -69,7 +69,9 @@
         "h2 {text-align: center;}",
         ".list-social {justify-content: start;}",
         ".footer__content-bottom {padding-top: 1rem;}",
-        ".footer__content-top {text-align: center;}"
+        ".footer__content-top {text-align: left;}",
+        ".grid {justify-content: space-evenly;}",
+        ".grid__item {width: auto;max-width: max-content;}"
       ],
       "settings": {
         "color_scheme": "background-1",

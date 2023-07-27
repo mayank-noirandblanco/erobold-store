@@ -26,7 +26,8 @@
       "type": "header",
       "custom_css": [
         ".cart-count-bubble {bottom: unset; top: 2px; background: mediumvioletred;}",
-        ".list-menu__item {font-size: 16px;}"
+        ".list-menu__item {font-size: 16px;}",
+        "sticky-header.header-wrapper.color-accent-1.gradient header {\/*position: absolute;*\/}"
       ],
       "settings": {
         "logo_position": "middle-center",
