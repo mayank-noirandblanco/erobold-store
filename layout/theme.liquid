@@ -246,6 +246,40 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     {% render 'swatches-styles' %}
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1415474305916115');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        src="
+          https://www.facebook.com/tr?id=1415474305916115&ev=PageView
+          &noscript=1
+        "
+      >
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11267978316"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-11267978316');
+    </script>
   </head>
 
   <body
@@ -284,6 +318,8 @@
       
       
       
+      
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -313,19 +349,28 @@
       }
 
 
-
-
-
-
-
-
     </script>
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    
+
     {% include 'smile-initializer' %}
-  {% include 'globo.filter.action' %}
-	</body>
+
+    <script>
+            $(document).ready(function() {
+        $(".footer-block__heading").on("click", function() {
+          if ($(this).hasClass("active")) {
+            $(this).removeClass("active");
+            $(this).siblings(".footer-block__details-content").slideUp(200);
+          } else {
+            $(".footer-block__heading").removeClass("active");
+            $(this).addClass("active");
+            $(".footer-block__details-content").slideUp(200);
+            $(this).siblings(".footer-block__details-content").slideDown(200);
+          }
+        });
+      });
+    </script>
+  </body>
 </html>

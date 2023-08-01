@@ -77,7 +77,9 @@
                 {{ block.shopify_attributes }}
               >
                 {%- if block.settings.heading != blank -%}
-                  <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
+                  <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}
+                  {% render 'icon-caret' %}
+                  </h2>
                 {%- endif -%}
 
                 {%- case block.type -%}
@@ -217,6 +219,7 @@
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
+                  {%- render 'social-icons' -%}
                     </div>
                 {%- endcase -%}
               </div>
