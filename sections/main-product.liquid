@@ -628,7 +628,18 @@
         }
       });
     });
-    jQuery("fieldset.js.product-form__input input[checked] + label").click();
+    //jQuery("fieldset.js.product-form__input input[checked] + label").click();
+    //window.scrollTo({top: 0, behavior: 'smooth'});
+    
+    var thisvall = jQuery("fieldset.js.product-form__input input[checked] + label").attr("atr");
+    jQuery("ul.thumbnail-list li").hide();
+      jQuery("ul.thumbnail-list li").each(function(){
+        var thublistt = $(this).attr("data-meidacolor");
+        if(thisvall == thublistt){
+          $(this).show();
+          
+        }
+      });
   });
 </script>
 
