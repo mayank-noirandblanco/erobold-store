@@ -3539,7 +3539,7 @@ body a.header__icon.header__icon--heart span.wishlist-hero-items-count {
     left: unset;
     background: #000 !important;
     color: #fff;
-    display: flex !important;
+    /* display: flex !important; */
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -3643,6 +3643,39 @@ a.logout_btn {
 .cart-empty-log p.cart__login-title.h3 {
     margin-top: 0;
 }
+span.spf-product__swatch span.spf-product__swatch-inner span.spf-product__swatch-text {
+        font-size: 0;
+    background: transparent;
+}
+span.spf-product__swatch[title="Black"] {
+    background: #000;
+}
+span.spf-product__swatch[title="Ibis Rose"] {
+    background: #ca628f;
+}
+span.spf-product__swatch[title="Tan"] {
+    background: #f7b06d;
+}
+.wishlist-hero-shared-page {
+    width: 100%;
+}
+.jss18,.jss15 {
+    transform: none !important;
+}
+.footer-block__details-content.footer-block-image.center {
+    display: flex;
+    flex-direction: column;
+}
+.header:not(.drawer-menu).page-width {
+    max-width: 100%;
+}
+h2.footer-block__heading.inline-richtext {
+    text-align: left !important;
+    margin-bottom: 5px;
+}
+h2.footer-block__heading svg.icon {
+    display: none;
+}
 @media screen and (min-width: 990px){
 .multicolumn .grid--3-col-desktop .grid__item {
    /* width: 33.33% !important;
@@ -3698,6 +3731,39 @@ body#template-index .multicolumn>div {
     display: flex;
     font-size: 12px;
 }
+.shoots-product .color.swatch-element label {
+    height: 15px !important;
+    width: 15px;
+    min-width: 15px !important;
+}
+  .footer-block__details-content {
+    display: none;
+}
+  h2.footer-block__heading {
+    display: flex;
+    justify-content: space-between;
+}
+  h2.footer-block__heading svg.icon {
+    width: 15px;
+}
+  h2.footer-block__heading svg.icon {
+    display: block;
+}
+  h2.footer-block__heading.active svg.icon.icon-caret {
+        transform: rotateX(-180deg);
+}
+  .footer-block.grid__item.footer-block--menu {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+}
+  .footer-block__details-content {
+    margin-bottom: 0 !important;
+}
+  .footer-block.grid__item:last-child {
+    margin-top: 0;
+}
 }
 /* Hide price and add to cart button start */
 .card-information {
@@ -3729,6 +3795,15 @@ a.custom_links.link.focus-inset {
     display: none !important;
 }
 body .custom_links_mob {
+    display: none !important;
+}
+span.money.conversion-bear-money {
+    display: none !important;
+}
+div#CartDrawer .drawer__footer {
+    display: none !important;
+}
+a#cart-icon-bubble {
     display: none !important;
 }
 /* Hide price and add to cart button end */

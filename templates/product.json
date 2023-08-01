@@ -325,6 +325,7 @@
     },
     "e3fee709-671c-4d1d-b95b-a220f627615d": {
       "type": "recently-viewed",
+      "disabled": true,
       "settings": {
         "heading": "Recently Viewed",
         "heading_position": "left"

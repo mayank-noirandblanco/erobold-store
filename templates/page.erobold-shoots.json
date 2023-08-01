@@ -27,16 +27,16 @@
         "fd4dae2d-2fd2-4861-80c2-e7eda352046d": {
           "type": "product",
           "settings": {
-            "position_top": 55,
-            "position_left": 48,
+            "position_top": 42,
+            "position_left": 43,
             "product": "trunks"
           }
         },
         "a5d4a795-5804-429f-8097-fb27435df761": {
           "type": "product",
           "settings": {
-            "position_top": 55,
-            "position_left": 89,
+            "position_top": 37,
+            "position_left": 75,
             "product": "briefs"
           }
         },
@@ -63,6 +63,9 @@
         "a5d4a795-5804-429f-8097-fb27435df761",
         "6489c16a-db82-4326-9c3f-548ba85440b1",
         "fd2cd86d-bc04-4426-b8bd-4c2a3ffef7c2"
+      ],
+      "custom_css": [
+        ".bls__lookbook-dot.absolute:nth-child(3) .shoots-product {position: absolute; bottom: 33px; top: unset;}"
       ],
       "settings": {
         "video": "shopify:\/\/files\/videos\/Erobold 7.mp4",

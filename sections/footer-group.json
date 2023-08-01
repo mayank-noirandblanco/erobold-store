@@ -5,24 +5,33 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "cdcc6edc-3fbf-4b25-84dc-670c781a17df": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Monologo_2___eb_111bd21d-edd4-49e7-b71c-5f2460f58226.png",
+            "image_width": 100,
+            "alignment": "center"
+          }
+        },
         "61608379-a61e-4cd0-82ca-dc743c47f506": {
           "type": "link_list",
           "settings": {
-            "heading": "",
+            "heading": "My Account",
             "menu": "footer-menu-2"
           }
         },
         "d05e0429-c842-4e77-892b-a16aee663514": {
           "type": "link_list",
           "settings": {
-            "heading": "",
+            "heading": "The Brand",
             "menu": "footer-menu-3"
           }
         },
         "377d55c0-c020-4ae3-9042-806243a54caf": {
           "type": "link_list",
           "settings": {
-            "heading": "",
+            "heading": "Support",
             "menu": "footer1"
           }
         },
@@ -57,6 +66,7 @@
         }
       },
       "block_order": [
+        "cdcc6edc-3fbf-4b25-84dc-670c781a17df",
         "61608379-a61e-4cd0-82ca-dc743c47f506",
         "d05e0429-c842-4e77-892b-a16aee663514",
         "377d55c0-c020-4ae3-9042-806243a54caf",
@@ -70,12 +80,11 @@
         ".list-social {justify-content: start;}",
         ".footer__content-bottom {padding-top: 1rem;}",
         ".footer__content-top {text-align: left;}",
-        ".grid {justify-content: space-evenly;}",
-        ".grid__item {width: auto;max-width: max-content;}"
+        ".grid {justify-content: space-evenly;}"
       ],
       "settings": {
         "color_scheme": "background-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Sign Up to Newsletter",
         "enable_follow_on_shop": false,
         "show_social": false,

@@ -6,8 +6,27 @@
         "template--19964078391597__033412e6-a1ba-492d-b011-6365278dd385-16895870392b487d7c-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0009_1.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "f6d772da-0ada-4905-855a-c7bde0f8549d": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
             "image": "shopify:\/\/shop_images\/ConvertOut-Resized-Untitled-Session0154_Cropped_1.jpg",
-            "heading": "Tagline and 10% off message",
+            "heading": "Luxury Comfort For Confident Men",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
@@ -81,6 +100,7 @@
       },
       "block_order": [
         "template--19964078391597__033412e6-a1ba-492d-b011-6365278dd385-16895870392b487d7c-0",
+        "f6d772da-0ada-4905-855a-c7bde0f8549d",
         "a2e12d27-9522-47db-b29b-763920ef94c2",
         "c68bdfb2-8b8b-4691-bc55-0e3729777590",
         "43afcecc-ac38-4f63-b9d4-6dc4e9096553"
@@ -721,6 +741,7 @@
     },
     "a8aaaf49-1216-4b6f-bb99-f2658f8c494e": {
       "type": "multiple-video",
+      "disabled": true,
       "blocks": {
         "d7b7ce33-85bf-4675-9a9b-181ebf8a252d": {
           "type": "video",
@@ -754,6 +775,35 @@
         "d7b7ce33-85bf-4675-9a9b-181ebf8a252d",
         "8bbae0e6-3b9a-44fb-a899-0aca9f31fe80",
         "17a4b18e-7d38-4955-b058-bda357c75ef3"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b351e226-ac62-4b91-8e9b-6021e780f23e": {
+      "type": "multiple-video",
+      "blocks": {
+        "99db08df-6d12-4f10-aa88-774722c91d71": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Erobold Horizontal 1.mp4",
+            "enable_video_looping": true,
+            "enable_video_controls": false,
+            "url": "shopify:\/\/pages\/golden-hour"
+          }
+        }
+      },
+      "block_order": [
+        "99db08df-6d12-4f10-aa88-774722c91d71"
+      ],
+      "custom_css": [
+        ".multiple-video-item {width: 100%;}",
+        "@media screen and (max-width: 750px) {.multiple-video-item {height: 70vh; } video {object-fit: cover; }}"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -822,6 +872,7 @@
     "79053e54-bd08-4641-9460-20936db569bb",
     "6762c289-f0f2-4c10-bc42-0862a08e4c33",
     "a8aaaf49-1216-4b6f-bb99-f2658f8c494e",
+    "b351e226-ac62-4b91-8e9b-6021e780f23e",
     "cb840f62-0cf1-46e1-8170-eb64ecb392c8"
   ]
 }

@@ -111,7 +111,7 @@
     "brand_headline": "",
     "brand_description": "",
     "brand_image_width": 100,
-    "social_facebook_link": "#",
+    "social_facebook_link": "https:\/\/www.facebook.com\/eroboldhome",
     "social_instagram_link": "https:\/\/www.instagram.com\/erobold_",
     "social_youtube_link": "https:\/\/www.youtube.com\/@erobold",
     "social_tiktok_link": "",
@@ -352,5 +352,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "a.header__icon.header__icon--heart.link.focus-inset {margin-left: 0 !important;}"
+    ]
   }
 }
