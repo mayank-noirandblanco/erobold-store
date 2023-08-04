@@ -12,6 +12,12 @@
         content: '';
         display: block;
       }
+      .desktop_slide{
+        display:none;
+      }
+      .mobile_slide{
+        display:block;
+      }
     }
 
     @media screen and (min-width: 750px) {
@@ -20,6 +26,9 @@
         padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
         content: '';
         display: block;
+      }
+      .mobile_slide{
+        display:none;
       }
     }
   {%- endstyle -%}
@@ -127,7 +136,7 @@
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
         tabindex="-1"
       >
-        <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
+        <div class="desktop_slide slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
           {%- if block.settings.image -%}
             {%- liquid
               assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
@@ -142,11 +151,28 @@
             {{
               block.settings.image
               | image_url: width: 3840
-              | image_tag:
-                loading: 'lazy',
-                height: height,
-                sizes: sizes,
-                widths: widths
+              | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+            }}
+          {%- else -%}
+            {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+        </div>
+        <div class="mobile_slide slideshow__media banner__media media{% if block.settings.image_mobile == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
+          {%- if block.settings.image_mobile -%}
+            {%- liquid
+              assign height = block.settings.image_mobile.width | divided_by: block.settings.image_mobile.aspect_ratio | round
+              if section.settings.image_behavior == 'ambient'
+                assign sizes = '120vw'
+                assign widths = '450, 660, 900, 1320, 1800, 2136, 2400, 3600, 7680'
+              else
+                assign sizes = '100vw'
+                assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+              endif
+            -%}
+            {{
+              block.settings.image_mobile
+              | image_url: width: 3840
+              | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
             }}
           {%- else -%}
             {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -263,31 +289,31 @@
 {%- endif -%}
 
 <style>
-  .slideshow__controls.slider-buttons {
-    position: absolute;
-    bottom: 0;
-    z-index: 2;
-    background: transparent;
-    width: 100%;
-}
-  .slideshow__controls.slider-buttons .slider-button {
-    color: #fff;
-}
-  .slideshow__controls.slider-buttons span.dot {
-    border-color: #fff;
-}
-  .slider-counter__link--active.slider-counter__link--dots .dot {
-    background-color: #fff !important;
-}
-  .slider-counter__link--dots:not(.slider-counter__link--active):hover .dot {
-    border-color: #fff !important;
-}
-@media screen and (max-width:767px){
-  .banner__content.banner__content--bottom-center {
-    align-items: flex-end;
-    justify-content: center;
-}
-}
+    .slideshow__controls.slider-buttons {
+      position: absolute;
+      bottom: 0;
+      z-index: 2;
+      background: transparent;
+      width: 100%;
+  }
+    .slideshow__controls.slider-buttons .slider-button {
+      color: #fff;
+  }
+    .slideshow__controls.slider-buttons span.dot {
+      border-color: #fff;
+  }
+    .slider-counter__link--active.slider-counter__link--dots .dot {
+      background-color: #fff !important;
+  }
+    .slider-counter__link--dots:not(.slider-counter__link--active):hover .dot {
+      border-color: #fff !important;
+  }
+  @media screen and (max-width:767px){
+    .banner__content.banner__content--bottom-center {
+      align-items: flex-end;
+      justify-content: center;
+  }
+  }
 </style>
 
 <script>
@@ -435,6 +461,11 @@
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.slideshow.blocks.slide.settings.image.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "Mobile Image"
         },
         {
           "type": "inline_richtext",
