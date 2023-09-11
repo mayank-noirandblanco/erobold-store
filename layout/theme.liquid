@@ -1,6 +1,13 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+  {% assign full_url = request.host | append: request.path %}
+{% if full_url == "erobold.com/products" %}
+  <script>window.location.href="/collections/all"</script>
+  {% endif %}
+  {% if full_url == "erobold.com/collections" %}
+  <script>window.location.href="/collections/all"</script>
+  {% endif %}
 {% include 'kiwiSizing' %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
