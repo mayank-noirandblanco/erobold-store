@@ -3802,3 +3802,8 @@ h2.footer-block__heading svg.icon {
 .footer-block__details-content ul.footer__list-social {
   padding-left: 0;
 }
+
+
+product-recommendations .swatch .swatch-element.soldout img.crossed-out {
+    display: none;
+}
