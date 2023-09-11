@@ -648,8 +648,52 @@
   .grid__item.product__media-wrapper {
     height: max-content;
 }
+  .product-form__input input[type=radio].disabled+label {
+    pointer-events: none;
+}
 </style>
+<script>
+jQuery(document).ready(function(){
+  jQuery(document).on("click", ".product-form__input.Color label", function(){
+  var thiss = $(this);
+    setTimeout(function(){ 
+      var checked_val = jQuery(".product-form__input.Size input:checked").val();
+      if(jQuery(".product-form__input.Size input:checked").hasClass("disabled")){
+         jQuery(".product-form__input.Size input").each(function(e){
+           if(jQuery(this).hasClass("disabled")){
+              jQuery(this).next("label").click();
+            }
+           else{
+              jQuery(this).next("label").click();
+              return false;
+            }
+        });
+      }
+    }, 200);
+   
+    });
 
+  jQuery(document).on("click", ".product-form__input.Size label", function(){
+  var thiss = $(this);
+    setTimeout(function(){ 
+      var checked_val = jQuery(".product-form__input.Color input:checked").val();
+      if(jQuery(".product-form__input.Color input:checked").hasClass("disabled")){
+         jQuery(".product-form__input.Color input").each(function(e){
+           if(jQuery(this).hasClass("disabled")){
+              jQuery(this).next("label").click();
+            }
+           else{
+              jQuery(this).next("label").click();
+              return false;
+            }
+        });
+      }
+    }, 200);
+   
+    });
+
+});
+</script>
 {% schema %}
 {
   "name": "t:sections.main-product.name",
