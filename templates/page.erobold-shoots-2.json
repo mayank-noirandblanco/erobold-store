@@ -21,7 +21,7 @@
           "settings": {
             "position_top": 31,
             "position_left": 49,
-            "product": "show-your-abs"
+            "product": "show-your-abs-bodysuit"
           }
         },
         "0d73d51a-759c-49de-ad86-900bd4659747": {
@@ -29,7 +29,7 @@
           "settings": {
             "position_top": 72,
             "position_left": 58,
-            "product": "party-mesh-bs"
+            "product": "party-mesh-bodysuit"
           }
         },
         "80a757b3-74ab-4ce7-9c1b-0d1d3c1e4f17": {
@@ -37,7 +37,7 @@
           "settings": {
             "position_top": 67,
             "position_left": 34,
-            "product": "slits-on-sides-br"
+            "product": "slits-on-sides-brief"
           }
         },
         "da96b7a4-20f8-4c75-8752-ea4abd2afc5e": {
@@ -45,7 +45,7 @@
           "settings": {
             "position_top": 46,
             "position_left": 10,
-            "product": "wrestler"
+            "product": "wrestler-bodysuit"
           }
         },
         "19f4b3e3-cddd-4258-9cf8-5fb6a15827d4": {
@@ -53,7 +53,7 @@
           "settings": {
             "position_top": 49,
             "position_left": 68,
-            "product": "briefs"
+            "product": "band-on-belly-brief"
           }
         }
       },
@@ -73,11 +73,42 @@
         "padding_top": 20,
         "padding_bottom": 40
       }
+    },
+    "8565f56d-3fc9-4cdf-9ef4-36f3de150fe4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20329549758765__8565f56d-3fc9-4cdf-9ef4-36f3de150fe4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Garden Garden",
+            "heading_size": "h1"
+          }
+        },
+        "template--20329549758765__8565f56d-3fc9-4cdf-9ef4-36f3de150fe4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>They say maintaining a blossoming garden is a work of care, delicate hands must bless those leaves and not rugged hands of blithe men. Oh, But this garden of shining beauty you see was a work of boys, who giggled and caressed their care onto the petals they touched. With a water hose, trimming scissors, and the acumen of an army, our boys in the ‘Black to Work’ collection turned work and leisure into playful synonyms.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20329549758765__8565f56d-3fc9-4cdf-9ef4-36f3de150fe4-heading-1",
+        "template--20329549758765__8565f56d-3fc9-4cdf-9ef4-36f3de150fe4-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "bf1434c1-e724-4392-9e83-9654421a7ab0",
     "main",
-    "b75f3b45-9fd1-405c-ac52-bd9d30d4648a"
+    "b75f3b45-9fd1-405c-ac52-bd9d30d4648a",
+    "8565f56d-3fc9-4cdf-9ef4-36f3de150fe4"
   ]
 }

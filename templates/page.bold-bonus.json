@@ -21,7 +21,8 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0414.jpg",
-            "heading": "Bold Bonus",
+            "image_mobile": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0414.jpg",
+            "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
@@ -30,7 +31,7 @@
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
-            "image_overlay_opacity": 50,
+            "image_overlay_opacity": 20,
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
@@ -53,11 +54,45 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "ca30190d-f811-4543-8e44-b25d2827552d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20604229845293__ca30190d-f811-4543-8e44-b25d2827552d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "BOLD BONUS",
+            "heading_size": "h1"
+          }
+        },
+        "template--20604229845293__ca30190d-f811-4543-8e44-b25d2827552d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Erobold, we're not just about clothing – we're about celebrating your style journey with exhilarating rewards! Introducing our game-changing BOLD BONUS program, designed exclusively for you, the trendsetting gentleman.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20604229845293__ca30190d-f811-4543-8e44-b25d2827552d-heading-1",
+        "template--20604229845293__ca30190d-f811-4543-8e44-b25d2827552d-text-1"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 100%;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "5578d218-c37c-4734-a902-3594d0d2eab7": {
       "type": "multicolumn",
       "blocks": {
         "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "How to Earn BOLD BONUS?",
             "text": "<p>Subscribe to BOLDBOARD and get 100 BOLD BONUS points.<\/p>",
@@ -65,31 +100,32 @@
             "link": "\/account\/register"
           }
         },
+        "2cc7bac1-c9ef-4fdd-a2c7-4263c5483e7c": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "BOLD BONUS redeem condition",
+            "text": "<p>10 BOLD BONUS = INR 1<br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "a0d34663-0a1d-4981-9bb2-06cad2b4d80a": {
           "type": "column",
           "settings": {
-            "title": "EARN MORE BOLD BONUS",
-            "text": "<ul><li>Write a review and get 100 BOLD BONUS.<\/li><li>Attach pictures with the reivew wearing our product and get 100 additional BONUS points!<\/li><li>Celebrate your birthday with us. Get a complimentary 1000 BOLD BONUS points on your birthday!<br\/>*Erobold can use these pictures on the website or Social media)<\/li><\/ul>",
+            "title": "Unlock Exciting BOLD BONUS Rewards",
+            "text": "<ul><li><strong>Review and Earn<\/strong><br\/>Share your thoughts by writing a review and receive 100 BOLD BONUS points as a token of our appreciation.<br\/><\/li><li><strong>Show Off Your Style<\/strong><br\/>Enhance your points by attaching pictures wearing our product alongside your review – enjoy an extra 100 BONUS points!<br\/><\/li><li><strong>Birthday Delight<\/strong><br\/>Experience a special treat on your birthday! Get 1000 complimentary BOLD BONUS points as our gift to you.<br\/><\/li><li><strong>Shop and Collect<\/strong><br\/>For every 100 INR spent, receive 50 BOLD BONUS points. Your shopping rewards keep growing with every purchase!<br\/><br\/>Don't forget to check out our BOLD BONUS widget to uncover all the exciting details about rewards and points. Start earning and enjoying the perks today!<br\/><\/li><\/ul>",
             "link_label": "",
             "link": "\/account\/register"
-          }
-        },
-        "2cc7bac1-c9ef-4fdd-a2c7-4263c5483e7c": {
-          "type": "column",
-          "settings": {
-            "title": "BOLD BONUS redeem condition",
-            "text": "<p>10 BOLD BONUS = INR 1<br\/>50 pts for every 100 rupees spent!<\/p>",
-            "link_label": "",
-            "link": ""
           }
         },
         "c2e1fc3b-8d8f-45fe-826d-53088b1864ce": {
           "type": "column",
           "settings": {
-            "title": "GIVE SHOUTOUT & EARN",
-            "text": "<p>Give us a Shoutout on your Social handles through a post or a story and gets 1000points. <br\/>*Send a screenshot of your story after 12 hours  of posting and we will credit BONUS in your account<br\/>*We will notify you through email <br\/>once we have reviewed your email (7-15 days) and your BONUS will be credited immediately.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "Celebrate And Earn With Shoutouts!",
+            "text": "<ul><li><strong>Give a Shoutout<\/strong><br\/>Share a post or a story about us on your social media handles. Let your friends know about our services, products and what you like about them.<br\/><\/li><li><strong>Capture and Submit<\/strong><br\/>After your shoutout has been up for at least 12 hours, take a screenshot. Submit the screenshot through the \"Be an Influencer\" option in the website footer.<br\/><\/li><li><strong>Review and Bonus<\/strong><br\/>Our team will review your submission within 7-15 days. Once we've confirmed your shoutout, we'll send you an email notification and credit the bonus points to your account.<br\/><br\/>By following these steps, you'll successfully earn your bonus points for giving us a shoutout on your social media handles. Begin your style journey by creating an account and instantly receiving 100 BOLD BONUS points.<\/li><\/ul><p><br\/><\/p>",
+            "link_label": "CREATE ACCOUNT",
+            "link": "\/account\/register"
           }
         },
         "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-1": {
@@ -105,16 +141,21 @@
       },
       "block_order": [
         "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-0",
-        "a0d34663-0a1d-4981-9bb2-06cad2b4d80a",
         "2cc7bac1-c9ef-4fdd-a2c7-4263c5483e7c",
+        "a0d34663-0a1d-4981-9bb2-06cad2b4d80a",
         "c2e1fc3b-8d8f-45fe-826d-53088b1864ce",
         "template--20065756643629__5578d218-c37c-4734-a902-3594d0d2eab7-1689757051c88e3a49-1"
       ],
       "custom_css": [
-        ".multicolumn.background-primary .multicolumn-card {background: #efefef;}"
+        ".multicolumn-card {background: #f9f9f9; box-shadow: rgba(0, 0, 0, 0.15) -1px 5px 3px;}",
+        ".btn {text-decoration: none !important; color: #fff; background: #000; padding: 8px 10px; margin-top: 15px; display: flex; width: fit-content; transition: all 0.4s ease; border: 1px solid transparent;}",
+        ".btn:hover {background: transparent; border: 1px solid #000; color: #000;}",
+        "ul {list-style-type: none; row-gap: 20px;}",
+        ".rte {margin-top: 2.5rem;}",
+        "@media screen and (min-width: 749px) {ul {padding: 0; }}"
       ],
       "settings": {
-        "title": "Erobold Bold Bonus",
+        "title": "",
         "heading_size": "h1",
         "full_width": true,
         "image_width": "full",
@@ -127,7 +168,7 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -137,27 +178,26 @@
         "template--20065756643629__769cd57e-493c-4852-a4f6-a2db62d353c8-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Refer a friend and give them 20% OFF and get INR 300 cash voucher",
+            "heading": "Refer a Friend for 20% OFF and Grab an INR 300 Cash Voucher!",
             "heading_size": "h2"
           }
         },
         "template--20065756643629__769cd57e-493c-4852-a4f6-a2db62d353c8-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>1. Scroll down to 'refer a friend' and share your personal link with your friend and chosen family!<br\/><br\/>2. When they redeem their 20% off with your invitation link, you'll get INR 300 cash voucher.<br\/><br\/>Terms: <br\/>*minimum spend INR 1500 to claim cash voucher <br\/>*vouchers are valid for 30 days<\/p>",
+            "text": "<p>1. Click on \"Get Link\" and generously share your unique link with your chosen squad – after all, family isn't just blood, it's your style tribe!<br\/><br\/>2. When they unlock their 20% discount through your invite link, we'll gift you a INR 300 cash voucher in return.<br\/><br\/>*minimum spend INR 1500 to claim cash voucher <\/p>",
             "text_style": "body"
           }
         },
         "template--20065756643629__769cd57e-493c-4852-a4f6-a2db62d353c8-buttons-1": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "CREATE ACCOUNT",
+            "button_label_1": "",
             "button_link_1": "\/account\/register",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_1": true,
+            "button_label_2": "GET LINK",
+            "button_link_2": "#loloyal\/home",
+            "button_style_secondary_2": true
           }
         }
       },
@@ -168,13 +208,14 @@
       ],
       "custom_css": [
         ".banner__buttons {gap: 2rem !important; flex-wrap: unset !important;}",
-        ".refer_heading {color: #fff; font-size: 5.2rem; line-height: 1em;}",
+        ".refer_heading {color: #fff; font-size: 5.2rem; text-transform: uppercase; line-height: 1em;}",
         ".bonus_heading_wrapper {justify-content: center; border-right: 1px solid #fff; margin: 25px;}",
+        "p {color: #fff !important;}",
         "@media screen and (max-width: 749px) {h2.refer_heading {font-size: 4rem; } h2.refer_heading br {display: none; } .banner--medium:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {min-height: max-content; border: none; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Copy_of_Untitled-Session0244.jpg",
-        "heading": "Refer <br> Friends",
+        "heading": "Refer A Friend",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -195,7 +236,7 @@
           "settings": {
             "heading": "How do points per INR spent work?",
             "icon": "question_mark",
-            "row_content": "<p>For every INR100 spent, you'll receive 50 BOLD BONUS Points!<\/p>",
+            "row_content": "<p>For every INR 100 spent, you'll receive 50 BOLD BONUS Points!<\/p>",
             "page": ""
           }
         },
@@ -204,7 +245,7 @@
           "settings": {
             "heading": "How do I spend my Bonus points?",
             "icon": "question_mark",
-            "row_content": "<p>Make sure you are logged in to your account. You can do this by clicking \"Account\" in the top right corner on the Home Page, or \"Log In\" on the Checkout page. Once you are logged in, you will be able to use your BB Points towards your purchase as long as you:<br\/><\/p>",
+            "row_content": "<p>Make sure you are logged in to your account. You can do this by clicking \"Account\" in the top right corner on the Home Page, or \"Log In\" on the Checkout page. Once you are logged in, you will be able to use your BB Points towards your purchase as long as you:<br\/>1.  Have INR 1500+ in your cart<br\/>2.  Have at least 100 BOLD BONUS points in your account<\/p>",
             "page": ""
           }
         },
@@ -222,7 +263,7 @@
           "settings": {
             "heading": "Why can't I refer someone with the same address as me?",
             "icon": "question_mark",
-            "row_content": "<p>We do this in order to prevent individuals from taking undue advantage of both the INR300 and 20% offers from the referral. Both Emails and Delivery addresses for the referral sender and reciever must be different.<\/p>",
+            "row_content": "<p>We do this in order to prevent individuals from taking undue advantage of both the INR 300 and 20% offers from the referral. Both Emails and Delivery addresses for the referral sender and reciever must be different.<\/p>",
             "page": ""
           }
         },
@@ -238,9 +279,9 @@
         "12ef1f1e-4761-42fb-9b04-677159ecad93": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "WILL I BE REFUNDED MY POINTS IF I MAKE A RETURN?",
+            "heading": "Will I Be Refunded My Points If I Make A Return?",
             "icon": "question_mark",
-            "row_content": "<p>Point(s) will not be reissued if you’re granted a refund. The voucher\/discount amount is on applied on the cart total. Refer to hygiene policy to know more about return policy.<\/p>",
+            "row_content": "<p>Point(s) will not be reissued if you’re granted a refund. The voucher\/discount amount is applied on the cart total. Refer to hygiene policy to know more about <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">return policy.<\/a><\/p>",
             "page": ""
           }
         },
@@ -283,6 +324,7 @@
     "ef18212c-22ec-4f73-b75e-9cdcb9e963e3",
     "main",
     "c25c7070-24eb-429b-9f71-4fbeebd5fb0f",
+    "ca30190d-f811-4543-8e44-b25d2827552d",
     "5578d218-c37c-4734-a902-3594d0d2eab7",
     "769cd57e-493c-4852-a4f6-a2db62d353c8",
     "16c448bc-32b7-4a2d-9856-9c6122256263"

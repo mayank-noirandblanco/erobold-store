@@ -44,7 +44,7 @@
       }
 {%- endstyle -%}
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="section-{{ section.id }}-padding">
+  <div class="section-{{ section.id }}-padding {% if template contains 'bold-board' %} page-width {% endif %}">
     <div class="multiple-videos-section">
       {%- for block in section.blocks -%}
         <div class="multiple-video-item">
@@ -52,6 +52,7 @@
             block.settings.video
             | video_tag:
               image_size: '1100x',
+              alt: 'erobold',
               loop: block.settings.enable_video_looping,
               controls: block.settings.enable_video_controls,
               muted: true,
@@ -126,7 +127,6 @@
     {
       "type": "video",
       "name": "video",
-      "limit": 3,
       "settings": [
         {
           "type": "video",

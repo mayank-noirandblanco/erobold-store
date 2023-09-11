@@ -231,12 +231,12 @@
                       </li>
                     {%- endfor -%}
       <li>
-      <a href="/account" class="menu-drawer__menu-item list-menu__item link link--text focus-inset custom_links_mob link">
-                      Boldboard
-                    </a>
-                    <a href="/pages/bold-bonus" class="menu-drawer__menu-item list-menu__item link link--text focus-inset custom_links_mob link">
-                      Bold Bonus
-                    </a>
+             <!-- <a href="/pages/boldboard" class="menu-drawer__menu-item list-menu__item link link--text focus-inset custom_links_mob link">
+                Boldboard
+              </a>-->
+              <a href="/pages/bold-bonus" class="menu-drawer__menu-item list-menu__item link link--text focus-inset custom_links_mob link">
+                Bold Bonus
+              </a>
       </li>
                   </ul>
                 </nav>
@@ -707,8 +707,7 @@
             {% render block %}
         {%- endcase -%}
       {%- endfor -%}
-
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+        <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
             render 'icon-cart-empty'
@@ -727,13 +726,14 @@
         {%- endif -%}
       </a>
 
-                       <a href="/account" class="custom_links custom_links_desk link focus-inset">
+                     <!--<a href="/pages/boldboard" class="custom_links custom_links_desk link focus-inset">
                       Boldboard
-                    </a>
+                    </a>-->
                     <a href="/pages/bold-bonus" class="custom_links link custom_links_desk focus-inset">
                       Bold Bonus
                     </a>
-                    <div class="desktop-localization-wrapper">
+             
+      <div class="desktop-localization-wrapper">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form class="small-hide medium-hide">
             {%- form 'localization', id: 'HeaderCountryForm', class: 'localization-form' -%}

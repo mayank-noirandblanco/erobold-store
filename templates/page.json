@@ -7,6 +7,9 @@
     },
     "main": {
       "type": "main-page",
+      "custom_css": [
+        "h2 {margin: 15px 0; font-size: 18px;}"
+      ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28

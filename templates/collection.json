@@ -16,7 +16,6 @@
     },
     "a877f177-bcc8-4c26-9d3c-ba0482cf3acf": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--18428361670957__a877f177-bcc8-4c26-9d3c-ba0482cf3acf-1679659269177bd235-0": {
           "type": "heading",
@@ -29,6 +28,7 @@
       "block_order": [
         "template--18428361670957__a877f177-bcc8-4c26-9d3c-ba0482cf3acf-1679659269177bd235-0"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_Session0192_1_1.jpg",
         "image_overlay_opacity": 0,
@@ -50,7 +50,7 @@
         ".spf-product-card__vendor a {display: none;}"
       ],
       "settings": {
-        "products_per_page": 20,
+        "products_per_page": 24,
         "columns_desktop": 4,
         "image_ratio": "adapt",
         "show_secondary_image": false,
@@ -113,16 +113,6 @@
     },
     "1682569186eae099dd": {
       "type": "apps",
-      "blocks": {
-        "ffe381d9-e1bd-4f1a-ba15-6e078bd3c11d": {
-          "type": "shopify:\/\/apps\/instafeed-story\/blocks\/app-block-feeds\/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "ffe381d9-e1bd-4f1a-ba15-6e078bd3c11d"
-      ],
       "settings": {
         "include_margins": true
       }

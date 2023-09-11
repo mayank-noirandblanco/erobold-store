@@ -43,6 +43,13 @@
           "settings": {
           }
         },
+        "6d8e8f40-fcf7-424e-b287-4d7568a06bf2": {
+          "type": "text",
+          "settings": {
+            "text": "*We recommend selecting one size larger than your usual size for an ideal fit.",
+            "text_style": "body"
+          }
+        },
         "aeed6cef-13ba-4cef-b4c2-44d0428a01ef": {
           "type": "popup",
           "settings": {
@@ -129,6 +136,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "6d8e8f40-fcf7-424e-b287-4d7568a06bf2",
         "aeed6cef-13ba-4cef-b4c2-44d0428a01ef",
         "buy_buttons",
         "c82bfd17-ae78-4c76-bb05-77e8d9f958f7",

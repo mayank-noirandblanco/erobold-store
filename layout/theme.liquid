@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+{% include 'kiwiSizing' %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -32,6 +33,15 @@
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script id="bloop-update-config">
+      0-0-0-0-0-0-0-0-0-109-0-0-0
+    </script>
+    {% if customer %}
+      <script id="bloop-user-info" type="application/json">
+        {"customer_email":"{{ customer.email }}", "customer_last_order":"{% paginate customer.orders by 1 %} {% for order in customer.orders %}{{ order.id }}{% endfor %} {% endpaginate %}"}
+      </script>
+    {% endif %}
+    {% include 'bloop_magic_script_tag' %}
     {{ content_for_header }}
 
     {%- liquid
@@ -220,7 +230,11 @@
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'erobold.css' | asset_url | stylesheet_tag }}
-
+    <style>
+      /*div#breadcrumb {
+          margin-top:60px !important;
+      }*/
+    </style>
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
@@ -280,6 +294,29 @@
 
       gtag('config', 'AW-11267978316');
     </script>
+    {% include 'loyaltylion' %}
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '627601216176896');
+      fbq('track', 'PageView');
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display:none"
+        src="https://www.facebook.com/tr?id=627601216176896&ev=PageView&noscript=1"
+    ></noscript>
+    <!-- End Meta Pixel Code -->
   </head>
 
   <body
@@ -320,6 +357,16 @@
       
       
       
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -349,6 +396,16 @@
       }
 
 
+
+
+
+
+
+
+
+
+
+
     </script>
 
     {%- if settings.predictive_search_enabled -%}
@@ -372,5 +429,13 @@
         });
       });
     </script>
+    <style>
+      body.overflow-hidden-desktop .boom-ui-container,body.overflow-hidden .boom-ui-container {
+      visibility: hidden;
+      }
+      .mag-form > h2 {
+          display: none !important;
+      }
+    </style>
   </body>
 </html>

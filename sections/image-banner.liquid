@@ -43,6 +43,30 @@
   endif
 -%}
 
+<style>
+  .banner__buttons .button {
+      text-decoration: none !important;
+      padding: 8px 10px;
+      margin-top: 15px;
+      display: flex;
+      width: fit-content;
+      transition: all 0.4s ease;
+      background: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+    }
+  .banner__buttons .button:before,
+  .banner__buttons .button::after {
+      display: none;
+    }
+
+  .banner__buttons .button:hover {
+      background: #000;
+      border: 1px solid transparent;
+      color: #fff;
+    }
+</style>
+
 <div
   id="Banner-{{ section.id }}"
   class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
@@ -112,7 +136,12 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>{{ block.settings.heading }}</h2>
+            <h2
+              class="banner__heading inline-richtext {{ block.settings.heading_size }}"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.heading }}
+            </h2>
           {%- when 'text' -%}
             <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <p>{{ block.settings.text }}</p>

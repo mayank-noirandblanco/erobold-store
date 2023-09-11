@@ -8,6 +8,9 @@
     "main": {
       "type": "main-page",
       "disabled": true,
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -26,6 +29,9 @@
       },
       "block_order": [
         "34c9c6e1-7669-44f6-a703-508b39397de7"
+      ],
+      "custom_css": [
+        "h2 {}"
       ],
       "settings": {
         "include_margins": true

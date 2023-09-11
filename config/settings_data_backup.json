@@ -14,7 +14,7 @@
     "gradient_background_1": "",
     "colors_background_2": "#f5f5f5",
     "gradient_background_2": "",
-    "type_header_font": "poppins_n5",
+    "type_header_font": "poppins_n6",
     "heading_scale": 100,
     "type_body_font": "poppins_n4",
     "body_scale": 100,
@@ -68,7 +68,7 @@
     "blog_card_style": "standard",
     "blog_card_image_padding": 0,
     "blog_card_text_alignment": "left",
-    "blog_card_color_scheme": "background-2",
+    "blog_card_color_scheme": "background-1",
     "blog_card_border_thickness": 0,
     "blog_card_border_opacity": 10,
     "blog_card_corner_radius": 0,
@@ -203,6 +203,18 @@
       },
       "8942208844547249051": {
         "type": "shopify:\/\/apps\/ultimate-gdpr-eu-cookie-banner\/blocks\/widget\/9ad66af2-f521-41c0-96ef-0e66c4e1d187",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "7584948915495707528": {
+        "type": "shopify:\/\/apps\/joy-loyalty-program\/blocks\/app-embed\/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "13070091535480640111": {
+        "type": "shopify:\/\/apps\/attrac-announcement-bar-banner\/blocks\/app-embed\/b783956d-47a9-4434-91ad-4ec960bd74b0",
         "disabled": false,
         "settings": {
         }

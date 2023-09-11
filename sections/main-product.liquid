@@ -99,12 +99,7 @@
               </div>
               {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
                 <div class="product__tax caption rte">
-                  {%- if shop.taxes_included -%}
-                    {{ 'products.product.include_taxes' | t }}
-                  {%- endif -%}
-                  {%- if shop.shipping_policy.body != blank -%}
-                    {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                  {%- endif -%}
+                    Tax and Shipping included.
                 </div>
               {%- endif -%}
               <div {{ block.shopify_attributes }}>
@@ -542,6 +537,11 @@
         "@type": "Brand",
         "name": {{ product.vendor | json }}
       },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,  
+        "reviewCount": 50  
+      },   
       "offers": [
         {%- for variant in product.variants -%}
           {
@@ -561,6 +561,7 @@
             "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
             "price" : {{ variant.price | divided_by: 100.00 | json }},
             "priceCurrency" : {{ cart.currency.iso_code | json }},
+            "priceValidUntil": "{{ 'now' | date: '%s' | plus: 86400 | date: '%Y-%m-%d' }}",
             "url" : {{ request.origin | append: variant.url | json }}
           }{% unless forloop.last %},{% endunless %}
         {%- endfor -%}

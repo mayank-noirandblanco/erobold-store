@@ -1,0 +1,495 @@
+{{ 'section-main-page.css' | asset_url | stylesheet_tag }}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-article-card.css' | asset_url | stylesheet_tag }}
+{{ 'section-featured-blog.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="page-width  section-{{ section.id }}-padding">
+  <h1 class="main-page-title page-title h0">
+    {{ page.title | escape }}
+  </h1>
+  <!--
+    <div class="rte">
+      {{ page.content }}
+    </div>
+  -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"
+  ></script>
+  <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'blog' -%}
+          <div class="accordion-panel">
+            <div class="accordion-header">
+              <h2 class="h4 accordion_title">
+                <span> Blogs </span>
+                <span class="accordion-icon">-</span>
+              </h2>
+            </div>
+            <div class="accordion-content accordion__content" style="display:block;">
+              {%- if block.settings.blog != blank and block.settings.blog.articles_count > 0 -%}
+                <slider-component class="slider-mobile-gutter">
+                  <ul
+                    id="Slider-{{ block.id }}"
+                    class="blog__posts articles-wrapper contains-card contains-card--article{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--peek grid--2-col-tablet grid--{{ block.settings.columns_desktop }}-col-desktop slider {% if posts_displayed > 2 %}slider--tablet{% else %}slider--mobile{% endif %}"
+                    role="list"
+                  >
+                    {%- for article in block.settings.blog.articles limit: block.settings.post_limit -%}
+                      <li
+                        id="Slide-{{ block.id }}-{{ forloop.index }}"
+                        class="blog__post grid__item article slider__slide slider__slide--full-width"
+                      >
+                        {% render 'article-card',
+                          blog: block.settings.blog,
+                          article: article,
+                          media_aspect_ratio: 1.66,
+                          show_image: block.settings.show_image,
+                          show_date: block.settings.show_date,
+                          show_author: block.settings.show_author,
+                          show_excerpt: true
+                        %}
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                  {%- if posts_exceed_limit -%}
+                    <div class="slider-buttons no-js-hidden{% if block.settings.post_limit < 3 %} medium-hide{% endif %}{% if block.settings.post_limit < 2 %} small-hide{% endif %}">
+                      <button
+                        type="button"
+                        class="slider-button slider-button--prev"
+                        name="previous"
+                        aria-label="{{ 'general.slider.previous_slide' | t }}"
+                      >
+                        {% render 'icon-caret' %}
+                      </button>
+                      <div class="slider-counter caption">
+                        <span class="slider-counter--current">1</span>
+                        <span aria-hidden="true"> / </span>
+                        <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+                        <span class="slider-counter--total">{{ section.settings.post_limit }}</span>
+                      </div>
+                      <button
+                        type="button"
+                        class="slider-button slider-button--next"
+                        name="next"
+                        aria-label="{{ 'general.slider.next_slide' | t }}"
+                      >
+                        {% render 'icon-caret' %}
+                      </button>
+                    </div>
+                  {%- endif -%}
+                </slider-component>
+
+                {%- if block.settings.show_view_all -%}
+                  <div class="blog__view-all center small-hide medium-hide">
+                    <a
+                      href="{{ block.settings.blog.url }}"
+                      id="ViewAll-{{ block.id }}"
+                      class="blog__button button"
+                      aria-labelledby="ViewAll-{{ block.id }} SectionHeading-{{ block.id }}"
+                    >
+                      View All
+                    </a>
+                  </div>
+                {%- endif -%}
+              {%- else -%}
+                <ul
+                  id="Slider-{{ section.id }}"
+                  class="blog__posts articles-wrapper contains-card contains-card--article{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--peek grid--2-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop slider {% if posts_displayed > 2 %}slider--tablet{% else %}slider--mobile{% endif %}"
+                  role="list"
+                >
+                  {%- for i in (1..4) -%}
+                    <li
+                      id="Slide-{{ section.id }}-{{ forloop.index }}"
+                      class="blog__post grid__item article slider__slide slider__slide--full-width"
+                    >
+                      <div class="blog-placeholder">
+                        <div class="placeholder media media--landscape">
+                          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                        </div>
+                        <div class="blog-placeholder__content">
+                          <h2>
+                            {{ 'sections.featured_blog.onboarding_title' | t }}
+                          </h2>
+                          <p class="rte-width">
+                            {{ 'sections.featured_blog.onboarding_content' | t }}
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              {%- endif -%}
+            </div>
+          </div>
+        {%- when 'social' -%}
+          <div class="accordion-panel">
+            <div class="accordion-header">
+              <h2 class="h4 accordion_title">
+                <span> Social media </span>
+                <span class="accordion-icon">+</span>
+              </h2>
+            </div>
+            <div class="accordion-content accordion__content rte">
+              <div class="social_block">
+                <div id="insta-feed"></div>
+              </div>
+            </div>
+          </div>
+        {%- when 'shoot' -%}
+          <div class="accordion-panel">
+            <div class="accordion-header">
+              <h2 class="h4 accordion_title">
+                <span> Shoot </span>
+                <span class="accordion-icon">+</span>
+              </h2>
+            </div>
+            <div class="accordion-content accordion__content rte">
+              <div class="multiple-videos-section">
+                <div class="multiple-video-item">
+                  <video
+                    playsinline="playsinline"
+                    loop="loop"
+                    muted="muted"
+                    autoplay="autoplay"
+                    preload="metadata"
+                    poster="//cdn.shopify.com/s/files/1/0741/5775/2621/files/preview_images/3d6b174590b3475797e0632dc4d6c738.thumbnail.0000000000_1100x.jpg?v=1689591307"
+                  >
+                    <source
+                      src="https://cdn.shopify.com/videos/c/vp/3d6b174590b3475797e0632dc4d6c738/3d6b174590b3475797e0632dc4d6c738.HD-1080p-7.2Mbps-16334159.mp4"
+                      type="video/mp4"
+                    >
+                    <img src="//cdn.shopify.com/s/files/1/0741/5775/2621/files/preview_images/3d6b174590b3475797e0632dc4d6c738.thumbnail.0000000000_1100x.jpg?v=1689591307">
+                  </video>
+                </div>
+                <div class="multiple-video-item">
+                  <video
+                    playsinline="playsinline"
+                    loop="loop"
+                    muted="muted"
+                    autoplay="autoplay"
+                    preload="metadata"
+                    poster="//cdn.shopify.com/s/files/1/0741/5775/2621/files/preview_images/29be936d030b4e4bbc9a45ae6d2d3d34.thumbnail.0000000000_1100x.jpg?v=1689834534"
+                  >
+                    <source
+                      src="https://cdn.shopify.com/videos/c/vp/29be936d030b4e4bbc9a45ae6d2d3d34/29be936d030b4e4bbc9a45ae6d2d3d34.HD-1080p-7.2Mbps-16433791.mp4"
+                      type="video/mp4"
+                    >
+                    <img src="//cdn.shopify.com/s/files/1/0741/5775/2621/files/preview_images/29be936d030b4e4bbc9a45ae6d2d3d34.thumbnail.0000000000_1100x.jpg?v=1689834534">
+                  </video>
+                </div>
+                <div class="multiple-video-item">
+                  <video
+                    playsinline="playsinline"
+                    loop="loop"
+                    muted="muted"
+                    autoplay="autoplay"
+                    preload="metadata"
+                    poster="//cdn.shopify.com/s/files/1/0741/5775/2621/files/preview_images/5744d290fc2644ce9ceaf9019537a035.thumbnail.0000000000_1100x.jpg?v=1689855443"
+                  >
+                    <source
+                      src="https://cdn.shopify.com/videos/c/vp/5744d290fc2644ce9ceaf9019537a035/5744d290fc2644ce9ceaf9019537a035.HD-1080p-7.2Mbps-16441508.mp4"
+                      type="video/mp4"
+                    >
+                    <img src="//cdn.shopify.com/s/files/1/0741/5775/2621/files/preview_images/5744d290fc2644ce9ceaf9019537a035.thumbnail.0000000000_1100x.jpg?v=1689855443">
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+{%- style -%}
+    .blog-placeholder {
+      width: 100%;
+    }
+    .social_block {
+      display: flex;
+      gap: 20px;
+      max-height: 400px;
+    }
+    .accordion__content {
+      display: none;
+      margin: 10px 0;
+      overflow: hidden;
+      padding: 0 10px;
+    }
+    .accordion-header {
+      padding: 1px 10px;
+      cursor: pointer;
+      /*box-shadow: 0 3px 10px -2px rgba(0,0,0,0.1);*/
+      max-width: 600px;
+    }
+    .accordion_title {
+      display: flex;
+      /*justify-content: space-between;*/
+      gap: 15px;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 0 15px;
+    }
+    .blog__posts .card-wrapper {
+        border: 2px solid #e5e3e3;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    @media screen and (min-width: 990px){
+      .blog__posts.articles-wrapper {
+          --grid-desktop-horizontal-spacing: 45px;
+      }
+    }
+
+   .multiple-videos-section {
+       display: flex;
+       width: 100%;
+       justify-content: space-between;
+       align-items: stretch;
+       align-content: stretch;
+  }
+   .multiple-videos-section .multiple-video-item {
+       width: 33.33%;
+  }
+   .multiple-videos-section .multiple-video-item video {
+       width: 100%;
+       height: 100%;
+  }
+   .multiple-videos-section {
+       margin-top: -5px;
+  }
+
+   @media screen and (max-width: 750px) {
+      .multiple-videos-section {
+          display: flex;
+          flex-direction: row;
+          padding-left: 0rem;
+          padding-right: 0rem;
+          gap: 10px;
+      }
+       .multiple-videos-section .multiple-video-item {
+           width: 100%;
+      }
+      .multiple-videos-section .multiple-video-item {
+          width: 50%;
+          height: fit-content;
+      }
+       .social_block {
+           display: flex;
+           gap: 20px;
+           max-height: fit-content;
+           flex-flow: column;
+      }
+  }
+{%- endstyle -%}
+<script>
+  $(document).ready(function() {
+    $('.accordion-header').click(function() {
+      const content = $(this).next('.accordion-content');
+      const icon = $(this).find('.accordion-icon');
+      const isOpen = content.is(':visible');
+
+      $('.accordion-content').slideUp();
+      $('.accordion-icon').text('+');
+
+      if (!isOpen) {
+        content.slideDown();
+        icon.text('-');
+      }
+    });
+  });
+</script>
+{% schema %}
+{
+  "name": "Bold Board",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "blog",
+      "name": "Blogs",
+      "settings": [
+        {
+          "type": "blog",
+          "id": "blog",
+          "label": "t:sections.featured-blog.settings.blog.label"
+        },
+        {
+          "type": "range",
+          "id": "post_limit",
+          "min": 2,
+          "max": 4,
+          "step": 1,
+          "default": 3,
+          "label": "t:sections.featured-blog.settings.post_limit.label"
+        },
+        {
+          "type": "range",
+          "id": "columns_desktop",
+          "min": 1,
+          "max": 4,
+          "step": 1,
+          "default": 3,
+          "label": "t:sections.featured-blog.settings.columns_desktop.label"
+        },
+        {
+          "type": "select",
+          "id": "color_scheme",
+          "options": [
+            {
+              "value": "accent-1",
+              "label": "t:sections.all.colors.accent_1.label"
+            },
+            {
+              "value": "accent-2",
+              "label": "t:sections.all.colors.accent_2.label"
+            },
+            {
+              "value": "background-1",
+              "label": "t:sections.all.colors.background_1.label"
+            },
+            {
+              "value": "background-2",
+              "label": "t:sections.all.colors.background_2.label"
+            },
+            {
+              "value": "inverse",
+              "label": "t:sections.all.colors.inverse.label"
+            }
+          ],
+          "default": "background-1",
+          "label": "t:sections.all.colors.label",
+          "info": "t:sections.all.colors.has_cards_info"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_image",
+          "default": true,
+          "label": "t:sections.featured-blog.settings.show_image.label",
+          "info": "t:sections.featured-blog.settings.show_image.info"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_date",
+          "default": true,
+          "label": "t:sections.featured-blog.settings.show_date.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_author",
+          "default": false,
+          "label": "t:sections.featured-blog.settings.show_author.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_view_all",
+          "default": true,
+          "label": "t:sections.featured-blog.settings.show_view_all.label"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.all.padding.section_padding_heading"
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "min": 0,
+          "max": 100,
+          "step": 4,
+          "unit": "px",
+          "label": "t:sections.all.padding.padding_top",
+          "default": 36
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 100,
+          "step": 4,
+          "unit": "px",
+          "label": "t:sections.all.padding.padding_bottom",
+          "default": 36
+        }
+      ]
+    },
+    {
+      "type": "social",
+      "name": "Social",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Welcome to our store",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
+        }
+      ]
+    },
+    {
+      "type": "shoot",
+      "name": "Shoot",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Welcome to our store",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

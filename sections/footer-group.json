@@ -18,13 +18,13 @@
           "type": "link_list",
           "settings": {
             "heading": "My Account",
-            "menu": "footer-menu-2"
+            "menu": "my-account"
           }
         },
         "d05e0429-c842-4e77-892b-a16aee663514": {
           "type": "link_list",
           "settings": {
-            "heading": "The Brand",
+            "heading": "Get in Touch",
             "menu": "footer-menu-3"
           }
         },
@@ -37,10 +37,10 @@
         },
         "7b4bc659-2b67-4b20-bd6f-b357cbd7a3cf": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "heading": "SUBSCRIBE & SAVE 10 %",
-            "subtext": "<p>Save 10 % on your first order when you Subscribe to our newsletter. Check your inbox for the code.<\/p>"
+            "heading": "Follow Us",
+            "subtext": "",
+            "show_social": true
           }
         },
         "2d8478fb-7bc2-4e34-bacb-bdf06456f366": {
@@ -60,6 +60,7 @@
         },
         "6b869df9-c4f0-4824-96b5-d3efd7c29439": {
           "type": "brand_information",
+          "disabled": true,
           "settings": {
             "show_social": true
           }
@@ -80,7 +81,8 @@
         ".list-social {justify-content: start;}",
         ".footer__content-bottom {padding-top: 1rem;}",
         ".footer__content-top {text-align: left;}",
-        ".grid {justify-content: space-evenly;}"
+        ".grid {justify-content: space-evenly;}",
+        ".list-social__link {padding-left: 0;}"
       ],
       "settings": {
         "color_scheme": "background-1",

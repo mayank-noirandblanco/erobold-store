@@ -21,7 +21,7 @@
           "settings": {
             "position_top": 35,
             "position_left": 50,
-            "product": "copy-of-pary-mesh-bs"
+            "product": "designer-trunk"
           }
         },
         "aefc9e1e-14a2-40f4-9243-09f1dad905ff": {
@@ -29,15 +29,15 @@
           "settings": {
             "position_top": 77,
             "position_left": 13,
-            "product": "slits-on-sides-br"
+            "product": "slits-on-sides-brief"
           }
         },
         "120e8af1-5ea8-4fa5-87e0-9876e6c70c47": {
           "type": "product",
           "settings": {
             "position_top": 10,
-            "position_left": 77,
-            "product": "briefs"
+            "position_left": 68,
+            "product": "band-on-belly-brief"
           }
         },
         "88049374-668f-465c-b639-84404d227583": {
@@ -45,7 +45,7 @@
           "settings": {
             "position_top": 5,
             "position_left": 13,
-            "product": "jockstraps-sports-supports"
+            "product": "bigboy-jockstrap"
           }
         },
         "e6883e52-c903-4776-809d-bfe88e03d92f": {
@@ -53,7 +53,7 @@
           "settings": {
             "position_top": 80,
             "position_left": 77,
-            "product": "cut-on-butt-br"
+            "product": "cut-on-butt-brief"
           }
         }
       },
@@ -73,11 +73,42 @@
         "padding_top": 20,
         "padding_bottom": 40
       }
+    },
+    "78db6f13-cb22-458b-b757-5192fbb8044e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20329549725997__78db6f13-cb22-458b-b757-5192fbb8044e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Summer Outing",
+            "heading_size": "h1"
+          }
+        },
+        "template--20329549725997__78db6f13-cb22-458b-b757-5192fbb8044e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A hot summer day calls for a pool party, and this one got the boys discussing all the umpteen times they were told “You look cute in pink” at the bar, at the meeting, and at the dinner date. So we thought of turning that complement ‘outside-in’, because why should girls have all the fun? What followed was an unfiltered day full of splashy dives, chess knock-offs, and candid banter over punchy cocktails and citrus fruits. The perfect carefree day that our rolling camera just happened to capture in a long, long time. The ‘A Pint of Pink’ collection shoot was an ode to an unwinding all-boys summer.  <br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20329549725997__78db6f13-cb22-458b-b757-5192fbb8044e-heading-1",
+        "template--20329549725997__78db6f13-cb22-458b-b757-5192fbb8044e-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "82f2ef92-9e51-4486-8a0e-76c13ebef9da",
     "main",
-    "b75f3b45-9fd1-405c-ac52-bd9d30d4648a"
+    "b75f3b45-9fd1-405c-ac52-bd9d30d4648a",
+    "78db6f13-cb22-458b-b757-5192fbb8044e"
   ]
 }

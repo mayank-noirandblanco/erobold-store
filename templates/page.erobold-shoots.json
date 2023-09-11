@@ -21,7 +21,7 @@
           "settings": {
             "position_top": 79,
             "position_left": 9,
-            "product": "copy-of-pary-mesh-bs"
+            "product": "designer-trunk"
           }
         },
         "fd4dae2d-2fd2-4861-80c2-e7eda352046d": {
@@ -29,7 +29,7 @@
           "settings": {
             "position_top": 42,
             "position_left": 43,
-            "product": "trunks"
+            "product": "classic-trunk"
           }
         },
         "a5d4a795-5804-429f-8097-fb27435df761": {
@@ -37,7 +37,7 @@
           "settings": {
             "position_top": 37,
             "position_left": 75,
-            "product": "briefs"
+            "product": "band-on-belly-brief"
           }
         },
         "6489c16a-db82-4326-9c3f-548ba85440b1": {
@@ -45,7 +45,7 @@
           "settings": {
             "position_top": 67,
             "position_left": 50,
-            "product": "slits-on-sides-br"
+            "product": "slits-on-sides-brief"
           }
         },
         "fd2cd86d-bc04-4426-b8bd-4c2a3ffef7c2": {
@@ -53,7 +53,7 @@
           "settings": {
             "position_top": 32,
             "position_left": 29,
-            "product": "classic-br"
+            "product": "classic-brief"
           }
         }
       },
@@ -76,11 +76,42 @@
         "padding_top": 20,
         "padding_bottom": 40
       }
+    },
+    "e78cd248-76d1-4ae7-9abf-06868a499267": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20329549791533__e78cd248-76d1-4ae7-9abf-06868a499267-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Golden Hour",
+            "heading_size": "h1"
+          }
+        },
+        "template--20329549791533__e78cd248-76d1-4ae7-9abf-06868a499267-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This bedroom drama made a smooth unfold as the golden hour set into motion the mood to play. The boys rang up the gates of Lucifer to tell him ”Let the game begin”, for the evening had just begun and there was no stopping. Our shoot for the ‘Tan me up!’ collection was unparalleled, with the relaxing charm of our models melting into the soft sheen of the evening sun. Our camera couldn’t resist shooting it all in its full glory, only to be nudged out of the door later with a mischievous grin, that left us enchanted. <br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20329549791533__e78cd248-76d1-4ae7-9abf-06868a499267-heading-1",
+        "template--20329549791533__e78cd248-76d1-4ae7-9abf-06868a499267-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "e2649fa6-47d1-4c6f-9384-e8ed0ebf0929",
     "main",
-    "b75f3b45-9fd1-405c-ac52-bd9d30d4648a"
+    "b75f3b45-9fd1-405c-ac52-bd9d30d4648a",
+    "e78cd248-76d1-4ae7-9abf-06868a499267"
   ]
 }
