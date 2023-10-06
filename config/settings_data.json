@@ -127,7 +127,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
-    "cart_drawer_collection": "shop",
+    "cart_drawer_collection": "erobold-shop",
     "checkout_logo_image": "shopify:\/\/shop_images\/Monologo_2___eb_111bd21d-edd4-49e7-b71c-5f2460f58226_1.jpg",
     "checkout_accent_color": "#121212",
     "checkout_button_color": "#000000",

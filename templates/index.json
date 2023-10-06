@@ -120,9 +120,20 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "a1cfd1a4-a8a5-46a9-a970-d31571d8a22d": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".color-background-1.gradient {display: none;}"
+      ],
+      "settings": {
+        "custom_liquid": "<p>\nUnderwear\nMen's\nBoxers\nBriefs\nTrunks\nUndergarments\nIntimates\nLingerie\nFashion\nMale\nApparel\nDesigner\nComfort\nStyle\nSexy\nCotton\nModal\nAthletic\nLuxury\nTrendy\nAffordable\n<p>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "68a559aa-b52f-4029-b986-6588ddc993aa": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--19964078391597__68a559aa-b52f-4029-b986-6588ddc993aa-1689229550fa9498df-2": {
           "type": "buttons",
@@ -139,6 +150,7 @@
       "block_order": [
         "template--19964078391597__68a559aa-b52f-4029-b986-6588ddc993aa-1689229550fa9498df-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/iceland_1_2b5a61a9-458a-407c-acbf-87f8da827f20.webp",
         "image_overlay_opacity": 0,
@@ -183,7 +195,7 @@
             "title": "",
             "text": "",
             "link_label": "Bodysuits",
-            "link": "shopify:\/\/collections\/boysuit"
+            "link": "shopify:\/\/collections\/bodysuits"
           }
         }
       },
@@ -283,7 +295,6 @@
     },
     "c2c970e6-5cd7-48e3-b383-404cde85d177": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19964078391597__c2c970e6-5cd7-48e3-b383-404cde85d177-1689232179f44c3d46-0": {
           "type": "column",
@@ -310,6 +321,7 @@
         "template--19964078391597__c2c970e6-5cd7-48e3-b383-404cde85d177-1689232179f44c3d46-0",
         "template--19964078391597__c2c970e6-5cd7-48e3-b383-404cde85d177-1689232179f44c3d46-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".multicolumn-list__item .media--adapt .multicolumn-card__image {width: 100%;}",
         ".multicolumn-card__info {border: 0 !important;}",
@@ -345,7 +357,6 @@
     },
     "b683045f-a4bd-4c3e-8986-8d3474cc931e": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--18851604922669__b683045f-a4bd-4c3e-8986-8d3474cc931e-16884504547f63052f-0": {
           "type": "slide",
@@ -426,6 +437,7 @@
         "6ac1613c-8398-4bae-b2ca-a8bf641276b8",
         "d592f223-7933-426d-86f3-e2f9c0ea1cd8"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -439,7 +451,6 @@
     },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -459,7 +470,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/shop",
+            "button_link_1": "shopify:\/\/collections\/erobold-shop",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -472,6 +483,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-pixabay-247298.jpg",
         "image_overlay_opacity": 10,
@@ -532,7 +544,6 @@
     },
     "054c11b1-8b30-42a1-a5c2-a7b0c5fa8a05": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "f6830301-0de2-4a39-9ac8-2992872651f0": {
           "type": "image",
@@ -558,6 +569,7 @@
         "5be4a20f-3216-4175-bb0d-6edce501eb8d",
         "389861d2-8a8d-43df-ac27-8c03bb82a8ae"
       ],
+      "disabled": true,
       "custom_css": [
         ".collage-wrapper-title {text-align: center;}"
       ],
@@ -574,7 +586,6 @@
     },
     "df157db3-186a-495a-bbe3-a6f38989766d": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "1550d85a-ba07-48f1-b8b6-6e27c20097bd": {
           "type": "image",
@@ -600,6 +611,7 @@
         "40cae51c-b18c-488f-969d-7f6fd7f692ef",
         "template--18851604922669__df157db3-186a-495a-bbe3-a6f38989766d-1688541096ffda8d13-0"
       ],
+      "disabled": true,
       "custom_css": [
         ".collage__item.collage__item--image.collage__item--left {display: contents;}",
         ".collage__item.collage__item--image.collage__item--right {display: contents;}"
@@ -617,7 +629,6 @@
     },
     "71c21223-79c5-4e59-866d-50ae4fe6b00d": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "template--18610828607789__71c21223-79c5-4e59-866d-50ae4fe6b00d-16808505761d30eb46-2": {
           "type": "collection",
@@ -643,6 +654,7 @@
         "d6a0a95c-83cd-4bfd-bee2-b27ab5cb8373",
         "b45940b1-20e5-4582-bae1-4ce5dd38193b"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -656,7 +668,6 @@
     },
     "7046dc50-8e56-4bac-9401-74e46edbca85": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--18851604922669__7046dc50-8e56-4bac-9401-74e46edbca85-1682509758c3aa25d0-0": {
           "type": "heading",
@@ -678,6 +689,7 @@
         "template--18851604922669__7046dc50-8e56-4bac-9401-74e46edbca85-1682509758c3aa25d0-0",
         "template--18851604922669__7046dc50-8e56-4bac-9401-74e46edbca85-1682509758c3aa25d0-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -698,7 +710,6 @@
     },
     "6762c289-f0f2-4c10-bc42-0862a08e4c33": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--18851604922669__6762c289-f0f2-4c10-bc42-0862a08e4c33-168845934104b49312-0": {
           "type": "heading",
@@ -727,6 +738,7 @@
         "template--18851604922669__6762c289-f0f2-4c10-bc42-0862a08e4c33-168845934104b49312-1",
         "template--18851604922669__6762c289-f0f2-4c10-bc42-0862a08e4c33-168845934104b49312-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_Session0034_1_6a782015-4311-4801-8b2f-762f6a05623b.jpg",
         "height": "small",
@@ -744,7 +756,6 @@
     },
     "a8aaaf49-1216-4b6f-bb99-f2658f8c494e": {
       "type": "multiple-video",
-      "disabled": true,
       "blocks": {
         "d7b7ce33-85bf-4675-9a9b-181ebf8a252d": {
           "type": "video",
@@ -779,6 +790,7 @@
         "8bbae0e6-3b9a-44fb-a899-0aca9f31fe80",
         "17a4b18e-7d38-4955-b058-bda357c75ef3"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -827,7 +839,7 @@
         "template--19964078391597__cb840f62-0cf1-46e1-8170-eb64ecb392c8-16897597388ec067c7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Desire ignites creativity and beauty. From the tales of heaven to the confines of earth, human desire has always shaped our world. We believe that embracing our desires is a celebration of individuality and self-expression.<\/p>"
+            "text": "<p>Erobold: India's Premier Luxury Men's Intimate Wear | Designer Briefs, Trunks, Bodysuits, Jockstraps, and More<\/p>"
           }
         },
         "c0d46608-b9be-40e8-84f9-2a08f081348a": {
@@ -859,6 +871,7 @@
   },
   "order": [
     "033412e6-a1ba-492d-b011-6365278dd385",
+    "a1cfd1a4-a8a5-46a9-a970-d31571d8a22d",
     "68a559aa-b52f-4029-b986-6588ddc993aa",
     "3f93fc4b-cfa1-4350-991e-5f082ef12da8",
     "b19cf6ed-62a4-499a-b513-de15d646f72a",

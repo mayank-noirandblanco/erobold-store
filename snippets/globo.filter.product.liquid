@@ -71,7 +71,7 @@
                   {% if card_product.featured_image == nil and settings.card_style == 'card' %} ratio{% endif %}" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
         <div class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_image or settings.card_style == 'standard' %} ratio{% endif %}" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"> {%- if card_product.featured_image -%} <div class="card__media">
             <div class="media media--transparent media--hover-effect">
-              <img srcset="{%- if card_product.featured_image.width >= 165 -%}{{ card_product.featured_image | img_url: '165x' }} 165w,{%- endif -%}
+              <img loading="lazy" srcset="{%- if card_product.featured_image.width >= 165 -%}{{ card_product.featured_image | img_url: '165x' }} 165w,{%- endif -%}
                           {%- if card_product.featured_image.width >= 360 -%}{{ card_product.featured_image | img_url: '360x' }} 360w,{%- endif -%}
                           {%- if card_product.featured_image.width >= 533 -%}{{ card_product.featured_image | img_url: '533x' }} 533w,{%- endif -%}
                           {%- if card_product.featured_image.width >= 720 -%}{{ card_product.featured_image | img_url: '720x' }} 720w,{%- endif -%}

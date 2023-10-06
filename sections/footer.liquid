@@ -7,13 +7,13 @@
   }
 </style>
 {% comment %}theme-check-disable UndefinedObject{% endcomment %}
-{{ 'section-footer.css' | asset_url | stylesheet_tag }}
-{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
-{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}
-{{ 'component-list-payment.css' | asset_url | stylesheet_tag }}
-{{ 'component-list-social.css' | asset_url | stylesheet_tag }}
+{{ 'section-footer.aio.min.css' | asset_url | stylesheet_tag }}
+{{ 'component-newsletter.aio.min.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-menu.aio.min.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-payment.aio.min.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-social.aio.min.css' | asset_url | stylesheet_tag }}
 {%- if section.settings.enable_country_selector or section.settings.enable_language_selector -%}
-  {{ 'component-localization-form.css' | asset_url | stylesheet_tag }}
+  {{ 'component-localization-form.aio.min.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
 
 {%- style -%}
@@ -371,7 +371,7 @@
 </footer>
 
 {%- if section.settings.enable_country_selector or section.settings.enable_language_selector -%}
-  <script src="{{ 'localization-form.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'localization-form.aio.min.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
 {% schema %}

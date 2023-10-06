@@ -6,7 +6,7 @@
           <div class="logoflexcontain">
             <div class="logowidth">
               {% if block.settings.kome != blank %}
-                <img src="{{ block.settings.kome | img_url:'master' }}" class="logoimg">
+                <img loading="lazy" src="{{ block.settings.kome | img_url:'master' }}" class="logoimg">
               {% endif %}
             </div>
             <p class="logotile">{{ block.settings.komdisc }}</p>

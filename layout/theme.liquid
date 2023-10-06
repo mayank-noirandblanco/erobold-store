@@ -1,7 +1,20 @@
+{%- capture avada-seo-original -%}
+{%- capture avada-seo-original -%}
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-  {% assign full_url = request.host | append: request.path %}
+<!-- Global Site Tag (gtag.js) - Google AdWords: 11267978316 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11267978316"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-11267978316', {'send_page_view': false});
+</script>
+	<!-- Added by AVADA SEO Suite -->
+	{% include 'avada-seo' %}
+	<!-- /Added by AVADA SEO Suite -->
+      {% assign full_url = request.host | append: request.path %}
 {% if full_url == "erobold.com/products" %}
   <script>window.location.href="/collections/all"</script>
   {% endif %}
@@ -24,7 +37,13 @@
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
-    <title>
+    
+
+  <!-- Avada Size Chart Script -->
+ {% include 'avada-sc-setting' %}
+  <!-- /Avada Size Chart Script -->
+
+<title>
       {{ page_title }}
       {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
       {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
@@ -37,9 +56,9 @@
 
     {% render 'meta-tags' %}
 
-    <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'constants.aio.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'pubsub.aio.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'global.aio.min.js' | asset_url }}" defer="defer"></script>
     <script id="bloop-update-config">
       0-0-0-0-0-0-0-0-0-109-0-0-0
     </script>
@@ -235,8 +254,8 @@
       }
     {% endstyle %}
 
-    {{ 'base.css' | asset_url | stylesheet_tag }}
-    {{ 'erobold.css' | asset_url | stylesheet_tag }}
+    {{ 'base.aio.min.css' | asset_url | stylesheet_tag }}
+    {{ 'erobold.aio.min.css' | asset_url | stylesheet_tag }}
     <style>
       /*div#breadcrumb {
           margin-top:60px !important;
@@ -252,7 +271,7 @@
     {%- if settings.predictive_search_enabled -%}
       <link
         rel="stylesheet"
-        href="{{ 'component-predictive-search.css' | asset_url }}"
+        href="{{ 'component-predictive-search.aio.min.css' | asset_url }}"
         media="print"
         onload="this.media='all'"
       >
@@ -282,7 +301,7 @@
       fbq('track', 'PageView');
     </script>
     <noscript>
-      <img
+      <img loading="lazy"
         height="1"
         width="1"
         src="
@@ -317,13 +336,30 @@
       fbq('track', 'PageView');
     </script>
     <noscript
-      ><img
+      ><img loading="lazy"
         height="1"
         width="1"
         style="display:none"
         src="https://www.facebook.com/tr?id=627601216176896&ev=PageView&noscript=1"
     ></noscript>
     <!-- End Meta Pixel Code -->
+
+<!-- Taboola Pixel Code -->
+<script type='text/javascript'>
+  window._tfa = window._tfa || [];
+  window._tfa.push({notify: 'event', name: 'page_view', id: 1604523});
+  !function (t, f, a, x) {
+         if (!document.getElementById(x)) {
+            t.async = 1;t.src = a;t.id=x;f.parentNode.insertBefore(t, f);
+         }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/unip/1604523/tfa.js',
+  'tb_tfa_script');
+</script>
+<!-- End of Taboola Pixel Code -->
+
+  
   </head>
 
   <body
@@ -416,7 +452,7 @@
     </script>
 
     {%- if settings.predictive_search_enabled -%}
-      <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
+      <script src="{{ 'predictive-search.aio.min.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
     {% include 'smile-initializer' %}
@@ -444,5 +480,88 @@
           display: none !important;
       }
     </style>
+    <script src='https://static.loloyal.com/boom-cend/entry-js/boom-cend.js' defer='defer'></script>
+    <!-- google dynamic remarketing tag for theme.liquid -->
+{% if template contains 'product' %}
+<script type="text/javascript">
+  var json_product = {{ product | json }};
+</script>
+<script>
+  var ecomm_prodid=[];
+  for(var i=0;i<json_product.variants.length;i++)
+    ecomm_prodid.push('shopify_IN_{{product.id}}_'+json_product.variants[i].id);
+</script>
+<script type="text/javascript">
+  var google_tag_params = {
+    ecomm_prodid: ecomm_prodid,
+    ecomm_pagetype: 'product',
+    ecomm_totalvalue: parseFloat('{{ product.price | money_without_currency | remove: ","}}')
+  };
+</script>
+{% elsif template contains 'collection' %}
+<script type="text/javascript">
+  var google_tag_params = {
+    ecomm_pagetype: 'category'
+  };
+</script>
+{% elsif template contains 'cart' %}
+<script type="text/javascript">
+  var id = new Array();
+  {% for item in cart.items %}
+  id.push('shopify_IN_{{item.product.id}}_{{item.variant.id}}');
+   {% endfor %}
+
+   var google_tag_params = {
+     ecomm_prodid: id,
+     ecomm_pagetype: 'cart',
+     ecomm_totalvalue: parseFloat('{{ cart.total_price | money_without_currency | remove: ","}}')
+   };
+</script>
+{% elsif template contains 'search' %}
+<script type="text/javascript">
+  var google_tag_params = {
+    ecomm_pagetype: 'searchresults'
+  };
+</script>
+{% elsif template contains 'index' %}
+<script type="text/javascript">
+  var google_tag_params = {
+    ecomm_pagetype: 'home'
+  };
+</script>
+{% else %}
+<script type="text/javascript">
+  var google_tag_params = {
+    ecomm_pagetype: 'other'
+  };
+</script>
+{% endif %}
+<script>
+  gtag('event', 'page_view', {'send_to': 'AW-11267978316',
+                              'ecomm_prodid':window.google_tag_params.ecomm_prodid,
+                              'ecomm_pagetype': window.google_tag_params.ecomm_pagetype,
+                              'ecomm_totalvalue':window.google_tag_params.ecomm_totalvalue
+                             });
+</script>
   </body>
 </html>
+
+{%- endcapture -%}
+{%- capture avada-seo-minified -%}
+{%- include 'avada-seo-minifier', content: avada-seo-original -%}
+{%- endcapture -%}
+{%- if avada-seo-minified contains 'Liquid error' -%}
+  {{ avada-seo-original }}
+{%- else -%}
+  {{ avada-seo-minified }}
+{%- endif -%}
+
+{%- endcapture avada-seo-original -%}
+{%- capture avada-seo-minified -%}
+{%- include 'avada-seo-minifier', content: avada-seo-original -%}
+{%- endcapture -%}
+{%- if avada-seo-minified contains 'Liquid error' -%}
+{{ avada-seo-original }}
+{%- else -%}
+{{ avada-seo-minified }}
+{%- endif -%}
